@@ -1,0 +1,13 @@
+import { test, expect } from '@playwright/test';
+
+test('Codegen Test Case', async ({ page }) => {
+  await page.goto('https://www.youtube.com/');
+  await page.getByRole('combobox', { name: 'Search' }).click();
+  await page.getByRole('combobox', { name: 'Search' }).fill('playwright by testers talk');
+  await page.getByRole('combobox', { name: 'Search' }).press('Enter');
+  await page.getByRole('tab', { name: 'Playlists' }).click();
+  await page.getByRole('link', { name: 'Playwright by Testers Talk ✅' }).click();
+  await page.getByRole('button', { name: 'Skip', exact: true }).click();
+//   await page.getByRole('button', { name: 'No thanks' }).click();
+//   await page.getByRole('button', { name: 'Pause keyboard shortcut k' }).click();
+});
