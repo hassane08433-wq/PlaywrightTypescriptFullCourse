@@ -2,7 +2,7 @@
 import { test, expect } from '@playwright/test';
 
 //write a test
-test('Assertions in Playwright', async ({ page }) => {
+test('Soft Assertions in Playwright', async ({ page }) => {
 
 
     //goto url
@@ -21,12 +21,12 @@ test('Assertions in Playwright', async ({ page }) => {
     await expect(page).toHaveURL('https://www.youtube.com/results?search_query=Playwright+by+Tester+talk');
 
 
-
-    await expect(page.getByRole('link', { name: 'Playwright by Testers Talk ✅' })).toHaveText('Playwright by Testers Talk ✅');
+// intentionally failed the line by insert wrong text...
+    await expect.soft(page.getByRole('link', { name: 'Playwrights by Testers Talk ✅' })).toHaveText('Playwright by Testers Talk ✅');
 
 
     await expect(page.locator('a[aria-label="Interview for playwright Automation Testing 2025 1 hour"]')).toHaveText('Interview for playwright Automation Testing 2025');
     //await expect(page.locator('a[aria-label="Interview for playwright Automation Testing 2025 1 hour"]')).toHaveCount(4);
-   // await expect(page.locator('a[aria-label="Interview for playwright Automation Testing 2025 1 hour"]')).toBeDisabled();
+    // await expect(page.locator('a[aria-label="Interview for playwright Automation Testing 2025 1 hour"]')).toBeDisabled();
 
 }); 
