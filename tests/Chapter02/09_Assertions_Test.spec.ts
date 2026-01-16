@@ -19,6 +19,14 @@ test('Assertions in Playwright', async ({ page }) => {
     await page.getByPlaceholder('Search', { exact: true }).first().fill('Playwright by Tester talk');
     await page.getByPlaceholder('Search', { exact: true }).first().press('Enter');
     await expect(page).toHaveURL('https://www.youtube.com/results?search_query=Playwright+by+Tester+talk');
-await expect(page).toHaveTitle('Playwright by Testers Talk ✅');
+
+
+
+    await expect(page.getByRole('link', { name: 'Playwright by Testers Talk ✅' })).toHaveText('Playwright by Testers Talk ✅');
+
+
+    await expect(page.locator('a[aria-label="Interview for playwright Automation Testing 2025 1 hour"]')).toHaveText('Interview for playwright Automation Testing 2025');
+    //await expect(page.locator('a[aria-label="Interview for playwright Automation Testing 2025 1 hour"]')).toHaveCount(4);
+   // await expect(page.locator('a[aria-label="Interview for playwright Automation Testing 2025 1 hour"]')).toBeDisabled();
 
 }); 
