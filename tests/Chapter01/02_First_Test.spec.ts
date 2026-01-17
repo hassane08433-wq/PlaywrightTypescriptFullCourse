@@ -4,7 +4,7 @@ import { test, expect } from '@playwright/test';
 //write a test
 test('my first test', async ({ page }) => {
   
-
+console.log('Test Execution Started..')
 //goto url
 await page.goto('https://github.com/');
   
@@ -18,5 +18,6 @@ await page.getByRole('textbox', { name: 'Username or email address' }).fill('tes
 
   //enter sign in
   await page.getByRole('button', { name: 'Sign in', exact: true }).click();
-  await page.getByText('Incorrect username or').click();
+  await expect(page.getByText('Incorrect username or')).toHaveText('Incorrect username or password.');
+   
 });
