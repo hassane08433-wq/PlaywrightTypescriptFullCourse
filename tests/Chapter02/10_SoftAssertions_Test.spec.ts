@@ -22,7 +22,7 @@ test('Soft Assertions in Playwright', async ({ page }) => {
 
 
 // intentionally failed the line by insert wrong text...
-    await expect.soft(page.getByRole('link', { name: 'Playwrights by Testers Talk ✅' })).toHaveText('Playwright by Testers Talk ✅');
+    await expect.soft(page.getByRole('link', { name: 'Playwright by Testers Talk ✅' })).toHaveText('Playwright by Testers Talk ✅');
 
 
     await expect(page.locator('a[aria-label="Interview for playwright Automation Testing 2025 1 hour"]')).toHaveText('Interview for playwright Automation Testing 2025');
