@@ -1,23 +1,17 @@
-// import playwright module
 import { test, expect } from '@playwright/test';
 
-//write a test
-test('my first test', async ({ page }) => {
-  
-console.log('Test Execution Started..')
-//goto url
-await page.goto('https://github.com/');
-  
-//click signin
-await page.getByRole('link', { name: 'Sign in' }).click();
-  
-//enter username & password
-await page.getByRole('textbox', { name: 'Username or email address' }).fill('testerstalk');
-  await page.getByRole('textbox', { name: 'Username or email address' }).press('Tab');
-  await page.getByRole('textbox', { name: 'Password' }).fill('tester123');
+test('Codegen Test Case', async ({ page }) => {
+  await page.goto('https://www.youtube.com/');
 
-  //enter sign in
-  await page.getByRole('button', { name: 'Sign in', exact: true }).click();
-  await expect(page.getByText('Incorrect username or')).toHaveText('Incorrect username or password.');
-   
+await page.getByRole('button', { name: 'Accept the use of cookies and' }).click();
+await page.getByRole('button', { name: 'Accept the use of cookies and' }).click();
+
+  await page.getByRole('combobox', { name: 'Search' }).click();
+  await page.getByRole('combobox', { name: 'Search' }).fill('playwright by testers talk');
+  await page.getByRole('combobox', { name: 'Search' }).press('Enter');
+  await page.getByRole('tab', { name: 'Playlists' }).click();
+  await page.getByRole('link', { name: 'Playwright by Testers Talk ✅' }).click();
+  //await page.getByRole('button', { name: 'Skip', exact: true }).click();
+//   await page.getByRole('button', { name: 'No thanks' }).click();
+//   await page.getByRole('button', { name: 'Pause keyboard shortcut k' }).click();
 });
