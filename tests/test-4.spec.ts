@@ -1,0 +1,1 @@
+await page1.goto('https://github.com/login');

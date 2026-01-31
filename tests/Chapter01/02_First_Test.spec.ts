@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('Codegen Test Case', async ({ page }) => {
+test('My First Playwright Test', async ({ page }) => {
   await page.goto('https://www.youtube.com/');
 
 await page.getByRole('button', { name: 'Accept the use of cookies and' }).click();
