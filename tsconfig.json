@@ -1,0 +1,17 @@
+{"compilerOptions": {"target":"esnext",
+"module":"commonjs",
+"strict":true,  
+"esmoduleinterop":true,
+"skiplibcheck":true,
+"forconsistentcasinginfilenames":true,
+"outDir": "./dist",
+"rootDir": ".", 
+"resolveJsonModule": true,
+"types": ["node","playwright"], 
+"declaration": true,
+"sourceMap": true,
+},
+"include": ["src/**/*.ts","tests/**/*.ts"],
+"exclude": ["node_modules", "dist"],
+}
+
