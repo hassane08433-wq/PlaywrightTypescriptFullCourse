@@ -40,7 +40,7 @@ await newtab.getByRole('combobox', { name: 'Search' }).click();
   await newtab.getByRole('combobox', { name: 'Search' }).press('Enter');
   await newtab.getByRole('tab', { name: 'Playlists' }).click();
   await newtab.getByRole('link', { name: 'Playwright by Testers Talk ✅' }).click();
-  await newtab.getByRole('button', { name: 'Skip', exact: true }).click();
+  //await newtab.getByRole('button', { name: 'Skip', exact: true }).click();
   
 
  
