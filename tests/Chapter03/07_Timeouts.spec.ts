@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('My First Playwright Test', async ({ page }) => {
+test('Timeouts in playwright', async ({ page }) => {
     await page.goto('https://www.youtube.com/');
 
 

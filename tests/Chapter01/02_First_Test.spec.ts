@@ -11,7 +11,8 @@ test('My First Playwright Test', async ({ page }) => {
   await page.getByRole('combobox', { name: 'Search' }).press('Enter');
   await page.getByRole('tab', { name: 'Playlists' }).click();
   await page.getByRole('link', { name: 'Playwright by Testers Talk ✅' }).click();
-  //await page.getByRole('button', { name: 'Skip', exact: true }).click();
-//   await page.getByRole('button', { name: 'No thanks' }).click();
-//   await page.getByRole('button', { name: 'Pause keyboard shortcut k' }).click();
+  await page.getByRole('button', { name: 'Skip', exact: true }).click();
+ await page.getByRole('button', { name: 'No thanks' }).click();
+  await page.locator('#movie_player video').click();
+
 });
