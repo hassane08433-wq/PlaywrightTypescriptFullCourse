@@ -11,7 +11,8 @@
 "declaration": true,
 "sourceMap": true,
 },
-"include": ["src/**/*.ts","tests/**/*.ts"],
+"include": ["src/**/*.ts","tests/**/*.ts", "e2e/example.spec.ts", "e2e/test-1.spec.ts", "e2e/test-2.spec.ts", "e2e/test-3.spec.ts", "e2e/test-4.spec.ts", "e2e/test-5.spec.ts", "e2e/test-6.spec.ts", "e2e/test-7.spec.ts", "e2e/test-8.spec.ts", "e2e/test-9.spec.ts"],
 "exclude": ["node_modules", "dist"],
 }
+
 

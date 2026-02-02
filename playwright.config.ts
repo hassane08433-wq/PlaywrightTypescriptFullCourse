@@ -12,14 +12,15 @@ import { defineConfig, devices } from '@playwright/test';
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  testDir: './tests',
+  testDir: './tests', 
   //all test execution timeout
   globalTimeout: 2 * 20 * 1000,
-//assertion timeout command is bellow, we calll the playwrite.config function here
-  timeout: 2*60*1000,
-  expect: {
+  //assertiontimeout command
+  timeout:2*60*1000,
+
+expect: {
     timeout: 10000
-  },
+  },  
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
@@ -34,13 +35,11 @@ export default defineConfig({
   use: {
     /* Base URL to use in actions like `await page.goto('')`. */
     // baseURL: 'http://localhost:3000',
-    testIdAttribute : 'data-tab-item',
-    screenshot: 'on', 
-headless: false,
+
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on',
-    // action timeout setting
-    actionTimeout: 30 * 1000,
+//action timeout
+actionTimeout: 30 *1000,
   },
 
   /* Configure projects for major browsers */
@@ -55,12 +54,11 @@ headless: false,
       use: { ...devices['Desktop Firefox'] },
     },
 
-    // {
-    //   name: 'webkit',
-    //   use: { ...devices['Desktop Safari'] },
-    // },
+    {
+      name: 'webkit',
+      use: { ...devices['Desktop Safari'] },
+    },
 
-    
     /* Test against mobile viewports. */
     // {
     //   name: 'Mobile Chrome',
@@ -72,10 +70,10 @@ headless: false,
     // },
 
     /* Test against branded browsers. */
-    {
-      name: 'Microsoft Edge',
-      use: { ...devices['Desktop Edge'], channel: 'msedge' },
-    },
+    // {
+    //   name: 'Microsoft Edge',
+    //   use: { ...devices['Desktop Edge'], channel: 'msedge' },
+    // },
     // {
     //   name: 'Google Chrome',
     //   use: { ...devices['Desktop Chrome'], channel: 'chrome' },
