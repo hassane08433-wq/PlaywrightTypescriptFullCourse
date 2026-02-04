@@ -1,0 +1,36 @@
+<testsuites id="" name="" tests="4" failures="0" skipped="0" errors="0" time="17.955358">
+<testsuite name="Chapter04\04_TestReports_Test.spec.ts" timestamp="2026-02-04T05:43:06.822Z" hostname="chromium" tests="4" failures="0" skipped="0" time="15.425" errors="0">
+<testcase name="regression testing › Test1" classname="Chapter04\04_TestReports_Test.spec.ts" time="3.84">
+<system-out>
+<![CDATA[Test Execution Started..
+
+[[ATTACHMENT|test-results\Chapter04-04_TestReports_Test-regression-testing-Test1-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="regression testing › Test2" classname="Chapter04\04_TestReports_Test.spec.ts" time="3.774">
+<system-out>
+<![CDATA[Test Execution Started..
+
+[[ATTACHMENT|test-results\Chapter04-04_TestReports_Test-regression-testing-Test2-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="smoke testing › Test3" classname="Chapter04\04_TestReports_Test.spec.ts" time="3.841">
+<system-out>
+<![CDATA[Test Execution Started..
+
+[[ATTACHMENT|test-results\Chapter04-04_TestReports_Test-smoke-testing-Test3-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="smoke testing › Test2" classname="Chapter04\04_TestReports_Test.spec.ts" time="3.97">
+<system-out>
+<![CDATA[Test Execution Started..
+
+[[ATTACHMENT|test-results\Chapter04-04_TestReports_Test-smoke-testing-Test2-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

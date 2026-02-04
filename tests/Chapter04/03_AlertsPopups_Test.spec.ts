@@ -4,6 +4,7 @@ test('Handling Popups in Playwright Test', async ({ page }) => {
     await page.goto('https://www.selenium.dev/documentation/webdriver/interactions/alerts/');
 
     page.once('dialog', dialog => {
+         console.log('dialog type is: ${dialog.type()}');
        dialog.accept('playwright');
         console.log(`Alert Message is: ${dialog.message()}`);
     });
@@ -42,12 +43,12 @@ test('HandlingPrompts pop ups in Playwright Test', async ({ page }) => {
         
         console.log(`Alert Message: ${dialog.message()}`);
         await dialog.accept('playwright');  
-       // console.log('dialog type is: ${dialog.type()}');
+        console.log('dialog type is: ${dialog.type()}');
 
     });
 
     await page.getByText('See a sample prompt', { exact: true }).click({ button: 'left' });
-    //something wron with this page
+    //dialog .type dont work correctly here in this code
 
-    // await page.click('text=See an example alert');
+   
 });
