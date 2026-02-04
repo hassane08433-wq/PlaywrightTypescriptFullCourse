@@ -11,51 +11,19 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 1
+      "actualWorkers": 4
     },
     "preserveOutput": "always",
     "projects": [
       {
         "outputDir": "C:/Users/rehma/PlaywrightTypescriptFullCourse/test-results",
         "repeatEach": 1,
-        "retries": 0,
+        "retries": 1,
         "metadata": {
-          "actualWorkers": 1
+          "actualWorkers": 4
         },
         "id": "chromium",
         "name": "chromium",
-        "testDir": "C:/Users/rehma/PlaywrightTypescriptFullCourse/tests",
-        "testIgnore": [],
-        "testMatch": [
-          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
-        ],
-        "timeout": 120000
-      },
-      {
-        "outputDir": "C:/Users/rehma/PlaywrightTypescriptFullCourse/test-results",
-        "repeatEach": 1,
-        "retries": 0,
-        "metadata": {
-          "actualWorkers": 1
-        },
-        "id": "firefox",
-        "name": "firefox",
-        "testDir": "C:/Users/rehma/PlaywrightTypescriptFullCourse/tests",
-        "testIgnore": [],
-        "testMatch": [
-          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
-        ],
-        "timeout": 120000
-      },
-      {
-        "outputDir": "C:/Users/rehma/PlaywrightTypescriptFullCourse/test-results",
-        "repeatEach": 1,
-        "retries": 0,
-        "metadata": {
-          "actualWorkers": 1
-        },
-        "id": "webkit",
-        "name": "webkit",
         "testDir": "C:/Users/rehma/PlaywrightTypescriptFullCourse/tests",
         "testIgnore": [],
         "testMatch": [
@@ -81,6 +49,10 @@
         {
           "outputFile": "junit-test-report.xml"
         }
+      ],
+      [
+        "line",
+        null
       ]
     ],
     "reportSlowTests": {
@@ -90,10 +62,10 @@
     "runAgents": "none",
     "shard": null,
     "tags": [],
-    "updateSnapshots": "all",
-    "updateSourceMethod": "3way",
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
     "version": "1.58.1",
-    "workers": 1,
+    "workers": 4,
     "webServer": null
   },
   "suites": [
@@ -126,7 +98,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 3840,
+                      "duration": 13181,
                       "errors": [],
                       "stdout": [
                         {
@@ -135,13 +107,23 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-04T05:43:07.839Z",
+                      "startTime": "2026-02-04T07:45:13.145Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
                           "path": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\test-results\\Chapter04-04_TestReports_Test-regression-testing-Test1-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\test-results\\Chapter04-04_TestReports_Test-regression-testing-Test1-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\test-results\\Chapter04-04_TestReports_Test-regression-testing-Test1-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -167,10 +149,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 3774,
+                      "duration": 12980,
                       "errors": [],
                       "stdout": [
                         {
@@ -179,13 +161,23 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-04T05:43:12.125Z",
+                      "startTime": "2026-02-04T07:45:13.181Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
                           "path": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\test-results\\Chapter04-04_TestReports_Test-regression-testing-Test2-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\test-results\\Chapter04-04_TestReports_Test-regression-testing-Test2-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\test-results\\Chapter04-04_TestReports_Test-regression-testing-Test2-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -219,10 +211,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 3841,
+                      "duration": 13606,
                       "errors": [],
                       "stdout": [
                         {
@@ -231,13 +223,23 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-04T05:43:15.910Z",
+                      "startTime": "2026-02-04T07:45:13.093Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
                           "path": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\test-results\\Chapter04-04_TestReports_Test-smoke-testing-Test3-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\test-results\\Chapter04-04_TestReports_Test-smoke-testing-Test3-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\test-results\\Chapter04-04_TestReports_Test-smoke-testing-Test3-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -263,10 +265,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 3970,
+                      "duration": 13482,
                       "errors": [],
                       "stdout": [
                         {
@@ -275,13 +277,23 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-04T05:43:19.762Z",
+                      "startTime": "2026-02-04T07:45:13.090Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
                           "path": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\test-results\\Chapter04-04_TestReports_Test-smoke-testing-Test2-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\test-results\\Chapter04-04_TestReports_Test-smoke-testing-Test2-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\test-results\\Chapter04-04_TestReports_Test-smoke-testing-Test2-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -301,8 +313,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-02-04T05:43:05.825Z",
-    "duration": 17955.358,
+    "startTime": "2026-02-04T07:45:11.266Z",
+    "duration": 16796.111,
     "expected": 4,
     "skipped": 0,
     "unexpected": 0,
