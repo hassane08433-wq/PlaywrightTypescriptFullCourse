@@ -39,6 +39,10 @@
         null
       ],
       [
+        "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
+        null
+      ],
+      [
         "json",
         {
           "outputFile": "json-test-report.json"
@@ -98,7 +102,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 13181,
+                      "duration": 15420,
                       "errors": [],
                       "stdout": [
                         {
@@ -107,7 +111,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-04T07:45:13.145Z",
+                      "startTime": "2026-02-04T17:10:05.974Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -152,7 +156,7 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 12980,
+                      "duration": 12800,
                       "errors": [],
                       "stdout": [
                         {
@@ -161,7 +165,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-04T07:45:13.181Z",
+                      "startTime": "2026-02-04T17:10:06.030Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -214,7 +218,7 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 13606,
+                      "duration": 12558,
                       "errors": [],
                       "stdout": [
                         {
@@ -223,7 +227,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-04T07:45:13.093Z",
+                      "startTime": "2026-02-04T17:10:05.999Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -268,7 +272,7 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 13482,
+                      "duration": 12912,
                       "errors": [],
                       "stdout": [
                         {
@@ -277,7 +281,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-04T07:45:13.090Z",
+                      "startTime": "2026-02-04T17:10:05.975Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -313,8 +317,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-02-04T07:45:11.266Z",
-    "duration": 16796.111,
+    "startTime": "2026-02-04T17:10:04.492Z",
+    "duration": 18364.06,
     "expected": 4,
     "skipped": 0,
     "unexpected": 0,

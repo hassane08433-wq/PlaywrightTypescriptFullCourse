@@ -1,6 +1,6 @@
-<testsuites id="" name="" tests="4" failures="0" skipped="0" errors="0" time="16.796111">
-<testsuite name="Chapter04\04_TestReports_Test.spec.ts" timestamp="2026-02-04T07:45:11.328Z" hostname="chromium" tests="4" failures="0" skipped="0" time="53.249" errors="0">
-<testcase name="regression testing › Test1" classname="Chapter04\04_TestReports_Test.spec.ts" time="13.181">
+<testsuites id="" name="" tests="4" failures="0" skipped="0" errors="0" time="18.364060000000002">
+<testsuite name="Chapter04\04_TestReports_Test.spec.ts" timestamp="2026-02-04T17:10:04.517Z" hostname="chromium" tests="4" failures="0" skipped="0" time="53.69" errors="0">
+<testcase name="regression testing › Test1" classname="Chapter04\04_TestReports_Test.spec.ts" time="15.42">
 <system-out>
 <![CDATA[Test Execution Started..
 
@@ -12,7 +12,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="regression testing › Test2" classname="Chapter04\04_TestReports_Test.spec.ts" time="12.98">
+<testcase name="regression testing › Test2" classname="Chapter04\04_TestReports_Test.spec.ts" time="12.8">
 <system-out>
 <![CDATA[Test Execution Started..
 
@@ -24,7 +24,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="smoke testing › Test3" classname="Chapter04\04_TestReports_Test.spec.ts" time="13.606">
+<testcase name="smoke testing › Test3" classname="Chapter04\04_TestReports_Test.spec.ts" time="12.558">
 <system-out>
 <![CDATA[Test Execution Started..
 
@@ -36,7 +36,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="smoke testing › Test2" classname="Chapter04\04_TestReports_Test.spec.ts" time="13.482">
+<testcase name="smoke testing › Test2" classname="Chapter04\04_TestReports_Test.spec.ts" time="12.912">
 <system-out>
 <![CDATA[Test Execution Started..
 
