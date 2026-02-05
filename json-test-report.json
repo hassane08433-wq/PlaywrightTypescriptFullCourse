@@ -74,13 +74,13 @@
   },
   "suites": [
     {
-      "title": "Chapter04\\06_Iterating_Elements_Test.spec.ts",
-      "file": "Chapter04/06_Iterating_Elements_Test.spec.ts",
+      "title": "Chapter04\\07_Checkbox_RadioButton_Test.spec.ts",
+      "file": "Chapter04/07_Checkbox_RadioButton_Test.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Get text and get attribute value in Playwright",
+          "title": "Working on checkbox and radio button",
           "ok": true,
           "tags": [],
           "tests": [
@@ -92,61 +92,21 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 27,
+                  "workerIndex": 32,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2440,
+                  "duration": 7415,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Repository link text 1st loop is: PlaywrightTutorialFullCourse\n"
-                    },
-                    {
-                      "text": "Repository link text 1st loop is: PostmanCollectionsByTestersTalk\n"
-                    },
-                    {
-                      "text": "Repository link text 1st loop is: PlaywrightAPITestingTutorial\n"
-                    },
-                    {
-                      "text": "Repository link text 1st loop is: RestAssuredAPITestingFramework\n"
-                    },
-                    {
-                      "text": "Repository link text 1st loop is: PlaywrightTypeScriptTutorialFullCourse\n"
-                    },
-                    {
-                      "text": "Repository link text 1st loop is: CypressTutorialFullCourse\n"
-                    },
-                    {
-                      "text": "===========================================================\n"
-                    },
-                    {
-                      "text": "Repository link text using 2nd for loop is: PlaywrightTutorialFullCourse\n"
-                    },
-                    {
-                      "text": "Repository link text using 2nd for loop is: PostmanCollectionsByTestersTalk\n"
-                    },
-                    {
-                      "text": "Repository link text using 2nd for loop is: PlaywrightAPITestingTutorial\n"
-                    },
-                    {
-                      "text": "Repository link text using 2nd for loop is: RestAssuredAPITestingFramework\n"
-                    },
-                    {
-                      "text": "Repository link text using 2nd for loop is: PlaywrightTypeScriptTutorialFullCourse\n"
-                    },
-                    {
-                      "text": "Repository link text using 2nd for loop is: CypressTutorialFullCourse\n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-02-05T05:05:38.116Z",
+                  "startTime": "2026-02-05T05:32:21.558Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\test-results\\Chapter04-06_Iterating_Ele-ec24e-tribute-value-in-Playwright-chromium\\test-finished-1.png"
+                      "path": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\test-results\\Chapter04-07_Checkbox_Radi-8df2b-n-checkbox-and-radio-button-chromium\\test-finished-1.png"
                     }
                   ]
                 }
@@ -154,9 +114,9 @@
               "status": "expected"
             }
           ],
-          "id": "674eac0131b0f53aa593-75b2f47ced395bd2b879",
-          "file": "Chapter04/06_Iterating_Elements_Test.spec.ts",
-          "line": 3,
+          "id": "7b7609fe77c2bbee1c5a-2dcc6ece4625665e1db6",
+          "file": "Chapter04/07_Checkbox_RadioButton_Test.spec.ts",
+          "line": 5,
           "column": 5
         }
       ]
@@ -164,8 +124,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-02-05T05:05:35.430Z",
-    "duration": 5237.2050000000745,
+    "startTime": "2026-02-05T05:32:17.991Z",
+    "duration": 11113.577999999747,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
