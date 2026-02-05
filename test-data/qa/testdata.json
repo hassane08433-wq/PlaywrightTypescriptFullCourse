@@ -1,0 +1,17 @@
+{
+"TestDataSet1": {
+    "Skill1": "Playwright by Testers Talk",
+    "Skill2": "Cypress by Testers Talk",
+    "Skill3": "Specflow Selenium C# by Testers Talk"
+  },
+
+
+
+"TestDataSet2": {
+    
+    "Skill1": "API Testing by Testers Talk☑️",
+    "Skill2": "Postman by Testers Talk☑️",
+    "Skill3": "#4 Step-by-Step Guide To Integrate Playwright with CICD Tools(Jenkins,Azure DevOps & GitHub Actions) 1 hour, 55 minutes"
+}
+
+}

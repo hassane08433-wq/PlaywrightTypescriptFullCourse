@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 1
+      "actualWorkers": 0
     },
     "preserveOutput": "always",
     "projects": [
@@ -20,7 +20,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 1
+          "actualWorkers": 0
         },
         "id": "chromium",
         "name": "chromium",
@@ -72,61 +72,23 @@
     "workers": 1,
     "webServer": null
   },
-  "suites": [
+  "suites": [],
+  "errors": [
     {
-      "title": "Chapter04\\07_Checkbox_RadioButton_Test.spec.ts",
-      "file": "Chapter04/07_Checkbox_RadioButton_Test.spec.ts",
-      "column": 0,
-      "line": 0,
-      "specs": [
-        {
-          "title": "Working on checkbox and radio button",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 120000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 32,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 7415,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-02-05T05:32:21.558Z",
-                  "annotations": [],
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\test-results\\Chapter04-07_Checkbox_Radi-8df2b-n-checkbox-and-radio-button-chromium\\test-finished-1.png"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "7b7609fe77c2bbee1c5a-2dcc6ece4625665e1db6",
-          "file": "Chapter04/07_Checkbox_RadioButton_Test.spec.ts",
-          "line": 5,
-          "column": 5
-        }
-      ]
+      "message": "SyntaxError: C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\tests\\Chapter05\\03_DataDrivenTestingUsingCSV.spec.ts: Unexpected token (42:4)\n\n\u001b[0m \u001b[90m 40 |\u001b[39m     \u001b[90m// }\u001b[39m\n \u001b[90m 41 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 42 |\u001b[39m     )\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 43 |\u001b[39m\n \u001b[90m 44 |\u001b[39m\n \u001b[90m 45 |\u001b[39m }\u001b[0m",
+      "stack": "SyntaxError: C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\tests\\Chapter05\\03_DataDrivenTestingUsingCSV.spec.ts: Unexpected token (42:4)\n\n\u001b[0m \u001b[90m 40 |\u001b[39m     \u001b[90m// }\u001b[39m\n \u001b[90m 41 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 42 |\u001b[39m     )\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 43 |\u001b[39m\n \u001b[90m 44 |\u001b[39m\n \u001b[90m 45 |\u001b[39m }\u001b[0m",
+      "location": {
+        "file": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\tests\\Chapter05\\03_DataDrivenTestingUsingCSV.spec.ts",
+        "line": 42,
+        "column": 4
+      },
+      "snippet": "\u001b[90m   at \u001b[39mChapter05\\03_DataDrivenTestingUsingCSV.spec.ts:42\n\n\u001b[0m \u001b[90m 40 |\u001b[39m     \u001b[90m// }\u001b[39m\n \u001b[90m 41 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 42 |\u001b[39m     )\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 43 |\u001b[39m\n \u001b[90m 44 |\u001b[39m\n \u001b[90m 45 |\u001b[39m }\u001b[0m"
     }
   ],
-  "errors": [],
   "stats": {
-    "startTime": "2026-02-05T05:32:17.991Z",
-    "duration": 11113.577999999747,
-    "expected": 1,
+    "startTime": "2026-02-05T14:18:26.619Z",
+    "duration": 1125.457999996841,
+    "expected": 0,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

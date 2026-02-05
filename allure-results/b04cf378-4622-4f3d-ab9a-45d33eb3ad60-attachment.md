@@ -1,0 +1,896 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Guide" [ref=e9] [cursor=pointer]:
+          - generic [ref=e12]:
+            - img
+        - generic [ref=e13]:
+          - link "YouTube Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e19]:
+              - img
+          - generic [ref=e20]: PK
+        - button "Skip navigation" [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]: Skip navigation
+      - generic [ref=e29]:
+        - search [ref=e30]:
+          - generic [ref=e31]:
+            - generic [ref=e32]:
+              - combobox "Search" [expanded] [ref=e34]: Specflow Selenium C# by Testers Talk
+              - button "Clear search query" [ref=e36] [cursor=pointer]:
+                - generic [ref=e39]:
+                  - img
+            - button "Search" [ref=e43] [cursor=pointer]:
+              - generic [ref=e46]:
+                - img
+        - generic [ref=e48]:
+          - button "Search with your voice" [ref=e50] [cursor=pointer]:
+            - generic [ref=e54]:
+              - img
+          - tooltip "tooltip"
+      - generic [ref=e59]:
+        - button "Settings" [ref=e64] [cursor=pointer]:
+          - generic [ref=e67]:
+            - img
+        - link "Sign in" [ref=e70] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fwatch%253Fv%253D7xPcalwU76c%2526list%253DPLUeDIlio4THGmh41cgOGHMPxAJyK44WrA&hl=en&ec=65620
+          - generic [ref=e74]:
+            - img
+          - generic [ref=e75]: Sign in
+  - generic [ref=e79]:
+    - main [ref=e80]:
+      - generic [ref=e81]:
+        - generic [ref=e83]:
+          - complementary [ref=e90]:
+            - generic "YouTube Video Player" [active] [ref=e93]:
+              - button "Channel watermark" [ref=e97] [cursor=pointer]:
+                - img "Channel watermark" [ref=e98]
+              - generic [ref=e101]:
+                - generic [ref=e102] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                  - slider "Seek slider" [ref=e103]
+                - generic [ref=e279]:
+                  - generic [ref=e280]:
+                    - button "Play (k)" [ref=e281] [cursor=pointer]:
+                      - img
+                    - button "Previous (SHIFT+p)" [ref=e282] [cursor=pointer]:
+                      - img
+                    - button "Next (SHIFT+n)" [ref=e283] [cursor=pointer]:
+                      - img
+                    - generic [ref=e284]:
+                      - button "Mute (m)" [ref=e286] [cursor=pointer]:
+                        - img
+                      - slider "Volume"
+                    - button "0 Minutes 2 Seconds of 2 Hours 59 Minutes 24 Seconds" [ref=e290] [cursor=pointer]: 0:02 / 2:59:24
+                    - button "What is Specflow?" [ref=e292] [cursor=pointer]:
+                      - generic "What is Specflow?" [ref=e293]
+                      - generic [ref=e294]:
+                        - img
+                  - generic [ref=e295]:
+                    - generic [ref=e296]:
+                      - button "Subtitles/closed captions unavailable" [ref=e297] [cursor=pointer]:
+                        - generic [ref=e298]:
+                          - img
+                      - button "Settings" [ref=e299] [cursor=pointer]:
+                        - img
+                    - generic [ref=e300]:
+                      - button "Theater mode (t)" [ref=e301] [cursor=pointer]:
+                        - img
+                      - button "Full screen (f)" [ref=e302] [cursor=pointer]:
+                        - img
+          - generic [ref=e303]:
+            - generic [ref=e305]:
+              - heading "SpecFlow Selenium C# Tutorial Full Course | SpecFlow C# Tutorial | Selenium Automation Testing" [level=1] [ref=e307]
+              - generic [ref=e308]:
+                - generic [ref=e309]:
+                  - generic [ref=e310]:
+                    - link [ref=e311] [cursor=pointer]:
+                      - /url: /@testerstalk
+                    - generic [ref=e313]:
+                      - generic "Testers Talk" [ref=e317]:
+                        - link "Testers Talk" [ref=e318] [cursor=pointer]:
+                          - /url: /@testerstalk
+                      - generic "28.2 thousand subscribers" [ref=e319]: 28.2K subscribers
+                  - generic [ref=e322]:
+                    - img [ref=e325]
+                    - generic [ref=e329]:
+                      - button "Subscribe to Testers Talk." [ref=e331] [cursor=pointer]:
+                        - generic [ref=e332]: Subscribe
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - img
+                - generic [ref=e339]:
+                  - generic [ref=e340]:
+                    - generic [ref=e344]:
+                      - button "like this video along with 730 other people" [ref=e348] [cursor=pointer]:
+                        - generic [ref=e352]:
+                          - img
+                        - generic [ref=e353]: "730"
+                      - button "Dislike this video" [ref=e360] [cursor=pointer]:
+                        - generic [ref=e364]:
+                          - img
+                    - button "Share" [ref=e370] [cursor=pointer]:
+                      - generic [ref=e374]:
+                        - img
+                      - generic [ref=e375]: Share
+                  - generic [ref=e379]:
+                    - generic [ref=e381]:
+                      - button "Download" [ref=e383] [cursor=pointer]:
+                        - generic [ref=e387]:
+                          - img
+                        - generic [ref=e388]: Download
+                      - tooltip "tooltip"
+                    - button "Save to playlist" [ref=e394] [cursor=pointer]:
+                      - generic [ref=e398]:
+                        - img
+                      - generic [ref=e399]: Save
+                  - button "More actions" [ref=e404] [cursor=pointer]:
+                    - generic [ref=e408]:
+                      - img
+              - generic [ref=e414] [cursor=pointer]:
+                - generic [ref=e415]:
+                  - generic [ref=e417]:
+                    - text: 83K views 3 years ago
+                    - link "#specflow" [ref=e418]:
+                      - /url: /hashtag/specflow
+                    - link "#seleniumcsharp" [ref=e419]:
+                      - /url: /hashtag/seleniumcsharp
+                    - link "#bdd" [ref=e420]:
+                      - /url: /hashtag/bdd
+                  - tooltip "tooltip"
+                - generic [ref=e421]:
+                  - generic [ref=e422]:
+                    - generic [ref=e425]:
+                      - text: SpecFlow Selenium C# Tutorial Full Course | Spec Flow C# Tutorial | Specflow tutorial for beginner | BDD Framework from Scratch End to End Automation | Testers Talk and Bakkappa N Selenium C# Nunit Tutorials
+                      - link "#specflow" [ref=e427]:
+                        - /url: /hashtag/specflow
+                      - link "#seleniumcsharp" [ref=e429]:
+                        - /url: /hashtag/seleniumcsharp
+                      - link "#bdd" [ref=e431]:
+                        - /url: /hashtag/bdd
+                      - link "#framework" [ref=e433]:
+                        - /url: /hashtag/framework
+                    - generic: …
+                  - button "...more" [ref=e434]
+            - text: •
+        - generic [ref=e509]:
+          - generic [ref=e511]:
+            - generic [ref=e513]:
+              - generic [ref=e514]:
+                - generic [ref=e515]:
+                  - heading "Specflow Selenium C# by Testers Talk" [level=3] [ref=e516]:
+                    - generic "Specflow Selenium C# by Testers Talk" [ref=e517]:
+                      - link "Specflow Selenium C# by Testers Talk" [ref=e518] [cursor=pointer]:
+                        - /url: /playlist?list=PLUeDIlio4THGmh41cgOGHMPxAJyK44WrA
+                  - generic [ref=e519]:
+                    - generic "Testers Talk" [ref=e520]:
+                      - link "Testers Talk" [ref=e521] [cursor=pointer]:
+                        - /url: /@testerstalk
+                    - generic [ref=e522]:
+                      - text: "-"
+                      - generic [ref=e523]: 1 / 9
+                - button "Collapse" [ref=e525] [cursor=pointer]:
+                  - generic [ref=e528]:
+                    - img
+              - generic [ref=e529]:
+                - generic [ref=e533]:
+                  - generic [ref=e536]:
+                    - button "Loop playlist" [ref=e538] [cursor=pointer]:
+                      - generic [ref=e542]:
+                        - img
+                    - tooltip "tooltip"
+                  - generic [ref=e546]:
+                    - button "Shuffle playlist" [ref=e548] [cursor=pointer]:
+                      - generic [ref=e552]:
+                        - img
+                    - tooltip "tooltip"
+                - button "Action menu" [ref=e560] [cursor=pointer]:
+                  - generic [ref=e563]:
+                    - img
+            - generic [ref=e564]:
+              - generic [ref=e565]:
+                - link "SpecFlow Selenium C# Tutorial Full Course | SpecFlow C# Tutorial | Selenium Automation Testing 2 hours, 59 minutes Testers Talk" [ref=e566] [cursor=pointer]:
+                  - /url: /watch?v=7xPcalwU76c&list=PLUeDIlio4THGmh41cgOGHMPxAJyK44WrA&index=1&pp=iAQB
+                  - generic [ref=e567]:
+                    - generic [ref=e572]:
+                      - img
+                    - link [ref=e575]:
+                      - /url: /watch?v=7xPcalwU76c&list=PLUeDIlio4THGmh41cgOGHMPxAJyK44WrA&index=1&pp=iAQB
+                      - img [ref=e577]
+                      - img [ref=e580]:
+                        - generic [ref=e581]: 2:59:25
+                      - generic:
+                        - generic:
+                          - img
+                    - generic [ref=e582]:
+                      - heading "SpecFlow Selenium C# Tutorial Full Course | SpecFlow C# Tutorial | Selenium Automation Testing 2 hours, 59 minutes" [level=4] [ref=e583]:
+                        - generic "SpecFlow Selenium C# Tutorial Full Course | SpecFlow C# Tutorial | Selenium Automation Testing 2 hours, 59 minutes" [ref=e584]: SpecFlow Selenium C# Tutorial Full Course | SpecFlow C# Tutorial | Selenium Automation Testing
+                      - generic [ref=e586]: Testers Talk
+                - button "Action menu" [ref=e590] [cursor=pointer]:
+                  - generic [ref=e593]:
+                    - img
+              - generic [ref=e594]:
+                - link "2 SpecFlow Selenium C# Tutorials-01 End to End in 20 Minutes |Install, Project Creation & First Script 33 minutes Testers Talk" [ref=e595] [cursor=pointer]:
+                  - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THGmh41cgOGHMPxAJyK44WrA&index=2&pp=iAQB
+                  - generic [ref=e596]:
+                    - generic [ref=e598]: "2"
+                    - link [ref=e601]:
+                      - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THGmh41cgOGHMPxAJyK44WrA&index=2&pp=iAQB
+                      - img [ref=e603]
+                      - img [ref=e606]:
+                        - generic [ref=e607]: 33:44
+                      - generic:
+                        - generic:
+                          - img
+                    - generic [ref=e608]:
+                      - heading "SpecFlow Selenium C# Tutorials-01 End to End in 20 Minutes |Install, Project Creation & First Script 33 minutes" [level=4] [ref=e609]:
+                        - generic "SpecFlow Selenium C# Tutorials-01 End to End in 20 Minutes |Install, Project Creation & First Script 33 minutes" [ref=e610]: SpecFlow Selenium C# Tutorials-01 End to End in 20 Minutes |Install, Project Creation & First Script
+                      - generic [ref=e612]: Testers Talk
+                - button "Action menu" [ref=e616] [cursor=pointer]:
+                  - generic [ref=e619]:
+                    - img
+              - generic [ref=e620]:
+                - link "3 SpecFlow Selenium C# Tutorials-02 | Hooks Implementation 20 minutes Testers Talk" [ref=e621] [cursor=pointer]:
+                  - /url: /watch?v=mGWIzf82zyo&list=PLUeDIlio4THGmh41cgOGHMPxAJyK44WrA&index=3&pp=iAQB
+                  - generic [ref=e622]:
+                    - generic [ref=e624]: "3"
+                    - link [ref=e627]:
+                      - /url: /watch?v=mGWIzf82zyo&list=PLUeDIlio4THGmh41cgOGHMPxAJyK44WrA&index=3&pp=iAQB
+                      - img [ref=e629]
+                      - img [ref=e632]:
+                        - generic [ref=e633]: 20:19
+                      - generic:
+                        - generic:
+                          - img
+                    - generic [ref=e634]:
+                      - heading "SpecFlow Selenium C# Tutorials-02 | Hooks Implementation 20 minutes" [level=4] [ref=e635]:
+                        - generic "SpecFlow Selenium C# Tutorials-02 | Hooks Implementation 20 minutes" [ref=e636]: SpecFlow Selenium C# Tutorials-02 | Hooks Implementation
+                      - generic [ref=e638]: Testers Talk
+                - button "Action menu" [ref=e642] [cursor=pointer]:
+                  - generic [ref=e645]:
+                    - img
+              - generic [ref=e646]:
+                - link "4 SpecFlow Selenium C# Tutorials-03 | Extent Report Generation & Customization 28 minutes Testers Talk" [ref=e647] [cursor=pointer]:
+                  - /url: /watch?v=qKJ3ZwC8Tag&list=PLUeDIlio4THGmh41cgOGHMPxAJyK44WrA&index=4&pp=iAQB
+                  - generic [ref=e648]:
+                    - generic [ref=e650]: "4"
+                    - link [ref=e653]:
+                      - /url: /watch?v=qKJ3ZwC8Tag&list=PLUeDIlio4THGmh41cgOGHMPxAJyK44WrA&index=4&pp=iAQB
+                      - img [ref=e655]
+                      - img [ref=e658]:
+                        - generic [ref=e659]: 28:07
+                      - generic:
+                        - generic:
+                          - img
+                    - generic [ref=e660]:
+                      - heading "SpecFlow Selenium C# Tutorials-03 | Extent Report Generation & Customization 28 minutes" [level=4] [ref=e661]:
+                        - generic "SpecFlow Selenium C# Tutorials-03 | Extent Report Generation & Customization 28 minutes" [ref=e662]: SpecFlow Selenium C# Tutorials-03 | Extent Report Generation & Customization
+                      - generic [ref=e664]: Testers Talk
+                - button "Action menu" [ref=e668] [cursor=pointer]:
+                  - generic [ref=e671]:
+                    - img
+              - generic [ref=e672]:
+                - link "5 SpecFlow Selenium C# Tutorials-04 Add Screenshot into Extent Report When Script Failed 19 minutes Testers Talk" [ref=e673] [cursor=pointer]:
+                  - /url: /watch?v=4NfT9w1wMLc&list=PLUeDIlio4THGmh41cgOGHMPxAJyK44WrA&index=5&pp=iAQB
+                  - generic [ref=e674]:
+                    - generic [ref=e676]: "5"
+                    - link [ref=e679]:
+                      - /url: /watch?v=4NfT9w1wMLc&list=PLUeDIlio4THGmh41cgOGHMPxAJyK44WrA&index=5&pp=iAQB
+                      - img [ref=e681]
+                      - img [ref=e684]:
+                        - generic [ref=e685]: 19:00
+                      - generic:
+                        - generic:
+                          - img
+                    - generic [ref=e686]:
+                      - heading "SpecFlow Selenium C# Tutorials-04 Add Screenshot into Extent Report When Script Failed 19 minutes" [level=4] [ref=e687]:
+                        - generic "SpecFlow Selenium C# Tutorials-04 Add Screenshot into Extent Report When Script Failed 19 minutes" [ref=e688]: SpecFlow Selenium C# Tutorials-04 Add Screenshot into Extent Report When Script Failed
+                      - generic [ref=e690]: Testers Talk
+                - button "Action menu" [ref=e694] [cursor=pointer]:
+                  - generic [ref=e697]:
+                    - img
+              - generic [ref=e698]:
+                - link "6 SpecFlow Selenium C# Tutorials-05 | Data Driven Testing Part-01 9 minutes, 12 seconds Testers Talk" [ref=e699] [cursor=pointer]:
+                  - /url: /watch?v=8yE_Opp8TNU&list=PLUeDIlio4THGmh41cgOGHMPxAJyK44WrA&index=6&pp=iAQB
+                  - generic [ref=e700]:
+                    - generic [ref=e702]: "6"
+                    - link [ref=e705]:
+                      - /url: /watch?v=8yE_Opp8TNU&list=PLUeDIlio4THGmh41cgOGHMPxAJyK44WrA&index=6&pp=iAQB
+                    - generic [ref=e707]:
+                      - heading "SpecFlow Selenium C# Tutorials-05 | Data Driven Testing Part-01 9 minutes, 12 seconds" [level=4] [ref=e708]:
+                        - generic "SpecFlow Selenium C# Tutorials-05 | Data Driven Testing Part-01 9 minutes, 12 seconds" [ref=e709]: SpecFlow Selenium C# Tutorials-05 | Data Driven Testing Part-01
+                      - generic [ref=e711]: Testers Talk
+                - button "Action menu" [ref=e715] [cursor=pointer]:
+                  - generic [ref=e718]:
+                    - img
+              - generic [ref=e719]:
+                - link "7 SpecFlow Selenium C# Tutorials-06 | Data Driven Testing Part-02 | Examples 10 minutes, 47 seconds Testers Talk" [ref=e720] [cursor=pointer]:
+                  - /url: /watch?v=Wyly_ucyyP4&list=PLUeDIlio4THGmh41cgOGHMPxAJyK44WrA&index=7&pp=iAQB
+                  - generic [ref=e721]:
+                    - generic [ref=e723]: "7"
+                    - link [ref=e726]:
+                      - /url: /watch?v=Wyly_ucyyP4&list=PLUeDIlio4THGmh41cgOGHMPxAJyK44WrA&index=7&pp=iAQB
+                    - generic [ref=e728]:
+                      - heading "SpecFlow Selenium C# Tutorials-06 | Data Driven Testing Part-02 | Examples 10 minutes, 47 seconds" [level=4] [ref=e729]:
+                        - generic "SpecFlow Selenium C# Tutorials-06 | Data Driven Testing Part-02 | Examples 10 minutes, 47 seconds" [ref=e730]: SpecFlow Selenium C# Tutorials-06 | Data Driven Testing Part-02 | Examples
+                      - generic [ref=e732]: Testers Talk
+                - button "Action menu" [ref=e736] [cursor=pointer]:
+                  - generic [ref=e739]:
+                    - img
+              - generic [ref=e740]:
+                - link "8 SpecFlow Selenium C# Tutorials-07 | Data Driven Testing Part-03 17 minutes Testers Talk" [ref=e741] [cursor=pointer]:
+                  - /url: /watch?v=spWK-mSHo_g&list=PLUeDIlio4THGmh41cgOGHMPxAJyK44WrA&index=8&pp=iAQB
+                  - generic [ref=e742]:
+                    - generic [ref=e744]: "8"
+                    - link [ref=e747]:
+                      - /url: /watch?v=spWK-mSHo_g&list=PLUeDIlio4THGmh41cgOGHMPxAJyK44WrA&index=8&pp=iAQB
+                    - generic [ref=e749]:
+                      - heading "SpecFlow Selenium C# Tutorials-07 | Data Driven Testing Part-03 17 minutes" [level=4] [ref=e750]:
+                        - generic "SpecFlow Selenium C# Tutorials-07 | Data Driven Testing Part-03 17 minutes" [ref=e751]: SpecFlow Selenium C# Tutorials-07 | Data Driven Testing Part-03
+                      - generic [ref=e753]: Testers Talk
+                - button "Action menu" [ref=e757] [cursor=pointer]:
+                  - generic [ref=e760]:
+                    - img
+              - generic [ref=e761]:
+                - link "9 SpecFlow Selenium C# Tutorials-08 | Page Object Model from Scratch | End to End Automation Framework 41 minutes Testers Talk" [ref=e762] [cursor=pointer]:
+                  - /url: /watch?v=27iyndvYfQA&list=PLUeDIlio4THGmh41cgOGHMPxAJyK44WrA&index=9&pp=iAQB
+                  - generic [ref=e763]:
+                    - generic [ref=e765]: "9"
+                    - link [ref=e768]:
+                      - /url: /watch?v=27iyndvYfQA&list=PLUeDIlio4THGmh41cgOGHMPxAJyK44WrA&index=9&pp=iAQB
+                    - generic [ref=e770]:
+                      - heading "SpecFlow Selenium C# Tutorials-08 | Page Object Model from Scratch | End to End Automation Framework 41 minutes" [level=4] [ref=e771]:
+                        - generic "SpecFlow Selenium C# Tutorials-08 | Page Object Model from Scratch | End to End Automation Framework 41 minutes" [ref=e772]: SpecFlow Selenium C# Tutorials-08 | Page Object Model from Scratch | End to End Automation Framework
+                      - generic [ref=e774]: Testers Talk
+                - button "Action menu" [ref=e778] [cursor=pointer]:
+                  - generic [ref=e781]:
+                    - img
+          - generic [ref=e784]:
+            - generic [ref=e786] [cursor=pointer]:
+              - link [ref=e787]:
+                - /url: /watch?v=x0cHZ3E7Ekw
+                - generic [ref=e793]: 2:02:27
+              - generic [ref=e795]:
+                - generic [ref=e796]:
+                  - heading "EasyRepro Framework Tutorial Full Course | Microsoft D365 CRM Automation 2 hours, 2 minutes" [level=3] [ref=e797]:
+                    - link "EasyRepro Framework Tutorial Full Course | Microsoft D365 CRM Automation 2 hours, 2 minutes" [ref=e798]:
+                      - /url: /watch?v=x0cHZ3E7Ekw
+                      - text: EasyRepro Framework Tutorial Full Course | Microsoft D365 CRM Automation
+                  - generic [ref=e800]:
+                    - generic [ref=e802]: Testers Talk
+                    - generic [ref=e803]:
+                      - generic [ref=e804]: 11K views
+                      - generic [ref=e805]: •
+                      - generic [ref=e806]: 2 years ago
+                - button "More actions" [ref=e809]:
+                  - generic [ref=e813]:
+                    - img
+            - generic [ref=e818] [cursor=pointer]:
+              - link [ref=e819]:
+                - /url: /watch?v=9p6NNapsUvQ
+                - generic [ref=e825]: 10:15:14
+              - generic [ref=e827]:
+                - generic [ref=e828]:
+                  - heading "Selenium Full Course [2024] | Learn Selenium | Selenium Tutorial For Beginners | Edureka 10 hours, 15 minutes" [level=3] [ref=e829]:
+                    - link "Selenium Full Course [2024] | Learn Selenium | Selenium Tutorial For Beginners | Edureka 10 hours, 15 minutes" [ref=e830]:
+                      - /url: /watch?v=9p6NNapsUvQ
+                      - text: Selenium Full Course [2024] | Learn Selenium | Selenium Tutorial For Beginners | Edureka
+                  - generic [ref=e832]:
+                    - generic [ref=e834]:
+                      - text: edureka!
+                      - img [ref=e837]:
+                        - generic [ref=e839]:
+                          - img
+                    - generic [ref=e840]:
+                      - generic [ref=e841]: 304K views
+                      - generic [ref=e842]: •
+                      - generic [ref=e843]: Streamed 2 years ago
+                - button "More actions" [ref=e846]:
+                  - generic [ref=e850]:
+                    - img
+            - generic [ref=e855] [cursor=pointer]:
+              - link [ref=e856]:
+                - /url: /watch?v=2poXBtifpzA
+                - generic [ref=e862]: 6:55:08
+              - generic [ref=e864]:
+                - generic [ref=e865]:
+                  - heading "#1 Playwright Tutorial Full Course 2025 | Playwright Testing Tutorial 6 hours, 55 minutes" [level=3] [ref=e866]:
+                    - link "#1 Playwright Tutorial Full Course 2025 | Playwright Testing Tutorial 6 hours, 55 minutes" [ref=e867]:
+                      - /url: /watch?v=2poXBtifpzA
+                      - text: "#1 Playwright Tutorial Full Course 2025 | Playwright Testing Tutorial"
+                  - generic [ref=e869]:
+                    - generic [ref=e871]: Testers Talk
+                    - generic [ref=e872]:
+                      - generic [ref=e873]: 131K views
+                      - generic [ref=e874]: •
+                      - generic [ref=e875]: 2 years ago
+                - button "More actions" [ref=e878]:
+                  - generic [ref=e882]:
+                    - img
+            - generic [ref=e887] [cursor=pointer]:
+              - link [ref=e888]:
+                - /url: /watch?v=UQDQZ1aANdU&pp=ugUEEgJlbg%3D%3D
+                - generic [ref=e894]: 17:41
+              - generic [ref=e896]:
+                - generic [ref=e897]:
+                  - heading "#1-Introduction to BDD with ReqnRoll using C# .NET (2025 Course) 17 minutes" [level=3] [ref=e898]:
+                    - link "#1-Introduction to BDD with ReqnRoll using C# .NET (2025 Course) 17 minutes" [ref=e899]:
+                      - /url: /watch?v=UQDQZ1aANdU&pp=ugUEEgJlbg%3D%3D
+                      - text: "#1-Introduction to BDD with ReqnRoll using C# .NET (2025 Course)"
+                  - generic [ref=e901]:
+                    - generic [ref=e903]: Execute Automation
+                    - generic [ref=e904]:
+                      - generic [ref=e905]: 12K views
+                      - generic [ref=e906]: •
+                      - generic [ref=e907]: 11 months ago
+                - button "More actions" [ref=e910]:
+                  - generic [ref=e914]:
+                    - img
+            - generic [ref=e919] [cursor=pointer]:
+              - link [ref=e920]:
+                - /url: /watch?v=f6qDkR8iB2Y
+                - generic [ref=e926]: 1:07:24
+              - generic [ref=e928]:
+                - generic [ref=e929]:
+                  - heading "Selenium C# Automation Testing from scratch for beginners. 1 hour, 7 minutes" [level=3] [ref=e930]:
+                    - link "Selenium C# Automation Testing from scratch for beginners. 1 hour, 7 minutes" [ref=e931]:
+                      - /url: /watch?v=f6qDkR8iB2Y
+                      - text: Selenium C# Automation Testing from scratch for beginners.
+                  - generic [ref=e933]:
+                    - generic [ref=e935]: Test Automation 101
+                    - generic [ref=e936]:
+                      - generic [ref=e937]: 32K views
+                      - generic [ref=e938]: •
+                      - generic [ref=e939]: 1 year ago
+                - button "More actions" [ref=e942]:
+                  - generic [ref=e946]:
+                    - img
+            - generic [ref=e951] [cursor=pointer]:
+              - link [ref=e952]:
+                - /url: /watch?v=eUD5vNXaGLI
+                - generic [ref=e958]: 28:45
+              - generic [ref=e960]:
+                - generic [ref=e961]:
+                  - heading "Jenkins Pipeline Tutorial | Run Selenium Automation Scripts Using Jenkins (CI/CD) 28 minutes" [level=3] [ref=e962]:
+                    - link "Jenkins Pipeline Tutorial | Run Selenium Automation Scripts Using Jenkins (CI/CD) 28 minutes" [ref=e963]:
+                      - /url: /watch?v=eUD5vNXaGLI
+                      - text: Jenkins Pipeline Tutorial | Run Selenium Automation Scripts Using Jenkins (CI/CD)
+                  - generic [ref=e965]:
+                    - generic [ref=e967]: Lets Learn QA
+                    - generic [ref=e968]:
+                      - generic [ref=e969]: 440 views
+                      - generic [ref=e970]: •
+                      - generic [ref=e971]: 1 month ago
+                - button "More actions" [ref=e974]:
+                  - generic [ref=e978]:
+                    - img
+            - generic [ref=e983] [cursor=pointer]:
+              - link [ref=e984]:
+                - /url: /watch?v=gOC_lCz2zXs
+                - generic [ref=e990]: 5:11:27
+              - generic [ref=e992]:
+                - generic [ref=e993]:
+                  - heading "xUnit Testing Tutorial | Learn xUnit Testing With Selenium C# In 5 Hours | TestMu AI 5 hours, 11 minutes" [level=3] [ref=e994]:
+                    - link "xUnit Testing Tutorial | Learn xUnit Testing With Selenium C# In 5 Hours | TestMu AI 5 hours, 11 minutes" [ref=e995]:
+                      - /url: /watch?v=gOC_lCz2zXs
+                      - text: xUnit Testing Tutorial | Learn xUnit Testing With Selenium C# In 5 Hours | TestMu AI
+                  - generic [ref=e997]:
+                    - generic [ref=e999]: TestMu AI
+                    - generic [ref=e1000]:
+                      - generic [ref=e1001]: 15K views
+                      - generic [ref=e1002]: •
+                      - generic [ref=e1003]: 4 years ago
+                - button "More actions" [ref=e1006]:
+                  - generic [ref=e1010]:
+                    - img
+            - generic [ref=e1015] [cursor=pointer]:
+              - link [ref=e1016]:
+                - /url: /watch?v=25U-KUpWd1c&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm
+                - generic [ref=e1026]:
+                  - generic [ref=e1029]:
+                    - img
+                  - generic [ref=e1030]: 136 lessons
+              - generic [ref=e1033]:
+                - heading "SELENIUM WEBDRIVER TUTORIAL - Learn Selenium Automation with Java - FULL COURSE" [level=3] [ref=e1034]:
+                  - link "SELENIUM WEBDRIVER TUTORIAL - Learn Selenium Automation with Java - FULL COURSE" [ref=e1035]:
+                    - /url: /watch?v=25U-KUpWd1c&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm
+                - generic [ref=e1037]:
+                  - generic [ref=e1038]:
+                    - link "Software Testing Mentor" [ref=e1041]:
+                      - /url: /@softwaretestingmentor
+                      - text: Software Testing Mentor
+                      - img [ref=e1044]:
+                        - generic [ref=e1046]:
+                          - img
+                    - generic [ref=e1047]: •
+                    - link "Course" [ref=e1050]:
+                      - /url: /@softwaretestingmentor
+                  - link "View full course" [ref=e1054]:
+                    - /url: /playlist?list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm
+            - generic [ref=e1056] [cursor=pointer]:
+              - link [ref=e1057]:
+                - /url: /watch?v=KMsggpCaS10
+                - generic [ref=e1063]: 2:47:28
+              - generic [ref=e1065]:
+                - generic [ref=e1066]:
+                  - heading "C# Crash Course | The Ultimate C Sharp .NET Tutorial for Beginners 2 hours, 47 minutes" [level=3] [ref=e1067]:
+                    - link "C# Crash Course | The Ultimate C Sharp .NET Tutorial for Beginners 2 hours, 47 minutes" [ref=e1068]:
+                      - /url: /watch?v=KMsggpCaS10
+                      - text: C# Crash Course | The Ultimate C Sharp .NET Tutorial for Beginners
+                  - generic [ref=e1070]:
+                    - generic [ref=e1072]: Coderversity
+                    - generic [ref=e1073]:
+                      - generic [ref=e1074]: 49K views
+                      - generic [ref=e1075]: •
+                      - generic [ref=e1076]: 2 years ago
+                - button "More actions" [ref=e1079]:
+                  - generic [ref=e1083]:
+                    - img
+            - generic [ref=e1088] [cursor=pointer]:
+              - link [ref=e1089]:
+                - /url: /watch?v=HmQv8Z4om4I
+                - generic [ref=e1095]: 9:57:03
+              - generic [ref=e1097]:
+                - generic [ref=e1098]:
+                  - heading "Test Automation Engineer - The Full Course (2025) | Testing Course For Beginners | Edureka 9 hours, 57 minutes" [level=3] [ref=e1099]:
+                    - link "Test Automation Engineer - The Full Course (2025) | Testing Course For Beginners | Edureka 9 hours, 57 minutes" [ref=e1100]:
+                      - /url: /watch?v=HmQv8Z4om4I
+                      - text: Test Automation Engineer - The Full Course (2025) | Testing Course For Beginners | Edureka
+                  - generic [ref=e1102]:
+                    - generic [ref=e1104]:
+                      - text: edureka!
+                      - img [ref=e1107]:
+                        - generic [ref=e1109]:
+                          - img
+                    - generic [ref=e1110]:
+                      - generic [ref=e1111]: 56K views
+                      - generic [ref=e1112]: •
+                      - generic [ref=e1113]: Streamed 10 months ago
+                - button "More actions" [ref=e1116]:
+                  - generic [ref=e1120]:
+                    - img
+            - generic [ref=e1125] [cursor=pointer]:
+              - link [ref=e1126]:
+                - /url: /watch?v=GnG6RPSRLCs
+                - generic [ref=e1132]: 2:43:50
+              - generic [ref=e1134]:
+                - generic [ref=e1135]:
+                  - 'heading "JIRA : A Complete Tutorial for Beginners || JIRA Agile Test Management 2 hours, 43 minutes" [level=3] [ref=e1136]':
+                    - 'link "JIRA : A Complete Tutorial for Beginners || JIRA Agile Test Management 2 hours, 43 minutes" [ref=e1137]':
+                      - /url: /watch?v=GnG6RPSRLCs
+                      - text: "JIRA : A Complete Tutorial for Beginners || JIRA Agile Test Management"
+                  - generic [ref=e1139]:
+                    - generic [ref=e1141]:
+                      - text: SDET- QA
+                      - img [ref=e1144]:
+                        - generic [ref=e1146]:
+                          - img
+                    - generic [ref=e1147]:
+                      - generic [ref=e1148]: 1.7M views
+                      - generic [ref=e1149]: •
+                      - generic [ref=e1150]: 7 years ago
+                - button "More actions" [ref=e1153]:
+                  - generic [ref=e1157]:
+                    - img
+            - generic [ref=e1162] [cursor=pointer]:
+              - link [ref=e1163]:
+                - /url: /watch?v=wEOLZq-7DYs
+                - generic [ref=e1169]: 1:35:56
+              - generic [ref=e1171]:
+                - generic [ref=e1172]:
+                  - heading "Learn Postman for API Testing (Step-by-Step Tutorial) 1 hour, 35 minutes" [level=3] [ref=e1173]:
+                    - link "Learn Postman for API Testing (Step-by-Step Tutorial) 1 hour, 35 minutes" [ref=e1174]:
+                      - /url: /watch?v=wEOLZq-7DYs
+                      - text: Learn Postman for API Testing (Step-by-Step Tutorial)
+                  - generic [ref=e1176]:
+                    - generic [ref=e1178]:
+                      - text: Automation Step by Step
+                      - img [ref=e1181]:
+                        - generic [ref=e1183]:
+                          - img
+                    - generic [ref=e1184]:
+                      - generic [ref=e1185]: 334K views
+                      - generic [ref=e1186]: •
+                      - generic [ref=e1187]: 1 year ago
+                - button "More actions" [ref=e1190]:
+                  - generic [ref=e1194]:
+                    - img
+            - generic [ref=e1199] [cursor=pointer]:
+              - link [ref=e1200]:
+                - /url: /watch?v=OFuPd8YiiFQ
+                - generic [ref=e1206]: 2:40:23
+              - generic [ref=e1208]:
+                - generic [ref=e1209]:
+                  - heading "Top 50 Interview Questions OOPS & C# in Hindi 2 hours, 40 minutes" [level=3] [ref=e1210]:
+                    - link "Top 50 Interview Questions OOPS & C# in Hindi 2 hours, 40 minutes" [ref=e1211]:
+                      - /url: /watch?v=OFuPd8YiiFQ
+                      - text: Top 50 Interview Questions OOPS & C# in Hindi
+                  - generic [ref=e1213]:
+                    - generic [ref=e1215]: Happy Rawat
+                    - generic [ref=e1216]:
+                      - generic [ref=e1217]: 103K views
+                      - generic [ref=e1218]: •
+                      - generic [ref=e1219]: 3 years ago
+                - button "More actions" [ref=e1222]:
+                  - generic [ref=e1226]:
+                    - img
+            - generic [ref=e1231] [cursor=pointer]:
+              - link [ref=e1232]:
+                - /url: /watch?v=0sOvCWFmrtA
+                - generic [ref=e1238]: 19:00:27
+              - generic [ref=e1240]:
+                - generic [ref=e1241]:
+                  - heading "Python API Development - Comprehensive Course for Beginners 19 hours" [level=3] [ref=e1242]:
+                    - link "Python API Development - Comprehensive Course for Beginners 19 hours" [ref=e1243]:
+                      - /url: /watch?v=0sOvCWFmrtA
+                      - text: Python API Development - Comprehensive Course for Beginners
+                  - generic [ref=e1245]:
+                    - generic [ref=e1247]:
+                      - text: freeCodeCamp.org
+                      - img [ref=e1250]:
+                        - generic [ref=e1252]:
+                          - img
+                    - generic [ref=e1253]:
+                      - generic [ref=e1254]: 2.8M views
+                      - generic [ref=e1255]: •
+                      - generic [ref=e1256]: 4 years ago
+                - button "More actions" [ref=e1259]:
+                  - generic [ref=e1263]:
+                    - img
+            - generic [ref=e1268] [cursor=pointer]:
+              - link [ref=e1269]:
+                - /url: /watch?v=BfEjDD8mWYg
+                - generic [ref=e1275]: 1:00:44
+              - generic [ref=e1277]:
+                - generic [ref=e1278]:
+                  - heading "ASP.NET Core Crash Course - C# App in One Hour 1 hour" [level=3] [ref=e1279]:
+                    - link "ASP.NET Core Crash Course - C# App in One Hour 1 hour" [ref=e1280]:
+                      - /url: /watch?v=BfEjDD8mWYg
+                      - text: ASP.NET Core Crash Course - C# App in One Hour
+                  - generic [ref=e1282]:
+                    - generic [ref=e1284]:
+                      - text: freeCodeCamp.org
+                      - img [ref=e1287]:
+                        - generic [ref=e1289]:
+                          - img
+                    - generic [ref=e1290]:
+                      - generic [ref=e1291]: 1.8M views
+                      - generic [ref=e1292]: •
+                      - generic [ref=e1293]: 5 years ago
+                - button "More actions" [ref=e1296]:
+                  - generic [ref=e1300]:
+                    - img
+            - generic [ref=e1305] [cursor=pointer]:
+              - link [ref=e1306]:
+                - /url: /watch?v=UKaZ2S4AJAA
+                - generic [ref=e1312]: 4:37:59
+              - generic [ref=e1314]:
+                - generic [ref=e1315]:
+                  - heading "C# Tutorial for Beginners | Learn the Basics of C# programming 🖥️ Csharp Tutorial for Beginners 4 hours, 37 minutes" [level=3] [ref=e1316]:
+                    - link "C# Tutorial for Beginners | Learn the Basics of C# programming 🖥️ Csharp Tutorial for Beginners 4 hours, 37 minutes" [ref=e1317]:
+                      - /url: /watch?v=UKaZ2S4AJAA
+                      - text: C# Tutorial for Beginners | Learn the Basics of C# programming 🖥️ Csharp Tutorial for Beginners
+                  - generic [ref=e1319]:
+                    - generic [ref=e1321]: tutorialsEU
+                    - generic [ref=e1322]:
+                      - generic [ref=e1323]: 136K views
+                      - generic [ref=e1324]: •
+                      - generic [ref=e1325]: 6 years ago
+                - button "More actions" [ref=e1328]:
+                  - generic [ref=e1332]:
+                    - img
+            - generic [ref=e1337] [cursor=pointer]:
+              - link [ref=e1338]:
+                - /url: /watch?v=VywxIQ2ZXw4
+                - generic [ref=e1344]: 2:09:38
+              - generic [ref=e1346]:
+                - generic [ref=e1347]:
+                  - heading "Postman Beginner's Course - API Testing 2 hours, 9 minutes" [level=3] [ref=e1348]:
+                    - link "Postman Beginner's Course - API Testing 2 hours, 9 minutes" [ref=e1349]:
+                      - /url: /watch?v=VywxIQ2ZXw4
+                      - text: Postman Beginner's Course - API Testing
+                  - generic [ref=e1351]:
+                    - generic [ref=e1353]:
+                      - text: freeCodeCamp.org
+                      - img [ref=e1356]:
+                        - generic [ref=e1358]:
+                          - img
+                    - generic [ref=e1359]:
+                      - generic [ref=e1360]: 2.9M views
+                      - generic [ref=e1361]: •
+                      - generic [ref=e1362]: 4 years ago
+                - button "More actions" [ref=e1365]:
+                  - generic [ref=e1369]:
+                    - img
+            - generic [ref=e1374] [cursor=pointer]:
+              - link [ref=e1375]:
+                - /url: /watch?v=o9KJhGHl49M
+                - generic [ref=e1381]: 4:06:41
+              - generic [ref=e1383]:
+                - generic [ref=e1384]:
+                  - heading "REST Assured API Testing Tutorial Crash Course 2024 4 hours, 6 minutes" [level=3] [ref=e1385]:
+                    - link "REST Assured API Testing Tutorial Crash Course 2024 4 hours, 6 minutes" [ref=e1386]:
+                      - /url: /watch?v=o9KJhGHl49M
+                      - text: REST Assured API Testing Tutorial Crash Course 2024
+                  - generic [ref=e1388]:
+                    - generic [ref=e1390]: Testers Talk
+                    - generic [ref=e1391]:
+                      - generic [ref=e1392]: 53K views
+                      - generic [ref=e1393]: •
+                      - generic [ref=e1394]: 2 years ago
+                - button "More actions" [ref=e1397]:
+                  - generic [ref=e1401]:
+                    - img
+            - generic [ref=e1406] [cursor=pointer]:
+              - link [ref=e1407]:
+                - /url: /watch?v=788GvvcfwTY
+                - generic [ref=e1413]: 8:55:10
+              - generic [ref=e1415]:
+                - generic [ref=e1416]:
+                  - heading "#1 Playwright Automation Using TypeScript Full Course 2025 | Playwright TypeScript Beginner Tutorial 8 hours, 55 minutes" [level=3] [ref=e1417]:
+                    - link "#1 Playwright Automation Using TypeScript Full Course 2025 | Playwright TypeScript Beginner Tutorial 8 hours, 55 minutes" [ref=e1418]:
+                      - /url: /watch?v=788GvvcfwTY
+                      - text: "#1 Playwright Automation Using TypeScript Full Course 2025 | Playwright TypeScript Beginner Tutorial"
+                  - generic [ref=e1420]:
+                    - generic [ref=e1422]: Testers Talk
+                    - generic [ref=e1423]:
+                      - generic [ref=e1424]: 121K views
+                      - generic [ref=e1425]: •
+                      - generic [ref=e1426]: 1 year ago
+                - button "More actions" [ref=e1429]:
+                  - generic [ref=e1433]:
+                    - img
+            - generic [ref=e1438] [cursor=pointer]:
+              - link [ref=e1439]:
+                - /url: /watch?v=sO8eGL6SFsA
+                - generic [ref=e1445]: 10:18:30
+              - generic [ref=e1447]:
+                - generic [ref=e1448]:
+                  - heading "Software Testing Full Course In 10 Hours | Software Testing Tutorial | Edureka 10 hours, 18 minutes" [level=3] [ref=e1449]:
+                    - link "Software Testing Full Course In 10 Hours | Software Testing Tutorial | Edureka 10 hours, 18 minutes" [ref=e1450]:
+                      - /url: /watch?v=sO8eGL6SFsA
+                      - text: Software Testing Full Course In 10 Hours | Software Testing Tutorial | Edureka
+                  - generic [ref=e1452]:
+                    - generic [ref=e1454]:
+                      - text: edureka!
+                      - img [ref=e1457]:
+                        - generic [ref=e1459]:
+                          - img
+                    - generic [ref=e1460]:
+                      - generic [ref=e1461]: 1.9M views
+                      - generic [ref=e1462]: •
+                      - generic [ref=e1463]: Streamed 4 years ago
+                - button "More actions" [ref=e1466]:
+                  - generic [ref=e1470]:
+                    - img
+    - text: ·
+```

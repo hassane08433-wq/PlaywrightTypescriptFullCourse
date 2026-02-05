@@ -1,0 +1,770 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - button "Guide" [active] [ref=e9] [cursor=pointer]:
+            - generic [ref=e12]:
+              - img
+          - generic [ref=e13]:
+            - link "YouTube Home" [ref=e14] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e19]:
+                - img
+            - generic [ref=e20]: PK
+          - button "Skip navigation" [ref=e24] [cursor=pointer]:
+            - generic [ref=e25]: Skip navigation
+        - generic [ref=e29]:
+          - search [ref=e30]:
+            - generic [ref=e31]:
+              - generic [ref=e32]:
+                - combobox "Search" [expanded] [ref=e34]: API Testing by Testers Talk☑️
+                - button "Clear search query" [ref=e36] [cursor=pointer]:
+                  - generic [ref=e39]:
+                    - img
+              - button "Search" [ref=e43] [cursor=pointer]:
+                - generic [ref=e46]:
+                  - img
+          - generic [ref=e48]:
+            - button "Search with your voice" [ref=e50] [cursor=pointer]:
+              - generic [ref=e54]:
+                - img
+            - tooltip "tooltip"
+        - generic [ref=e59]:
+          - button "Settings" [ref=e64] [cursor=pointer]:
+            - generic [ref=e67]:
+              - img
+          - link "Sign in" [ref=e70] [cursor=pointer]:
+            - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253DAPI%252BTesting%252Bby%252BTesters%252BTalk%2525E2%252598%252591%2525EF%2525B8%25258F&hl=en&ec=65620
+            - generic [ref=e74]:
+              - img
+            - generic [ref=e75]: Sign in
+    - navigation [ref=e79]:
+      - generic [ref=e80]:
+        - link "Home" [ref=e82] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e85]:
+            - img
+          - generic [ref=e86]: Home
+        - link "Shorts" [ref=e88] [cursor=pointer]:
+          - /url: /shorts/
+          - generic [ref=e91]:
+            - img
+          - generic [ref=e92]: Shorts
+        - link "Subscriptions" [ref=e94] [cursor=pointer]:
+          - /url: /feed/subscriptions
+          - generic [ref=e97]:
+            - img
+          - generic [ref=e98]: Subscriptions
+        - link "You" [ref=e100] [cursor=pointer]:
+          - /url: /feed/you
+          - generic [ref=e103]:
+            - img
+          - generic [ref=e104]: You
+    - generic [ref=e105]:
+      - text: •
+      - main [ref=e106]:
+        - generic [ref=e107]:
+          - generic [ref=e109]:
+            - tablist [ref=e114]:
+              - tab "All" [selected] [ref=e118] [cursor=pointer]:
+                - generic [ref=e119]: All
+              - tab "Shorts" [ref=e126] [cursor=pointer]:
+                - generic [ref=e127]: Shorts
+              - tab "Videos" [ref=e134] [cursor=pointer]:
+                - generic [ref=e135]: Videos
+              - tab "Unwatched" [ref=e142] [cursor=pointer]:
+                - generic [ref=e143]: Unwatched
+              - tab "Watched" [ref=e150] [cursor=pointer]:
+                - generic [ref=e151]: Watched
+              - tab "Recently uploaded" [ref=e158] [cursor=pointer]:
+                - generic [ref=e159]: Recently uploaded
+              - tab "Live" [ref=e166] [cursor=pointer]:
+                - generic [ref=e167]: Live
+              - tab "Playlists" [ref=e174] [cursor=pointer]:
+                - generic [ref=e175]: Playlists
+            - generic [ref=e180]:
+              - button "Search filters" [ref=e182] [cursor=pointer]:
+                - generic [ref=e183]: Filters
+              - tooltip "tooltip"
+          - generic [ref=e194]:
+            - generic [ref=e203] [cursor=pointer]:
+              - link [ref=e204]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CZ2W4K56EaYSDM9LwzeYP5sjtmAu_3cWUhQHYlb6K2RWwkB8QASAAYMvctAWCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABgvnmowKoAwTIAwqqBK0CT9AFCNYxW9u4nNkawP1VTC-s5dbR7xCUoKPLgq9t9TEsaWVDJUJowrDJRh3jfcSdZ4vI70oflzevMCd03j7Q8mtjiU6836jZg_lcak5HJollxucL1umGt75rgfhHApJvIzeZjFRtRaX4WTiIGkx8g3X9GFwgbX4-XTMQoUf3WZpnGW2ayD1Urp5wbHNaoNOIgBQpSLZp9LyE3Mz2l7bRrnLyki3vXJmSx-y5i5alTll--3tPnGqoxA7LQctku2XwdoZhCLIH3-8X6ugjbrgPsK2ubdMUCLc47hrVRIrYrlDfeg7qdSDfN41ZKm8iejDqk4Ip7H3I7t8YnlEGhjMBmw0fwlUi_mBpwqV0fgn5NFdlV93xLxjjp_eTugFIrxyT4oMbf8KCwY2GapyWYIgFobDlzFeSBQgIE3ips6b6AaAGoQGAB_uYvtkBkAcEqAfywLECqAfytLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAfKurECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAtrT2pnTFBRcTE3Z6gIAdIIKQiAQRABGF4yAoICOgyAQoDAgICAgICAAipI2aDSNVAUWMClgbS9wpIDmgkiaHR0cHM6Ly9jbGlja3VwLmNvbS9scC9nZXQtc3RhcnRlZLEJ0V28ydVkaOHICRfICY8ByAnCAZgLAboLPQgDEAUYBCAHKAEwBUABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIJugMFdmlncnHQCxKiDAgqBgoE6MKxAtIMAhAB2gwmCgsQoKWVgaK1he-PARICAQMaDRihsOXMVyCVuu2mzAVAAUoCEB-aDQESqg0CUEvIDQHSDacEaHR0cHM6Ly9jbGlja3VwLmNvbS9scC9nZXQtc3RhcnRlZD91dG1fc291cmNlPXlvdXR1YmUmdXRtX21lZGl1bT1jcG0mdXRtX2NhbXBhaWduPXl0X2NwbV9hcGFjX25uY19wcm9fdHJpYWxfYWxsLWRldmljZXNfdHJvYXNfbHBfeF9hbGwtZGVwYXJ0bWVudHNfeF9hbGwtY3VzdG9tLWNvbWJpbmF0aW9ucy1scHRlc3QmdXRtX2NvbnRlbnQ9YXBhY19jcy1hcHBzX3J2YV9hbGwtaW5kdXN0cmllc19hbGwtZmVhdHVyZXNfYWxsLXVzZS1jYXNlc19wcm9qZWN0LW1hbmFnZW1lbnQmdXRtX3Rlcm09YWYtdmlkZW9fcy1pbnRlcm5hbHZpZGVvX2xlbi0zMHNlY19hci0xNng5X2N0YS1jcmVhdGV3b3Jrc3BhY2VfaWNwLWFsbF9wLWV2ZXJ5dGhpbmdhcHBfbHAtaHAtcGFpZF90di14X2FzLUJlZm9yZUFmdGVyX3N0LW1vdGlvbmdyYXBoaWNfaC13b3JraXNicm9rZW5faS14X0FELTE5ODAyLUNvbnZlcmdlbmNlX2F2LXYyLW5vY29tcGV0aXRvcmxvZ29zX2N2LXYxLWNvbnN1bWVycGF5b2ZmX2QtMjAyNS0wNC0xNSZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM1MTQ5MjkxODW4E____________wGIFAGwFAPAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXFggDGAEgASgBMAE4AUABSAFQAVgBYAKgFwGpF5iTryTtX4KuuhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=EAIaIQobChMIxMSBtL3CkgMVUnjTBh1mZBuzEAEYASAAEgLB_PD_BwE&num=1&cid=CAASqgHkaALkVkzvTlQarcA-XSs5FvOwwDzxjH-yBtt5L8OB3ttgofRk2eovMhbewMWOe1LBKkANGA3e1kh5WvXwyeV7DPPcjoQF988_j7lfVunxKLTuX5umXuR9LUoebhD6LToHcvZaCPrIIuCQQjSArn5sjIb4wDBoDOXdmOBIIJ4a0xPjEa2JoFretO06Cao33W6g03m8JpVmY9BHpR_lZBZs5bIWxHRno7SeYg&ad_cpn=%5BCPN%5D&sig=AOD64_1PgPUSuupT9o1CkKBZQ3A_J-KWTg&ctype=110&video_id=kOjgLPQq17g&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=21&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                - button [ref=e209]
+              - generic [ref=e215]:
+                - generic [ref=e216]:
+                  - generic [ref=e217]:
+                    - link "10x Your Work with Smart Tools That Streamline Projects, Docs, and Goals in ClickUp" [ref=e220]:
+                      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CZ2W4K56EaYSDM9LwzeYP5sjtmAu_3cWUhQHYlb6K2RWwkB8QASAAYMvctAWCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABgvnmowKoAwTIAwqqBK0CT9AFCNYxW9u4nNkawP1VTC-s5dbR7xCUoKPLgq9t9TEsaWVDJUJowrDJRh3jfcSdZ4vI70oflzevMCd03j7Q8mtjiU6836jZg_lcak5HJollxucL1umGt75rgfhHApJvIzeZjFRtRaX4WTiIGkx8g3X9GFwgbX4-XTMQoUf3WZpnGW2ayD1Urp5wbHNaoNOIgBQpSLZp9LyE3Mz2l7bRrnLyki3vXJmSx-y5i5alTll--3tPnGqoxA7LQctku2XwdoZhCLIH3-8X6ugjbrgPsK2ubdMUCLc47hrVRIrYrlDfeg7qdSDfN41ZKm8iejDqk4Ip7H3I7t8YnlEGhjMBmw0fwlUi_mBpwqV0fgn5NFdlV93xLxjjp_eTugFIrxyT4oMbf8KCwY2GapyWYIgFobDlzFeSBQgIE3ips6b6AaAGoQGAB_uYvtkBkAcEqAfywLECqAfytLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAfKurECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAtrT2pnTFBRcTE3Z6gIAdIIKQiAQRABGF4yAoICOgyAQoDAgICAgICAAipI2aDSNVAUWMClgbS9wpIDmgkiaHR0cHM6Ly9jbGlja3VwLmNvbS9scC9nZXQtc3RhcnRlZLEJ0V28ydVkaOHICRfICY8ByAnCAZgLAboLPQgDEAUYBCAHKAEwBUABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIJugMFdmlncnHQCxKiDAgqBgoE6MKxAtIMAhAB2gwmCgsQoKWVgaK1he-PARICAQMaDRihsOXMVyCVuu2mzAVAAUoCEB-aDQESqg0CUEvIDQHSDacEaHR0cHM6Ly9jbGlja3VwLmNvbS9scC9nZXQtc3RhcnRlZD91dG1fc291cmNlPXlvdXR1YmUmdXRtX21lZGl1bT1jcG0mdXRtX2NhbXBhaWduPXl0X2NwbV9hcGFjX25uY19wcm9fdHJpYWxfYWxsLWRldmljZXNfdHJvYXNfbHBfeF9hbGwtZGVwYXJ0bWVudHNfeF9hbGwtY3VzdG9tLWNvbWJpbmF0aW9ucy1scHRlc3QmdXRtX2NvbnRlbnQ9YXBhY19jcy1hcHBzX3J2YV9hbGwtaW5kdXN0cmllc19hbGwtZmVhdHVyZXNfYWxsLXVzZS1jYXNlc19wcm9qZWN0LW1hbmFnZW1lbnQmdXRtX3Rlcm09YWYtdmlkZW9fcy1pbnRlcm5hbHZpZGVvX2xlbi0zMHNlY19hci0xNng5X2N0YS1jcmVhdGV3b3Jrc3BhY2VfaWNwLWFsbF9wLWV2ZXJ5dGhpbmdhcHBfbHAtaHAtcGFpZF90di14X2FzLUJlZm9yZUFmdGVyX3N0LW1vdGlvbmdyYXBoaWNfaC13b3JraXNicm9rZW5faS14X0FELTE5ODAyLUNvbnZlcmdlbmNlX2F2LXYyLW5vY29tcGV0aXRvcmxvZ29zX2N2LXYxLWNvbnN1bWVycGF5b2ZmX2QtMjAyNS0wNC0xNSZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM1MTQ5MjkxODW4E____________wGIFAGwFAPAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXFggDGAEgASgBMAE4AUABSAFQAVgBYAKgFwGpF5iTryTtX4KuuhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=EAIaIQobChMIxMSBtL3CkgMVUnjTBh1mZBuzEAEYASAAEgLB_PD_BwE&num=1&cid=CAASqgHkaALkVkzvTlQarcA-XSs5FvOwwDzxjH-yBtt5L8OB3ttgofRk2eovMhbewMWOe1LBKkANGA3e1kh5WvXwyeV7DPPcjoQF988_j7lfVunxKLTuX5umXuR9LUoebhD6LToHcvZaCPrIIuCQQjSArn5sjIb4wDBoDOXdmOBIIJ4a0xPjEa2JoFretO06Cao33W6g03m8JpVmY9BHpR_lZBZs5bIWxHRno7SeYg&ad_cpn=%5BCPN%5D&sig=AOD64_1PgPUSuupT9o1CkKBZQ3A_J-KWTg&ctype=110&video_id=kOjgLPQq17g&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                    - link "ClickUp™ | Unlock Unparalleled Productivity with the World’s First Everything App." [ref=e223]:
+                      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CZ2W4K56EaYSDM9LwzeYP5sjtmAu_3cWUhQHYlb6K2RWwkB8QASAAYMvctAWCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABgvnmowKoAwTIAwqqBK0CT9AFCNYxW9u4nNkawP1VTC-s5dbR7xCUoKPLgq9t9TEsaWVDJUJowrDJRh3jfcSdZ4vI70oflzevMCd03j7Q8mtjiU6836jZg_lcak5HJollxucL1umGt75rgfhHApJvIzeZjFRtRaX4WTiIGkx8g3X9GFwgbX4-XTMQoUf3WZpnGW2ayD1Urp5wbHNaoNOIgBQpSLZp9LyE3Mz2l7bRrnLyki3vXJmSx-y5i5alTll--3tPnGqoxA7LQctku2XwdoZhCLIH3-8X6ugjbrgPsK2ubdMUCLc47hrVRIrYrlDfeg7qdSDfN41ZKm8iejDqk4Ip7H3I7t8YnlEGhjMBmw0fwlUi_mBpwqV0fgn5NFdlV93xLxjjp_eTugFIrxyT4oMbf8KCwY2GapyWYIgFobDlzFeSBQgIE3ips6b6AaAGoQGAB_uYvtkBkAcEqAfywLECqAfytLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAfKurECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAtrT2pnTFBRcTE3Z6gIAdIIKQiAQRABGF4yAoICOgyAQoDAgICAgICAAipI2aDSNVAUWMClgbS9wpIDmgkiaHR0cHM6Ly9jbGlja3VwLmNvbS9scC9nZXQtc3RhcnRlZLEJ0V28ydVkaOHICRfICY8ByAnCAZgLAboLPQgDEAUYBCAHKAEwBUABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIJugMFdmlncnHQCxKiDAgqBgoE6MKxAtIMAhAB2gwmCgsQoKWVgaK1he-PARICAQMaDRihsOXMVyCVuu2mzAVAAUoCEB-aDQESqg0CUEvIDQHSDacEaHR0cHM6Ly9jbGlja3VwLmNvbS9scC9nZXQtc3RhcnRlZD91dG1fc291cmNlPXlvdXR1YmUmdXRtX21lZGl1bT1jcG0mdXRtX2NhbXBhaWduPXl0X2NwbV9hcGFjX25uY19wcm9fdHJpYWxfYWxsLWRldmljZXNfdHJvYXNfbHBfeF9hbGwtZGVwYXJ0bWVudHNfeF9hbGwtY3VzdG9tLWNvbWJpbmF0aW9ucy1scHRlc3QmdXRtX2NvbnRlbnQ9YXBhY19jcy1hcHBzX3J2YV9hbGwtaW5kdXN0cmllc19hbGwtZmVhdHVyZXNfYWxsLXVzZS1jYXNlc19wcm9qZWN0LW1hbmFnZW1lbnQmdXRtX3Rlcm09YWYtdmlkZW9fcy1pbnRlcm5hbHZpZGVvX2xlbi0zMHNlY19hci0xNng5X2N0YS1jcmVhdGV3b3Jrc3BhY2VfaWNwLWFsbF9wLWV2ZXJ5dGhpbmdhcHBfbHAtaHAtcGFpZF90di14X2FzLUJlZm9yZUFmdGVyX3N0LW1vdGlvbmdyYXBoaWNfaC13b3JraXNicm9rZW5faS14X0FELTE5ODAyLUNvbnZlcmdlbmNlX2F2LXYyLW5vY29tcGV0aXRvcmxvZ29zX2N2LXYxLWNvbnN1bWVycGF5b2ZmX2QtMjAyNS0wNC0xNSZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM1MTQ5MjkxODW4E____________wGIFAGwFAPAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXFggDGAEgASgBMAE4AUABSAFQAVgBYAKgFwGpF5iTryTtX4KuuhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=EAIaIQobChMIxMSBtL3CkgMVUnjTBh1mZBuzEAEYASAAEgLB_PD_BwE&num=1&cid=CAASqgHkaALkVkzvTlQarcA-XSs5FvOwwDzxjH-yBtt5L8OB3ttgofRk2eovMhbewMWOe1LBKkANGA3e1kh5WvXwyeV7DPPcjoQF988_j7lfVunxKLTuX5umXuR9LUoebhD6LToHcvZaCPrIIuCQQjSArn5sjIb4wDBoDOXdmOBIIJ4a0xPjEa2JoFretO06Cao33W6g03m8JpVmY9BHpR_lZBZs5bIWxHRno7SeYg&ad_cpn=%5BCPN%5D&sig=AOD64_1PgPUSuupT9o1CkKBZQ3A_J-KWTg&ctype=110&video_id=kOjgLPQq17g&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                    - generic [ref=e224]:
+                      - button "ClickUp" [ref=e228]
+                      - generic [ref=e232]:
+                        - generic [ref=e233]: Sponsored
+                        - text: ·
+                      - generic [ref=e235]: ClickUp
+                  - button "My Ad Center" [ref=e238]:
+                    - generic [ref=e242]:
+                      - img
+                - generic [ref=e248]:
+                  - link "Watch" [ref=e251]:
+                    - /url: /watch?v=kOjgLPQq17g
+                    - generic [ref=e252]: Watch
+                  - link "Visit site" [ref=e258]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CZ2W4K56EaYSDM9LwzeYP5sjtmAu_3cWUhQHYlb6K2RWwkB8QASAAYMvctAWCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABgvnmowKoAwTIAwqqBK0CT9AFCNYxW9u4nNkawP1VTC-s5dbR7xCUoKPLgq9t9TEsaWVDJUJowrDJRh3jfcSdZ4vI70oflzevMCd03j7Q8mtjiU6836jZg_lcak5HJollxucL1umGt75rgfhHApJvIzeZjFRtRaX4WTiIGkx8g3X9GFwgbX4-XTMQoUf3WZpnGW2ayD1Urp5wbHNaoNOIgBQpSLZp9LyE3Mz2l7bRrnLyki3vXJmSx-y5i5alTll--3tPnGqoxA7LQctku2XwdoZhCLIH3-8X6ugjbrgPsK2ubdMUCLc47hrVRIrYrlDfeg7qdSDfN41ZKm8iejDqk4Ip7H3I7t8YnlEGhjMBmw0fwlUi_mBpwqV0fgn5NFdlV93xLxjjp_eTugFIrxyT4oMbf8KCwY2GapyWYIgFobDlzFeSBQgIE3ips6b6AaAGoQGAB_uYvtkBkAcEqAfywLECqAfytLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAfKurECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAtrT2pnTFBRcTE3Z6gIAdIIKQiAQRABGF4yAoICOgyAQoDAgICAgICAAipI2aDSNVAUWMClgbS9wpIDmgkiaHR0cHM6Ly9jbGlja3VwLmNvbS9scC9nZXQtc3RhcnRlZLEJ0V28ydVkaOHICRfICY8ByAnCAZgLAboLPQgDEAUYBCAHKAEwBUABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIJugMFdmlncnHQCxKiDAgqBgoE6MKxAtIMAhAB2gwmCgsQoKWVgaK1he-PARICAQMaDRihsOXMVyCVuu2mzAVAAUoCEB-aDQESqg0CUEvIDQHSDacEaHR0cHM6Ly9jbGlja3VwLmNvbS9scC9nZXQtc3RhcnRlZD91dG1fc291cmNlPXlvdXR1YmUmdXRtX21lZGl1bT1jcG0mdXRtX2NhbXBhaWduPXl0X2NwbV9hcGFjX25uY19wcm9fdHJpYWxfYWxsLWRldmljZXNfdHJvYXNfbHBfeF9hbGwtZGVwYXJ0bWVudHNfeF9hbGwtY3VzdG9tLWNvbWJpbmF0aW9ucy1scHRlc3QmdXRtX2NvbnRlbnQ9YXBhY19jcy1hcHBzX3J2YV9hbGwtaW5kdXN0cmllc19hbGwtZmVhdHVyZXNfYWxsLXVzZS1jYXNlc19wcm9qZWN0LW1hbmFnZW1lbnQmdXRtX3Rlcm09YWYtdmlkZW9fcy1pbnRlcm5hbHZpZGVvX2xlbi0zMHNlY19hci0xNng5X2N0YS1jcmVhdGV3b3Jrc3BhY2VfaWNwLWFsbF9wLWV2ZXJ5dGhpbmdhcHBfbHAtaHAtcGFpZF90di14X2FzLUJlZm9yZUFmdGVyX3N0LW1vdGlvbmdyYXBoaWNfaC13b3JraXNicm9rZW5faS14X0FELTE5ODAyLUNvbnZlcmdlbmNlX2F2LXYyLW5vY29tcGV0aXRvcmxvZ29zX2N2LXYxLWNvbnN1bWVycGF5b2ZmX2QtMjAyNS0wNC0xNSZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM1MTQ5MjkxODW4E____________wGIFAGwFAPAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXFggDGAEgASgBMAE4AUABSAFQAVgBYAKgFwGpF5iTryTtX4KuuhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=EAIaIQobChMIxMSBtL3CkgMVUnjTBh1mZBuzEAEYASAAEgLB_PD_BwE&num=1&cid=CAASqgHkaALkVkzvTlQarcA-XSs5FvOwwDzxjH-yBtt5L8OB3ttgofRk2eovMhbewMWOe1LBKkANGA3e1kh5WvXwyeV7DPPcjoQF988_j7lfVunxKLTuX5umXuR9LUoebhD6LToHcvZaCPrIIuCQQjSArn5sjIb4wDBoDOXdmOBIIJ4a0xPjEa2JoFretO06Cao33W6g03m8JpVmY9BHpR_lZBZs5bIWxHRno7SeYg&ad_cpn=%5BCPN%5D&sig=AOD64_1PgPUSuupT9o1CkKBZQ3A_J-KWTg&ctype=110&video_id=kOjgLPQq17g&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=8&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                    - generic [ref=e259]: Visit site
+            - generic [ref=e264] [cursor=pointer]:
+              - link [ref=e265]:
+                - /url: /watch?v=QKBa8lt5Wfo&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5
+                - generic [ref=e277]: 36 videos
+              - generic [ref=e280]:
+                - heading "API Testing by Testers Talk☑️" [level=3] [ref=e281]:
+                  - link "API Testing by Testers Talk☑️" [ref=e282]:
+                    - /url: /watch?v=QKBa8lt5Wfo&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5
+                - generic [ref=e284]:
+                  - generic [ref=e285]:
+                    - link "Testers Talk" [ref=e288]:
+                      - /url: /@testerstalk
+                    - generic [ref=e289]: •
+                    - link "Playlist" [ref=e292]:
+                      - /url: /@testerstalk
+                  - link "API Testing Postman Tutorial Full Course 2024 · 2:43:38" [ref=e296]:
+                    - /url: /watch?v=QKBa8lt5Wfo&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5
+                  - link "REST Assured API Testing Tutorial Crash Course 2024 · 4:06:41" [ref=e299]:
+                    - /url: /watch?v=o9KJhGHl49M&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&pp=0gcJCRgBOCosWNin
+                  - link "View full playlist" [ref=e304]:
+                    - /url: /playlist?list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5
+            - generic [ref=e306] [cursor=pointer]:
+              - link [ref=e307]:
+                - /url: /watch?v=-HJjbich0dQ&list=PLUeDIlio4THG6Cq08lHiG0hdyftundzrj
+                - generic [ref=e319]: 25 videos
+              - generic [ref=e322]:
+                - heading "Rest Assured API Testing by Testers Talk" [level=3] [ref=e323]:
+                  - link "Rest Assured API Testing by Testers Talk" [ref=e324]:
+                    - /url: /watch?v=-HJjbich0dQ&list=PLUeDIlio4THG6Cq08lHiG0hdyftundzrj
+                - generic [ref=e326]:
+                  - generic [ref=e327]:
+                    - link "Testers Talk" [ref=e330]:
+                      - /url: /@testerstalk
+                    - generic [ref=e331]: •
+                    - link "Playlist" [ref=e334]:
+                      - /url: /@testerstalk
+                  - link "REST Assured API Testing Full Course Overview · 4:13" [ref=e338]:
+                    - /url: /watch?v=-HJjbich0dQ&list=PLUeDIlio4THG6Cq08lHiG0hdyftundzrj
+                  - link "REST Assured API Testing Tutorial Crash Course 2024 · 4:06:41" [ref=e341]:
+                    - /url: /watch?v=o9KJhGHl49M&list=PLUeDIlio4THG6Cq08lHiG0hdyftundzrj
+                  - link "View full playlist" [ref=e346]:
+                    - /url: /playlist?list=PLUeDIlio4THG6Cq08lHiG0hdyftundzrj
+            - generic [ref=e348] [cursor=pointer]:
+              - link [ref=e349]:
+                - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz
+                - generic [ref=e361]: 24 videos
+              - generic [ref=e364]:
+                - heading "Playwright API Testing by Testers Talk☑️" [level=3] [ref=e365]:
+                  - link "Playwright API Testing by Testers Talk☑️" [ref=e366]:
+                    - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz
+                - generic [ref=e368]:
+                  - generic [ref=e369]:
+                    - link "Testers Talk" [ref=e372]:
+                      - /url: /@testerstalk
+                    - generic [ref=e373]: •
+                    - link "Playlist" [ref=e376]:
+                      - /url: /@testerstalk
+                  - link "#2 Playwright API Testing Tutorial Crash Course 2024 · 1:59:55" [ref=e380]:
+                    - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz
+                  - link "#1 Playwright Tutorial Full Course 2025 | Playwright Testing Tutorial · 6:55:08" [ref=e383]:
+                    - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz
+                  - link "View full playlist" [ref=e388]:
+                    - /url: /playlist?list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz
+            - generic [ref=e390] [cursor=pointer]:
+              - link [ref=e391]:
+                - /url: /watch?v=QKBa8lt5Wfo&list=PLUeDIlio4THGcgNP3_Ocb_I_l4ITai5QT
+                - generic [ref=e403]: 16 videos
+              - generic [ref=e406]:
+                - heading "Postman by Testers Talk☑️" [level=3] [ref=e407]:
+                  - link "Postman by Testers Talk☑️" [ref=e408]:
+                    - /url: /watch?v=QKBa8lt5Wfo&list=PLUeDIlio4THGcgNP3_Ocb_I_l4ITai5QT
+                - generic [ref=e410]:
+                  - generic [ref=e411]:
+                    - link "Testers Talk" [ref=e414]:
+                      - /url: /@testerstalk
+                    - generic [ref=e415]: •
+                    - link "Playlist" [ref=e418]:
+                      - /url: /@testerstalk
+                  - link "API Testing Postman Tutorial Full Course 2024 · 2:43:38" [ref=e422]:
+                    - /url: /watch?v=QKBa8lt5Wfo&list=PLUeDIlio4THGcgNP3_Ocb_I_l4ITai5QT
+                  - link "Postman API Testing Tutorial Chapter-01 | Postman API Testing Tutorial for Beginners · 34:11" [ref=e425]:
+                    - /url: /watch?v=Yi2J-AJiFMs&list=PLUeDIlio4THGcgNP3_Ocb_I_l4ITai5QT
+                  - link "View full playlist" [ref=e430]:
+                    - /url: /playlist?list=PLUeDIlio4THGcgNP3_Ocb_I_l4ITai5QT
+            - generic [ref=e432]:
+              - link [ref=e434] [cursor=pointer]:
+                - /url: /watch?v=7vXcwuoCFSk&pp=ygUhQVBJIFRlc3RpbmcgYnkgVGVzdGVycyBUYWxr4piR77iP
+              - generic [ref=e436] [cursor=pointer]:
+                - generic [ref=e437]:
+                  - generic [ref=e438]:
+                    - heading "API Testing FREE TRAINING | Complete Guide | LIVE | Testers Talk 2 hours, 47 minutes" [level=3] [ref=e439]:
+                      - link "API Testing FREE TRAINING | Complete Guide | LIVE | Testers Talk 2 hours, 47 minutes" [ref=e440]:
+                        - /url: /watch?v=7vXcwuoCFSk&pp=ygUhQVBJIFRlc3RpbmcgYnkgVGVzdGVycyBUYWxr4piR77iP
+                        - text: API Testing FREE TRAINING | Complete Guide | LIVE | Testers Talk
+                    - button "Action menu" [ref=e444]:
+                      - generic [ref=e447]:
+                        - img
+                  - generic [ref=e450]:
+                    - generic [ref=e451]: 840 views
+                    - generic [ref=e452]: •Streamed 2 years ago
+                - generic [ref=e453]:
+                  - link "Go to channel Testers Talk" [ref=e454]:
+                    - /url: /@testerstalk
+                  - link "Testers Talk" [ref=e459]:
+                    - /url: /@testerstalk
+                - generic [ref=e460]:
+                  - generic [ref=e461]: "API Testing Postman Tutorial Full Course 2023 | Postman Tutorial | Rest API Testing Tutorial | Restful Webservices #apitesting ..."
+                  - tooltip "tooltip"
+                - generic [ref=e464]:
+                  - generic [ref=e465]:
+                    - generic [ref=e469]: 75 chapters
+                    - button [ref=e470]
+                  - button "More" [ref=e475]:
+                    - generic [ref=e479]:
+                      - img
+            - generic [ref=e484] [cursor=pointer]:
+              - link [ref=e485]:
+                - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THEvZ6mygfkOwSFncrVtd8Hk
+                - generic [ref=e497]: 16 videos
+              - generic [ref=e500]:
+                - heading "Playwright API Testing Tutorial" [level=3] [ref=e501]:
+                  - link "Playwright API Testing Tutorial" [ref=e502]:
+                    - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THEvZ6mygfkOwSFncrVtd8Hk
+                - generic [ref=e504]:
+                  - generic [ref=e505]:
+                    - link "Testers Talk" [ref=e508]:
+                      - /url: /@testerstalk
+                    - generic [ref=e509]: •
+                    - link "Playlist" [ref=e512]:
+                      - /url: /@testerstalk
+                  - link "#2 Playwright API Testing Tutorial Crash Course 2024 · 1:59:55" [ref=e516]:
+                    - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THEvZ6mygfkOwSFncrVtd8Hk
+                  - link "#1 Playwright Tutorial Full Course 2025 | Playwright Testing Tutorial · 6:55:08" [ref=e519]:
+                    - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THEvZ6mygfkOwSFncrVtd8Hk
+                  - link "View full playlist" [ref=e524]:
+                    - /url: /playlist?list=PLUeDIlio4THEvZ6mygfkOwSFncrVtd8Hk
+            - generic [ref=e526] [cursor=pointer]:
+              - link [ref=e527]:
+                - /url: /watch?v=-HJjbich0dQ&list=PLUeDIlio4THGL7lQXQwxsV9re_i0U2b0Q
+                - generic [ref=e539]: 26 videos
+              - generic [ref=e542]:
+                - heading "Rest Assured by Testers Talk☑️" [level=3] [ref=e543]:
+                  - link "Rest Assured by Testers Talk☑️" [ref=e544]:
+                    - /url: /watch?v=-HJjbich0dQ&list=PLUeDIlio4THGL7lQXQwxsV9re_i0U2b0Q
+                - generic [ref=e546]:
+                  - generic [ref=e547]:
+                    - link "Testers Talk" [ref=e550]:
+                      - /url: /@testerstalk
+                    - generic [ref=e551]: •
+                    - link "Playlist" [ref=e554]:
+                      - /url: /@testerstalk
+                  - link "REST Assured API Testing Full Course Overview · 4:13" [ref=e558]:
+                    - /url: /watch?v=-HJjbich0dQ&list=PLUeDIlio4THGL7lQXQwxsV9re_i0U2b0Q
+                  - link "Rest Assured API Automation Framework GitHub Repository · 0:51" [ref=e561]:
+                    - /url: /watch?v=vHgjTkSn778&list=PLUeDIlio4THGL7lQXQwxsV9re_i0U2b0Q
+                  - link "View full playlist" [ref=e566]:
+                    - /url: /playlist?list=PLUeDIlio4THGL7lQXQwxsV9re_i0U2b0Q
+            - generic [ref=e568]:
+              - link [ref=e570] [cursor=pointer]:
+                - /url: /watch?v=QKBa8lt5Wfo&pp=ygUhQVBJIFRlc3RpbmcgYnkgVGVzdGVycyBUYWxr4piR77iP
+              - generic [ref=e572] [cursor=pointer]:
+                - generic [ref=e573]:
+                  - generic [ref=e574]:
+                    - heading "API Testing Postman Tutorial Full Course 2024 2 hours, 43 minutes" [level=3] [ref=e575]:
+                      - link "API Testing Postman Tutorial Full Course 2024 2 hours, 43 minutes" [ref=e576]:
+                        - /url: /watch?v=QKBa8lt5Wfo&pp=ygUhQVBJIFRlc3RpbmcgYnkgVGVzdGVycyBUYWxr4piR77iP
+                        - text: API Testing Postman Tutorial Full Course 2024
+                    - button "Action menu" [ref=e580]:
+                      - generic [ref=e583]:
+                        - img
+                  - generic [ref=e586]:
+                    - generic [ref=e587]: 153K views
+                    - generic [ref=e588]: •2 years ago
+                - generic [ref=e589]:
+                  - link "Go to channel Testers Talk" [ref=e590]:
+                    - /url: /@testerstalk
+                  - link "Testers Talk" [ref=e595]:
+                    - /url: /@testerstalk
+                - generic [ref=e596]:
+                  - generic [ref=e597]: "API Testing Postman Tutorial Full Course | Postman Tutorial | Rest API Testing Tutorial | Restful Webservices #apitesting ..."
+                  - tooltip "tooltip"
+                - generic [ref=e600]:
+                  - generic [ref=e601]:
+                    - generic [ref=e605]: 75 chapters
+                    - button [ref=e606]
+                  - button "More" [ref=e611]:
+                    - generic [ref=e615]:
+                      - img
+            - generic [ref=e620]:
+              - link [ref=e622] [cursor=pointer]:
+                - /url: /@testerstalk
+              - generic [ref=e625]:
+                - link "Testers Talk @testerstalk•28.2K subscribers Hi Friends Welcome to Testers Talk channel, Myself Bakkappa N. I have been working as QA SDET Automation Test Lead over a ..." [ref=e626] [cursor=pointer]:
+                  - /url: /@testerstalk
+                  - generic [ref=e627]:
+                    - generic [ref=e631]: Testers Talk
+                    - generic [ref=e632]: "@testerstalk•28.2K subscribers"
+                    - generic [ref=e633]: Hi Friends Welcome to Testers Talk channel, Myself Bakkappa N. I have been working as QA SDET Automation Test Lead over a ...
+                - link "Subscribe" [ref=e638] [cursor=pointer]:
+                  - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253DAPI%252BTesting%252Bby%252BTesters%252BTalk%2525E2%252598%252591%2525EF%2525B8%25258F%26continue_action%3DQUFFLUhqa2dhQXdsOW9FWFVLOXRETzE0LWsxMmx0dml0Z3xBQ3Jtc0trYU9EVHlTdDNxSnBwamYybmRzVnBFTkY5VFNXdzAzV1dCNVhZc3YzQ0ZCS3dwVlVBbzgwZDZLTTZ2aTJlR3FUenZHVW5YMC1GbWh3R0RIRGV6LWpoSkhFZnhLWDVOWGowN0ZQMGVKNTd1U1VvcFZuRTh3Q2NPSVpYUFlTNDhIcTlQQlgxanBLRTVHSnZrTWtmT2lZS2NrWnAyMXl5ME1TbjFPLUpaMDhuTDNjYnBsUURsdXplQVk3LUY0Rm0ybE56UC1WbEM&hl=en
+                  - generic [ref=e639]: Subscribe
+            - generic [ref=e643]:
+              - generic [ref=e646]:
+                - img [ref=e648]
+                - heading "Shorts" [level=2] [ref=e651]
+              - generic [ref=e653]:
+                - generic [ref=e656]:
+                  - link [ref=e657] [cursor=pointer]:
+                    - /url: /shorts/8QbncQ3Hr-0
+                  - generic [ref=e661] [cursor=pointer]:
+                    - link "API testing with TechieQA" [ref=e662]:
+                      - /url: /shorts/8QbncQ3Hr-0
+                    - generic [ref=e663]: 351K views
+                  - button "More actions" [ref=e665] [cursor=pointer]:
+                    - generic [ref=e669]:
+                      - img
+                - generic [ref=e675]:
+                  - link [ref=e676] [cursor=pointer]:
+                    - /url: /shorts/TgOCTeOydVE
+                    - img [ref=e681]:
+                      - generic [ref=e682]: New
+                  - generic [ref=e683] [cursor=pointer]:
+                    - link "10 Advanced Playwright Java Coding Examples | Senior QA Automation Interview Questions" [ref=e684]:
+                      - /url: /shorts/TgOCTeOydVE
+                    - generic [ref=e685]: No views
+                  - button "More actions" [ref=e687] [cursor=pointer]:
+                    - generic [ref=e691]:
+                      - img
+                - generic [ref=e697]:
+                  - link [ref=e698] [cursor=pointer]:
+                    - /url: /shorts/T34vwJx2rHI
+                  - generic [ref=e702] [cursor=pointer]:
+                    - 'link "#19 Does Playwright supports API Testing? #playwright #testing #automation #tutorial" [ref=e703]':
+                      - /url: /shorts/T34vwJx2rHI
+                    - generic [ref=e704]: 6.8K views
+                  - button "More actions" [ref=e706] [cursor=pointer]:
+                    - generic [ref=e710]:
+                      - img
+                - generic [ref=e716]:
+                  - link [ref=e717] [cursor=pointer]:
+                    - /url: /shorts/HlVudkFKXwU
+                  - generic [ref=e721] [cursor=pointer]:
+                    - link "Postman API Testing Interview Questions (Part 1) | STAD Solution | Software Testing" [ref=e722]:
+                      - /url: /shorts/HlVudkFKXwU
+                    - generic [ref=e723]: 121K views
+                  - button "More actions" [ref=e725] [cursor=pointer]:
+                    - generic [ref=e729]:
+                      - img
+                - generic [ref=e735]:
+                  - link [ref=e736] [cursor=pointer]:
+                    - /url: /shorts/xvrv7PD_bes
+                  - generic [ref=e740] [cursor=pointer]:
+                    - 'link "How do I identify testcases for API testing #apitesting #interviewquestions #interviewtips" [ref=e741]':
+                      - /url: /shorts/xvrv7PD_bes
+                    - generic [ref=e742]: 5.9K views
+                  - button "More actions" [ref=e744] [cursor=pointer]:
+                    - generic [ref=e748]:
+                      - img
+              - button "Show more" [ref=e755] [cursor=pointer]:
+                - generic [ref=e756]: Show more
+                - generic [ref=e760]:
+                  - img
+            - generic [ref=e765] [cursor=pointer]:
+              - link [ref=e766]:
+                - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+                - generic [ref=e778]: 82 videos
+              - generic [ref=e781]:
+                - heading "Playwright by Testers Talk ✅" [level=3] [ref=e782]:
+                  - link "Playwright by Testers Talk ✅" [ref=e783]:
+                    - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+                - generic [ref=e785]:
+                  - generic [ref=e786]:
+                    - link "Testers Talk" [ref=e789]:
+                      - /url: /@testerstalk
+                    - generic [ref=e790]: •
+                    - link "Playlist" [ref=e793]:
+                      - /url: /@testerstalk
+                  - link "#1 Playwright Tutorial Full Course 2025 | Playwright Testing Tutorial · 6:55:08" [ref=e797]:
+                    - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+                  - link "#2 Playwright API Testing Tutorial Crash Course 2024 · 1:59:55" [ref=e800]:
+                    - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+                  - link "View full playlist" [ref=e805]:
+                    - /url: /playlist?list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+            - generic [ref=e807] [cursor=pointer]:
+              - link [ref=e808]:
+                - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THH26-8TItkmNzAybQ9kBUZ5
+                - generic [ref=e820]: 16 videos
+              - generic [ref=e823]:
+                - heading "Playwright API Automation with JavaScript☑️" [level=3] [ref=e824]:
+                  - link "Playwright API Automation with JavaScript☑️" [ref=e825]:
+                    - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THH26-8TItkmNzAybQ9kBUZ5
+                - generic [ref=e827]:
+                  - generic [ref=e828]:
+                    - link "Testers Talk" [ref=e831]:
+                      - /url: /@testerstalk
+                    - generic [ref=e832]: •
+                    - link "Playlist" [ref=e835]:
+                      - /url: /@testerstalk
+                  - link "#2 Playwright API Testing Tutorial Crash Course 2024 · 1:59:55" [ref=e839]:
+                    - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THH26-8TItkmNzAybQ9kBUZ5
+                  - link "#1 Playwright Tutorial Full Course 2025 | Playwright Testing Tutorial · 6:55:08" [ref=e842]:
+                    - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THH26-8TItkmNzAybQ9kBUZ5
+                  - link "View full playlist" [ref=e847]:
+                    - /url: /playlist?list=PLUeDIlio4THH26-8TItkmNzAybQ9kBUZ5
+            - generic [ref=e849] [cursor=pointer]:
+              - link [ref=e850]:
+                - /url: /watch?v=BbgwxmnO_RA&list=PL83cimSRP5ZlwSHlydctQ2njy0nTtjpPZ
+                - generic [ref=e862]: 10 videos
+              - generic [ref=e865]:
+                - heading "Playwright Tutorials with TypeScript / JavaScript | API Testing" [level=3] [ref=e866]:
+                  - link "Playwright Tutorials with TypeScript / JavaScript | API Testing" [ref=e867]:
+                    - /url: /watch?v=BbgwxmnO_RA&list=PL83cimSRP5ZlwSHlydctQ2njy0nTtjpPZ
+                - generic [ref=e869]:
+                  - generic [ref=e870]:
+                    - link "WishInfinite" [ref=e873]:
+                      - /url: /@WishInfinite
+                    - generic [ref=e874]: •
+                    - link "Playlist" [ref=e877]:
+                      - /url: /@WishInfinite
+                  - link "Introduction to API Testing with Playwright | REST API Automation Made Easy | Playwright Tutorial · 18:47" [ref=e881]:
+                    - /url: /watch?v=BbgwxmnO_RA&list=PL83cimSRP5ZlwSHlydctQ2njy0nTtjpPZ&pp=0gcJCRgBOCosWNin
+                  - link "GET Call in Playwright API Testing | Pass BaseURL & Headers | Playwright Tutorial · 1:04:52" [ref=e884]:
+                    - /url: /watch?v=GrQiVGaYpWo&list=PL83cimSRP5ZlwSHlydctQ2njy0nTtjpPZ&pp=0gcJCRgBOCosWNin
+                  - link "View full playlist" [ref=e889]:
+                    - /url: /playlist?list=PL83cimSRP5ZlwSHlydctQ2njy0nTtjpPZ
+            - generic [ref=e890]:
+              - generic [ref=e893]:
+                - img [ref=e895]
+                - heading "Shorts" [level=2] [ref=e898]
+              - generic [ref=e900]:
+                - generic [ref=e903]:
+                  - link [ref=e904] [cursor=pointer]:
+                    - /url: /shorts/R1uQG1A59GE
+                  - generic [ref=e908] [cursor=pointer]:
+                    - 'link "DON''T MISS These 5 Tips for API testing interviews | #AskRaghav" [ref=e909]':
+                      - /url: /shorts/R1uQG1A59GE
+                    - generic [ref=e910]: 79K views
+                  - button "More actions" [ref=e912] [cursor=pointer]:
+                    - generic [ref=e916]:
+                      - img
+                - generic [ref=e922]:
+                  - link [ref=e923] [cursor=pointer]:
+                    - /url: /shorts/0lmUgZXLDTg
+                  - generic [ref=e927] [cursor=pointer]:
+                    - link "Selenium Vs API Testing" [ref=e928]:
+                      - /url: /shorts/0lmUgZXLDTg
+                    - generic [ref=e929]: 13K views
+                  - button "More actions" [ref=e931] [cursor=pointer]:
+                    - generic [ref=e935]:
+                      - img
+                - generic [ref=e941]:
+                  - link [ref=e942] [cursor=pointer]:
+                    - /url: /shorts/no1174c5KxE
+                  - generic [ref=e946] [cursor=pointer]:
+                    - link "What is API testing?" [ref=e947]:
+                      - /url: /shorts/no1174c5KxE
+                    - generic [ref=e948]: 20K views
+                  - button "More actions" [ref=e950] [cursor=pointer]:
+                    - generic [ref=e954]:
+                      - img
+                - generic [ref=e960]:
+                  - link [ref=e961] [cursor=pointer]:
+                    - /url: /shorts/nBA6_I0PCWI
+                  - generic [ref=e965] [cursor=pointer]:
+                    - 'link "API Testing se Job Mil Sakti hai Kya? #shorts" [ref=e966]':
+                      - /url: /shorts/nBA6_I0PCWI
+                    - generic [ref=e967]: 11K views
+                  - button "More actions" [ref=e969] [cursor=pointer]:
+                    - generic [ref=e973]:
+                      - img
+                - generic [ref=e979]:
+                  - link [ref=e980] [cursor=pointer]:
+                    - /url: /shorts/siGXr9Bb1YM
+                  - generic [ref=e984] [cursor=pointer]:
+                    - link "API Testing Interview Questions" [ref=e985]:
+                      - /url: /shorts/siGXr9Bb1YM
+                    - generic [ref=e986]: 40K views
+                  - button "More actions" [ref=e988] [cursor=pointer]:
+                    - generic [ref=e992]:
+                      - img
+              - button "Show more" [ref=e999] [cursor=pointer]:
+                - generic [ref=e1000]: Show more
+                - generic [ref=e1004]:
+                  - img
+            - generic [ref=e1009] [cursor=pointer]:
+              - link [ref=e1010]:
+                - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THEb5loYDYWGSL5pcLG_Wpl4
+                - generic [ref=e1022]: 16 videos
+              - generic [ref=e1025]:
+                - heading "Playwright API Automation Testing Tutorials" [level=3] [ref=e1026]:
+                  - link "Playwright API Automation Testing Tutorials" [ref=e1027]:
+                    - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THEb5loYDYWGSL5pcLG_Wpl4
+                - generic [ref=e1029]:
+                  - generic [ref=e1030]:
+                    - link "Testers Talk" [ref=e1033]:
+                      - /url: /@testerstalk
+                    - generic [ref=e1034]: •
+                    - link "Playlist" [ref=e1037]:
+                      - /url: /@testerstalk
+                  - link "#2 Playwright API Testing Tutorial Crash Course 2024 · 1:59:55" [ref=e1041]:
+                    - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THEb5loYDYWGSL5pcLG_Wpl4
+                  - link "#1 Playwright Tutorial Full Course 2025 | Playwright Testing Tutorial · 6:55:08" [ref=e1044]:
+                    - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THEb5loYDYWGSL5pcLG_Wpl4
+                  - link "View full playlist" [ref=e1049]:
+                    - /url: /playlist?list=PLUeDIlio4THEb5loYDYWGSL5pcLG_Wpl4
+            - generic [ref=e1051]:
+              - link [ref=e1053] [cursor=pointer]:
+                - /url: /watch?v=o9KJhGHl49M&pp=ygUhQVBJIFRlc3RpbmcgYnkgVGVzdGVycyBUYWxr4piR77iP
+              - generic [ref=e1055] [cursor=pointer]:
+                - generic [ref=e1056]:
+                  - generic [ref=e1057]:
+                    - heading "REST Assured API Testing Tutorial Crash Course 2024 4 hours, 6 minutes" [level=3] [ref=e1058]:
+                      - link "REST Assured API Testing Tutorial Crash Course 2024 4 hours, 6 minutes" [ref=e1059]:
+                        - /url: /watch?v=o9KJhGHl49M&pp=ygUhQVBJIFRlc3RpbmcgYnkgVGVzdGVycyBUYWxr4piR77iP
+                        - text: REST Assured API Testing Tutorial Crash Course 2024
+                    - button "Action menu" [ref=e1063]:
+                      - generic [ref=e1066]:
+                        - img
+                  - generic [ref=e1069]:
+                    - generic [ref=e1070]: 53K views
+                    - generic [ref=e1071]: •2 years ago
+                - generic [ref=e1072]:
+                  - link "Go to channel Testers Talk" [ref=e1073]:
+                    - /url: /@testerstalk
+                  - link "Testers Talk" [ref=e1078]:
+                    - /url: /@testerstalk
+                - generic [ref=e1079]:
+                  - generic [ref=e1080]: "Rest Assured API Testing Tutorial Full Course #restassured #apitesting #javatestng #restapitesting Rest Assured tutorial for ..."
+                  - tooltip "tooltip"
+                - generic [ref=e1083]:
+                  - generic [ref=e1084]:
+                    - generic [ref=e1088]: 52 chapters
+                    - button [ref=e1089]
+                  - button "More" [ref=e1094]:
+                    - generic [ref=e1098]:
+                      - img
+            - generic [ref=e1103]:
+              - link [ref=e1105] [cursor=pointer]:
+                - /url: /watch?v=3VMCLNlcZB0&pp=ygUhQVBJIFRlc3RpbmcgYnkgVGVzdGVycyBUYWxr4piR77iP
+              - generic [ref=e1107] [cursor=pointer]:
+                - generic [ref=e1108]:
+                  - generic [ref=e1109]:
+                    - heading "API Testing using Postman Live Project Day-01 | LIVE | Testers Talk 1 hour, 15 minutes" [level=3] [ref=e1110]:
+                      - link "API Testing using Postman Live Project Day-01 | LIVE | Testers Talk 1 hour, 15 minutes" [ref=e1111]:
+                        - /url: /watch?v=3VMCLNlcZB0&pp=ygUhQVBJIFRlc3RpbmcgYnkgVGVzdGVycyBUYWxr4piR77iP
+                        - text: API Testing using Postman Live Project Day-01 | LIVE | Testers Talk
+                    - button "Action menu" [ref=e1115]:
+                      - generic [ref=e1118]:
+                        - img
+                  - generic [ref=e1121]:
+                    - generic [ref=e1122]: 22K views
+                    - generic [ref=e1123]: •Streamed 2 years ago
+                - generic [ref=e1124]:
+                  - link "Go to channel Testers Talk" [ref=e1125]:
+                    - /url: /@testerstalk
+                  - link "Testers Talk" [ref=e1130]:
+                    - /url: /@testerstalk
+                - generic [ref=e1131]:
+                  - generic [ref=e1132]: API Testing Using Postman live project | API Testing Postman Tutorial for beginner Full Course ...
+                  - tooltip "tooltip"
+                - generic [ref=e1135]:
+                  - generic [ref=e1136]:
+                    - generic [ref=e1139]: Summary
+                    - button "This beginner-friendly tutorial introduces API testing with Postman. Learn about APIs, web services, and Postman's features, including creating requests and collections. The instructor demonstrates how to install Postman and execute GET, POST, PUT, and DELETE requests." [ref=e1140]
+                    - text: ·
+                  - button "More" [ref=e1145]:
+                    - generic [ref=e1149]:
+                      - img
+            - generic [ref=e1154]:
+              - link [ref=e1156] [cursor=pointer]:
+                - /url: /watch?v=lM-lqPun9P8&pp=ygUhQVBJIFRlc3RpbmcgYnkgVGVzdGVycyBUYWxr4piR77iP
+              - generic [ref=e1158] [cursor=pointer]:
+                - generic [ref=e1159]:
+                  - generic [ref=e1160]:
+                    - heading "#2 Playwright API Testing Tutorial Crash Course 2024 1 hour, 59 minutes" [level=3] [ref=e1161]:
+                      - link "#2 Playwright API Testing Tutorial Crash Course 2024 1 hour, 59 minutes" [ref=e1162]:
+                        - /url: /watch?v=lM-lqPun9P8&pp=ygUhQVBJIFRlc3RpbmcgYnkgVGVzdGVycyBUYWxr4piR77iP
+                        - text: "#2 Playwright API Testing Tutorial Crash Course 2024"
+                    - button "Action menu" [ref=e1166]:
+                      - generic [ref=e1169]:
+                        - img
+                  - generic [ref=e1172]:
+                    - generic [ref=e1173]: 42K views
+                    - generic [ref=e1174]: •2 years ago
+                - generic [ref=e1175]:
+                  - link "Go to channel Testers Talk" [ref=e1176]:
+                    - /url: /@testerstalk
+                  - link "Testers Talk" [ref=e1181]:
+                    - /url: /@testerstalk
+                - generic [ref=e1182]:
+                  - generic [ref=e1183]: Playwright API Testing - Playwright enables reliable end-to-end testing for modern web apps. Playwright is an open-source ...
+                  - tooltip "tooltip"
+                - generic [ref=e1186]:
+                  - generic [ref=e1187]:
+                    - generic [ref=e1191]: 15 chapters
+                    - button "Playwright API Testing | Setup playwright api testing | Postman collections Playwright github repo | Create POST api request in playwright | Validate status code in playwright | Validate api response in playwright | Playwright Post api request | Playwright Post api request using dynamic request body | Post api request using dynamic json in playwright | Get api request in playwright | Query parameters in playwright | Playwright Put api request | Patch api request in playwright | Playwright Delete api request | Allure report with Playwright" [ref=e1192]
+                  - button "More" [ref=e1197]:
+                    - generic [ref=e1201]:
+                      - img
+            - generic [ref=e1206]:
+              - link [ref=e1208] [cursor=pointer]:
+                - /url: /watch?v=IhlZKYw55kM&pp=ygUhQVBJIFRlc3RpbmcgYnkgVGVzdGVycyBUYWxr4piR77iP
+              - generic [ref=e1210] [cursor=pointer]:
+                - generic [ref=e1211]:
+                  - generic [ref=e1212]:
+                    - heading "Postman API Testing Tutorial Chapter-02 | Postman API Testing Tutorial for Beginners 39 minutes" [level=3] [ref=e1213]:
+                      - link "Postman API Testing Tutorial Chapter-02 | Postman API Testing Tutorial for Beginners 39 minutes" [ref=e1214]:
+                        - /url: /watch?v=IhlZKYw55kM&pp=ygUhQVBJIFRlc3RpbmcgYnkgVGVzdGVycyBUYWxr4piR77iP
+                        - text: Postman API Testing Tutorial Chapter-02 | Postman API Testing Tutorial for Beginners
+                    - button "Action menu" [ref=e1218]:
+                      - generic [ref=e1221]:
+                        - img
+                  - generic [ref=e1224]:
+                    - generic [ref=e1225]: 8.1K views
+                    - generic [ref=e1226]: •2 years ago
+                - generic [ref=e1227]:
+                  - link "Go to channel Testers Talk" [ref=e1228]:
+                    - /url: /@testerstalk
+                  - link "Testers Talk" [ref=e1233]:
+                    - /url: /@testerstalk
+                - generic [ref=e1234]:
+                  - generic [ref=e1235]: Postman API Testing Tutorial Chapter-02 Full Course 2023 | Postman Tutorial | Rest API Testing Tutorial for beginners | Restful ...
+                  - tooltip "tooltip"
+                - generic [ref=e1238]:
+                  - generic [ref=e1239]:
+                    - generic [ref=e1243]: 18 chapters
+                    - button "API Testing Tutorial Postman Tutorial for beginners | Negative API Test Cases or Negative api tests | API Response 404 not found | API Response 400 bad request | How to declare environment variables in postman | How to use environment variables in postman | How to save api response in postman | Access environment variable value in postman | API Response 200 status code | Postman console | How to use postman console | How to write postman automation api tests? | How to verify status code using javascript | Test Results in postman | How to validate status code in postman | How to validate api response body | Assert api response headers | assert api response time" [ref=e1244]
+                  - button "More" [ref=e1249]:
+                    - generic [ref=e1253]:
+                      - img
+            - generic [ref=e1258]:
+              - link [ref=e1260] [cursor=pointer]:
+                - /url: /watch?v=iGQ-qTLEPLw&pp=ygUhQVBJIFRlc3RpbmcgYnkgVGVzdGVycyBUYWxr4piR77iP
+              - generic [ref=e1262] [cursor=pointer]:
+                - generic [ref=e1263]:
+                  - generic [ref=e1264]:
+                    - heading "#3 Mastering Playwright API Automation & Mocking with TypeScript | Playwright Automation Tutorials 3 hours" [level=3] [ref=e1265]:
+                      - link "#3 Mastering Playwright API Automation & Mocking with TypeScript | Playwright Automation Tutorials 3 hours" [ref=e1266]:
+                        - /url: /watch?v=iGQ-qTLEPLw&pp=ygUhQVBJIFRlc3RpbmcgYnkgVGVzdGVycyBUYWxr4piR77iP
+                        - text: "#3 Mastering Playwright API Automation & Mocking with TypeScript | Playwright Automation Tutorials"
+                    - button "Action menu" [ref=e1270]:
+                      - generic [ref=e1273]:
+                        - img
+                  - generic [ref=e1276]:
+                    - generic [ref=e1277]: 10K views
+                    - generic [ref=e1278]: •1 year ago
+                - generic [ref=e1279]:
+                  - link "Go to channel Testers Talk" [ref=e1280]:
+                    - /url: /@testerstalk
+                  - link "Testers Talk" [ref=e1285]:
+                    - /url: /@testerstalk
+                - generic [ref=e1286]:
+                  - generic [ref=e1287]: API Automation with Playwright & API Mocking with Playwright using TypeScript From Scratch | Playwright Automation From ...
+                  - tooltip "tooltip"
+                - img "4K" [ref=e1290]:
+                  - generic [ref=e1291]: 4K
+                - generic [ref=e1294]:
+                  - generic [ref=e1295]:
+                    - generic [ref=e1299]: 26 chapters
+                    - button [ref=e1300]
+                  - button "More" [ref=e1305]:
+                    - generic [ref=e1309]:
+                      - img
+            - generic [ref=e1314]:
+              - link [ref=e1316] [cursor=pointer]:
+                - /url: /watch?v=jq3rt4cJMho&pp=ygUhQVBJIFRlc3RpbmcgYnkgVGVzdGVycyBUYWxr4piR77iP
+              - generic [ref=e1318] [cursor=pointer]:
+                - generic [ref=e1319]:
+                  - generic [ref=e1320]:
+                    - 'heading "Postman Tutorial: API Requests GET, POST, PUT, DELETE (CRUD) Operation Part-03 23 minutes" [level=3] [ref=e1321]':
+                      - 'link "Postman Tutorial: API Requests GET, POST, PUT, DELETE (CRUD) Operation Part-03 23 minutes" [ref=e1322]':
+                        - /url: /watch?v=jq3rt4cJMho&pp=ygUhQVBJIFRlc3RpbmcgYnkgVGVzdGVycyBUYWxr4piR77iP
+                        - text: "Postman Tutorial: API Requests GET, POST, PUT, DELETE (CRUD) Operation Part-03"
+                    - button "Action menu" [ref=e1326]:
+                      - generic [ref=e1329]:
+                        - img
+                  - generic [ref=e1332]:
+                    - generic [ref=e1333]: 25K views
+                    - generic [ref=e1334]: •2 years ago
+                - generic [ref=e1335]:
+                  - link "Go to channel Testers Talk" [ref=e1336]:
+                    - /url: /@testerstalk
+                  - link "Testers Talk" [ref=e1341]:
+                    - /url: /@testerstalk
+                - generic [ref=e1342]:
+                  - generic [ref=e1343]: API Testing Postman Tutorial Full Course Link - https://youtu.be/QKBa8lt5Wfo API Testing Postman Tutorial Full Course 2023 ...
+                  - tooltip "tooltip"
+                - generic [ref=e1346]:
+                  - generic [ref=e1347]:
+                    - generic [ref=e1350]: Summary
+                    - button "Learn to use Postman's API requests (GET, POST, PUT, DELETE) for CRUD operations. This tutorial demonstrates creating collections and folders to organize API requests. It uses a Booking API to illustrate creating, updating, and deleting resources." [ref=e1351]
+                    - text: ·
+                  - button "More" [ref=e1356]:
+                    - generic [ref=e1360]:
+                      - img
+            - generic [ref=e1365]:
+              - link [ref=e1367] [cursor=pointer]:
+                - /url: /watch?v=kvGszYAYQ6M&pp=ygUhQVBJIFRlc3RpbmcgYnkgVGVzdGVycyBUYWxr4piR77iP
+              - generic [ref=e1369] [cursor=pointer]:
+                - generic [ref=e1370]:
+                  - generic [ref=e1371]:
+                    - heading "How to test dynamic content in Playwright with API mocking 5 minutes, 39 seconds" [level=3] [ref=e1372]:
+                      - link "How to test dynamic content in Playwright with API mocking 5 minutes, 39 seconds" [ref=e1373]:
+                        - /url: /watch?v=kvGszYAYQ6M&pp=ygUhQVBJIFRlc3RpbmcgYnkgVGVzdGVycyBUYWxr4piR77iP
+                        - text: How to test dynamic content in Playwright with API mocking
+                    - button "Action menu" [ref=e1377]:
+                      - generic [ref=e1380]:
+                        - img
+                  - generic [ref=e1383]:
+                    - generic [ref=e1384]: 15K views
+                    - generic [ref=e1385]: •1 year ago
+                - generic [ref=e1386]:
+                  - link "Go to channel Playwright" [ref=e1387]:
+                    - /url: /@Playwrightdev
+                  - link "Playwright" [ref=e1392]:
+                    - /url: /@Playwrightdev
+                - generic [ref=e1393]:
+                  - generic [ref=e1394]: In this video lets take a look at how you can test dynamic content that comes from an API by mocking a part of the API call.
+                  - tooltip "tooltip"
+                - img "4K" [ref=e1397]:
+                  - generic [ref=e1398]: 4K
+                - generic [ref=e1401]:
+                  - generic [ref=e1402]:
+                    - generic [ref=e1406]: 3 chapters
+                    - button "Intro | Source code for API mocking | Network tab in UI mode" [ref=e1407]
+                  - button "More" [ref=e1412]:
+                    - generic [ref=e1416]:
+                      - img
+  - generic [ref=e1445]:
+    - link "YouTube Video Player":
+      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CZ2W4K56EaYSDM9LwzeYP5sjtmAu_3cWUhQHYlb6K2RWwkB8QASAAYMvctAWCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABgvnmowKoAwTIAwqqBK0CT9AFCNYxW9u4nNkawP1VTC-s5dbR7xCUoKPLgq9t9TEsaWVDJUJowrDJRh3jfcSdZ4vI70oflzevMCd03j7Q8mtjiU6836jZg_lcak5HJollxucL1umGt75rgfhHApJvIzeZjFRtRaX4WTiIGkx8g3X9GFwgbX4-XTMQoUf3WZpnGW2ayD1Urp5wbHNaoNOIgBQpSLZp9LyE3Mz2l7bRrnLyki3vXJmSx-y5i5alTll--3tPnGqoxA7LQctku2XwdoZhCLIH3-8X6ugjbrgPsK2ubdMUCLc47hrVRIrYrlDfeg7qdSDfN41ZKm8iejDqk4Ip7H3I7t8YnlEGhjMBmw0fwlUi_mBpwqV0fgn5NFdlV93xLxjjp_eTugFIrxyT4oMbf8KCwY2GapyWYIgFobDlzFeSBQgIE3ips6b6AaAGoQGAB_uYvtkBkAcEqAfywLECqAfytLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAfKurECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAtrT2pnTFBRcTE3Z6gIAdIIKQiAQRABGF4yAoICOgyAQoDAgICAgICAAipI2aDSNVAUWMClgbS9wpIDmgkiaHR0cHM6Ly9jbGlja3VwLmNvbS9scC9nZXQtc3RhcnRlZLEJ0V28ydVkaOHICRfICY8ByAnCAZgLAboLPQgDEAUYBCAHKAEwBUABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIJugMFdmlncnHQCxKiDAgqBgoE6MKxAtIMAhAB2gwmCgsQoKWVgaK1he-PARICAQMaDRihsOXMVyCVuu2mzAVAAUoCEB-aDQESqg0CUEvIDQHSDacEaHR0cHM6Ly9jbGlja3VwLmNvbS9scC9nZXQtc3RhcnRlZD91dG1fc291cmNlPXlvdXR1YmUmdXRtX21lZGl1bT1jcG0mdXRtX2NhbXBhaWduPXl0X2NwbV9hcGFjX25uY19wcm9fdHJpYWxfYWxsLWRldmljZXNfdHJvYXNfbHBfeF9hbGwtZGVwYXJ0bWVudHNfeF9hbGwtY3VzdG9tLWNvbWJpbmF0aW9ucy1scHRlc3QmdXRtX2NvbnRlbnQ9YXBhY19jcy1hcHBzX3J2YV9hbGwtaW5kdXN0cmllc19hbGwtZmVhdHVyZXNfYWxsLXVzZS1jYXNlc19wcm9qZWN0LW1hbmFnZW1lbnQmdXRtX3Rlcm09YWYtdmlkZW9fcy1pbnRlcm5hbHZpZGVvX2xlbi0zMHNlY19hci0xNng5X2N0YS1jcmVhdGV3b3Jrc3BhY2VfaWNwLWFsbF9wLWV2ZXJ5dGhpbmdhcHBfbHAtaHAtcGFpZF90di14X2FzLUJlZm9yZUFmdGVyX3N0LW1vdGlvbmdyYXBoaWNfaC13b3JraXNicm9rZW5faS14X0FELTE5ODAyLUNvbnZlcmdlbmNlX2F2LXYyLW5vY29tcGV0aXRvcmxvZ29zX2N2LXYxLWNvbnN1bWVycGF5b2ZmX2QtMjAyNS0wNC0xNSZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM1MTQ5MjkxODW4E____________wGIFAGwFAPAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXFggDGAEgASgBMAE4AUABSAFQAVgBYAKgFwGpF5iTryTtX4KuuhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=EAIaIQobChMIxMSBtL3CkgMVUnjTBh1mZBuzEAEYASAAEgLB_PD_BwE&num=1&cid=CAASqgHkaALkVkzvTlQarcA-XSs5FvOwwDzxjH-yBtt5L8OB3ttgofRk2eovMhbewMWOe1LBKkANGA3e1kh5WvXwyeV7DPPcjoQF988_j7lfVunxKLTuX5umXuR9LUoebhD6LToHcvZaCPrIIuCQQjSArn5sjIb4wDBoDOXdmOBIIJ4a0xPjEa2JoFretO06Cao33W6g03m8JpVmY9BHpR_lZBZs5bIWxHRno7SeYg&ad_cpn=%5BCPN%5D&sig=AOD64_1PgPUSuupT9o1CkKBZQ3A_J-KWTg&ctype=110&video_id=kOjgLPQq17g&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=21&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+      - generic [ref=e1446] [cursor=pointer]:
+        - generic:
+          - generic:
+            - generic:
+              - img
+      - generic "YouTube Video Player" [ref=e1451] [cursor=pointer]
+    - generic:
+      - generic:
+        - generic:
+          - generic [ref=e1453]:
+            - button "Unmute" [ref=e1458] [cursor=pointer]:
+              - generic [ref=e1462]:
+                - img
+            - button "Subtitles/CC turned on" [pressed] [ref=e1467] [cursor=pointer]
+          - generic:
+            - generic "Time elapsed 0:00":
+              - generic:
+                - generic: 0:30
+```

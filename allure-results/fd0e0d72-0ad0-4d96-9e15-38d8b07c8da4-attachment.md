@@ -1,0 +1,883 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - button "Guide" [active] [ref=e9] [cursor=pointer]:
+            - generic [ref=e12]:
+              - img
+          - generic [ref=e13]:
+            - link "YouTube Home" [ref=e14] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e19]:
+                - img
+            - generic [ref=e20]: PK
+          - button "Skip navigation" [ref=e24] [cursor=pointer]:
+            - generic [ref=e25]: Skip navigation
+        - generic [ref=e29]:
+          - search [ref=e30]:
+            - generic [ref=e31]:
+              - generic [ref=e32]:
+                - combobox "Search" [expanded] [ref=e34]: Specflow Selenium C# by Testers Talk
+                - button "Clear search query" [ref=e36] [cursor=pointer]:
+                  - generic [ref=e39]:
+                    - img
+              - button "Search" [ref=e43] [cursor=pointer]:
+                - generic [ref=e46]:
+                  - img
+          - generic [ref=e48]:
+            - button "Search with your voice" [ref=e50] [cursor=pointer]:
+              - generic [ref=e54]:
+                - img
+            - tooltip "tooltip"
+        - generic [ref=e59]:
+          - button "Settings" [ref=e64] [cursor=pointer]:
+            - generic [ref=e67]:
+              - img
+          - link "Sign in" [ref=e70] [cursor=pointer]:
+            - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253DSpecflow%252BSelenium%252BC%252523%252Bby%252BTesters%252BTalk&hl=en&ec=65620
+            - generic [ref=e74]:
+              - img
+            - generic [ref=e75]: Sign in
+    - navigation [ref=e79]:
+      - generic [ref=e80]:
+        - link "Home" [ref=e82] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e85]:
+            - img
+          - generic [ref=e86]: Home
+        - link "Shorts" [ref=e88] [cursor=pointer]:
+          - /url: /shorts/
+          - generic [ref=e91]:
+            - img
+          - generic [ref=e92]: Shorts
+        - link "Subscriptions" [ref=e94] [cursor=pointer]:
+          - /url: /feed/subscriptions
+          - generic [ref=e97]:
+            - img
+          - generic [ref=e98]: Subscriptions
+        - link "You" [ref=e100] [cursor=pointer]:
+          - /url: /feed/you
+          - generic [ref=e103]:
+            - img
+          - generic [ref=e104]: You
+    - generic [ref=e105]:
+      - text: •
+      - main [ref=e106]:
+        - generic [ref=e107]:
+          - generic [ref=e109]:
+            - tablist [ref=e114]:
+              - tab "All" [selected] [ref=e118] [cursor=pointer]:
+                - generic [ref=e119]: All
+              - tab "Shorts" [ref=e126] [cursor=pointer]:
+                - generic [ref=e127]: Shorts
+              - tab "Videos" [ref=e134] [cursor=pointer]:
+                - generic [ref=e135]: Videos
+              - tab "Unwatched" [ref=e142] [cursor=pointer]:
+                - generic [ref=e143]: Unwatched
+              - tab "Watched" [ref=e150] [cursor=pointer]:
+                - generic [ref=e151]: Watched
+              - tab "Recently uploaded" [ref=e158] [cursor=pointer]:
+                - generic [ref=e159]: Recently uploaded
+              - tab "Live" [ref=e166] [cursor=pointer]:
+                - generic [ref=e167]: Live
+            - generic [ref=e172]:
+              - button "Search filters" [ref=e174] [cursor=pointer]:
+                - generic [ref=e175]: Filters
+                - generic [ref=e179]:
+                  - img
+              - tooltip "tooltip"
+          - generic [ref=e188]:
+            - generic [ref=e197] [cursor=pointer]:
+              - link [ref=e198]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CB4ufsX2EafbAE-2PuuYPn5ipuQXx-LiUhQGzksGv0xSwkB8QASAAYMvctAWCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABgvnmowKoAwTIAwqqBLYCT9At-QcK7FXCLAbSjEuBcjNrGzFBcPHBdk-ABLLTc01Xv2AJo_VSgsI7dCIbBl_0irFp8mgWQhJG0b8guJFnLvP8O2sBvIqK3aBxdtIQId9lmYFpoEPO8tO8VljvEJtw2BIEqoa7KxNTdoEoR_aM11amHw9PS55maTLmPaxAL6ZsIIvRRNWaLx5lHI0BWXbKpI3sKkDIO8PQUO9esc8shCF1-qH4qLXyC9_KvkecjpTZqoE7k94XDsrVuNo8ve8qnSxRUrslysOFM2oVFZBPwPv-vFAIrsVIv1wWSXtlViYwk9UQh9dFd-bcepMMZ_i27WZ30-t0VxWmNOevhLQO4_KOR60pnVxuMO3rDaNRq4VMAWoDNkgAVraQh63zWlGHVsNsRJDGU1k5TUWOvh-UktPzigHtb4gF_Mz2lFWSBQgIE3ips6b6AaAGoQGAB_uYvtkBkAcEqAfywLECqAfytLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAfKurECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAtlUkRBMk9qMnNDd6gIAdIIKQiAQRABGF4yAoICOgyAQoDAgICAgICAAipI2aDSNVAUWKDBq7eewpIDmgkkaHR0cHM6Ly9jbGlja3VwLmNvbS9scC9mZWF0dXJlcy9jaGF0sQkPj0wlqSj-CsgJF8gJjwHICcIBmAsBugtBCAMQBRgEIAcoATAFQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgm6Awl2aWJydXphYmHQCxLSDAIQAdoMJQoKEMCn9NvMqdHmQBICAQMaDRj8zPaUVSDR7-6UqQVAAUoCEB-aDQESqg0CUEvIDQHSDeoDaHR0cHM6Ly9jbGlja3VwLmNvbS9scC9mZWF0dXJlcy9jaGF0P3V0bV9zb3VyY2U9eW91dHViZSZ1dG1fbWVkaXVtPWNwbSZ1dG1fY2FtcGFpZ249eXRfY3BtX2FwYWNfbm5jX3Byb19mdW5uZWxfYWxsLWRldmljZXNfdHJvYXNfbHBfeF9hbGwtZGVwYXJ0bWVudHNfeF9mdW5uZWxzJnV0bV9jb250ZW50PWFwYWNfb3B0aW1pemUtbGlzdF9ydmFfYWxsLWluZHVzdHJpZXNfY2hhdF9hbGwtdXNlLWNhc2VzX2Z1bm5lbC1vbmJvYXJkaW5nLWZlYXR1cmVzLWNoYXR1c2UmdXRtX3Rlcm09YWYtdmlkZW9fcy1pbnRlcm5hbHZpZGVvX2xlbi02MHNlY19hci0xNng5X2N0YS1jcmVhdGV3b3Jrc3BhY2VfaWNwLWFsbF9wLWNoYXRfbHAtY2hhdC1wYWlkX3R2LXhfYXMtcHJvZHVjdGRlbW9fc3QteF9oLXRoaXNpc250anVzdGFueWNoYXRfaS14X0FELVgtQ2hhdC1NYWdpY19hdi14X2N2LXYxLWNoYXRfZC14JmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMjg2MDg5OTk2NLgT____________AYgUArAUA8AVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXmJOvJO1fgq66FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMItt2rt57CkgMV7YfOBh0fTCpXEAEYASAAEgKu9_D_BwE&num=1&cid=CAASqgHkaDactsdRaLj3FAbmegRZetAGMxDgApRKlI-DDi8GO8nF-esrKyx2NdE3DWKsPiIE5DZUpKbYK2ArpM-2F_lA1597MWw2gJM-jXeNAn1JP6oMMFIcBJ-6d57Z6oZT0D8fBey9XLs_EZD8Ze5uk-iCN1s9qMEzaLBHZjhnDQ4QVs1gWblkr4qQDbpKorWoNUj6KcY_vNJYd7MdNpUhnyhb21fBMXllbtZaHg&ad_cpn=%5BCPN%5D&sig=AOD64_2es69a6JHo5nY1joyF0vKIV1kFrg&ctype=110&video_id=eRDA2Oj2sCw&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=21&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                - button [ref=e203]:
+                  - generic [ref=e207]:
+                    - img
+              - generic [ref=e211]:
+                - generic [ref=e212]:
+                  - generic [ref=e213]:
+                    - link "Quickly Share Updates, Link Resources, And Consolidate Team Communication with Chat View." [ref=e216]:
+                      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CB4ufsX2EafbAE-2PuuYPn5ipuQXx-LiUhQGzksGv0xSwkB8QASAAYMvctAWCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABgvnmowKoAwTIAwqqBLYCT9At-QcK7FXCLAbSjEuBcjNrGzFBcPHBdk-ABLLTc01Xv2AJo_VSgsI7dCIbBl_0irFp8mgWQhJG0b8guJFnLvP8O2sBvIqK3aBxdtIQId9lmYFpoEPO8tO8VljvEJtw2BIEqoa7KxNTdoEoR_aM11amHw9PS55maTLmPaxAL6ZsIIvRRNWaLx5lHI0BWXbKpI3sKkDIO8PQUO9esc8shCF1-qH4qLXyC9_KvkecjpTZqoE7k94XDsrVuNo8ve8qnSxRUrslysOFM2oVFZBPwPv-vFAIrsVIv1wWSXtlViYwk9UQh9dFd-bcepMMZ_i27WZ30-t0VxWmNOevhLQO4_KOR60pnVxuMO3rDaNRq4VMAWoDNkgAVraQh63zWlGHVsNsRJDGU1k5TUWOvh-UktPzigHtb4gF_Mz2lFWSBQgIE3ips6b6AaAGoQGAB_uYvtkBkAcEqAfywLECqAfytLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAfKurECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAtlUkRBMk9qMnNDd6gIAdIIKQiAQRABGF4yAoICOgyAQoDAgICAgICAAipI2aDSNVAUWKDBq7eewpIDmgkkaHR0cHM6Ly9jbGlja3VwLmNvbS9scC9mZWF0dXJlcy9jaGF0sQkPj0wlqSj-CsgJF8gJjwHICcIBmAsBugtBCAMQBRgEIAcoATAFQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgm6Awl2aWJydXphYmHQCxLSDAIQAdoMJQoKEMCn9NvMqdHmQBICAQMaDRj8zPaUVSDR7-6UqQVAAUoCEB-aDQESqg0CUEvIDQHSDeoDaHR0cHM6Ly9jbGlja3VwLmNvbS9scC9mZWF0dXJlcy9jaGF0P3V0bV9zb3VyY2U9eW91dHViZSZ1dG1fbWVkaXVtPWNwbSZ1dG1fY2FtcGFpZ249eXRfY3BtX2FwYWNfbm5jX3Byb19mdW5uZWxfYWxsLWRldmljZXNfdHJvYXNfbHBfeF9hbGwtZGVwYXJ0bWVudHNfeF9mdW5uZWxzJnV0bV9jb250ZW50PWFwYWNfb3B0aW1pemUtbGlzdF9ydmFfYWxsLWluZHVzdHJpZXNfY2hhdF9hbGwtdXNlLWNhc2VzX2Z1bm5lbC1vbmJvYXJkaW5nLWZlYXR1cmVzLWNoYXR1c2UmdXRtX3Rlcm09YWYtdmlkZW9fcy1pbnRlcm5hbHZpZGVvX2xlbi02MHNlY19hci0xNng5X2N0YS1jcmVhdGV3b3Jrc3BhY2VfaWNwLWFsbF9wLWNoYXRfbHAtY2hhdC1wYWlkX3R2LXhfYXMtcHJvZHVjdGRlbW9fc3QteF9oLXRoaXNpc250anVzdGFueWNoYXRfaS14X0FELVgtQ2hhdC1NYWdpY19hdi14X2N2LXYxLWNoYXRfZC14JmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMjg2MDg5OTk2NLgT____________AYgUArAUA8AVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXmJOvJO1fgq66FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMItt2rt57CkgMV7YfOBh0fTCpXEAEYASAAEgKu9_D_BwE&num=1&cid=CAASqgHkaDactsdRaLj3FAbmegRZetAGMxDgApRKlI-DDi8GO8nF-esrKyx2NdE3DWKsPiIE5DZUpKbYK2ArpM-2F_lA1597MWw2gJM-jXeNAn1JP6oMMFIcBJ-6d57Z6oZT0D8fBey9XLs_EZD8Ze5uk-iCN1s9qMEzaLBHZjhnDQ4QVs1gWblkr4qQDbpKorWoNUj6KcY_vNJYd7MdNpUhnyhb21fBMXllbtZaHg&ad_cpn=%5BCPN%5D&sig=AOD64_2es69a6JHo5nY1joyF0vKIV1kFrg&ctype=110&video_id=eRDA2Oj2sCw&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                    - link "Quickly Share Updates, Link Resources, And Consolidate Team Communication With Chat View." [ref=e219]:
+                      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CB4ufsX2EafbAE-2PuuYPn5ipuQXx-LiUhQGzksGv0xSwkB8QASAAYMvctAWCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABgvnmowKoAwTIAwqqBLYCT9At-QcK7FXCLAbSjEuBcjNrGzFBcPHBdk-ABLLTc01Xv2AJo_VSgsI7dCIbBl_0irFp8mgWQhJG0b8guJFnLvP8O2sBvIqK3aBxdtIQId9lmYFpoEPO8tO8VljvEJtw2BIEqoa7KxNTdoEoR_aM11amHw9PS55maTLmPaxAL6ZsIIvRRNWaLx5lHI0BWXbKpI3sKkDIO8PQUO9esc8shCF1-qH4qLXyC9_KvkecjpTZqoE7k94XDsrVuNo8ve8qnSxRUrslysOFM2oVFZBPwPv-vFAIrsVIv1wWSXtlViYwk9UQh9dFd-bcepMMZ_i27WZ30-t0VxWmNOevhLQO4_KOR60pnVxuMO3rDaNRq4VMAWoDNkgAVraQh63zWlGHVsNsRJDGU1k5TUWOvh-UktPzigHtb4gF_Mz2lFWSBQgIE3ips6b6AaAGoQGAB_uYvtkBkAcEqAfywLECqAfytLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAfKurECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAtlUkRBMk9qMnNDd6gIAdIIKQiAQRABGF4yAoICOgyAQoDAgICAgICAAipI2aDSNVAUWKDBq7eewpIDmgkkaHR0cHM6Ly9jbGlja3VwLmNvbS9scC9mZWF0dXJlcy9jaGF0sQkPj0wlqSj-CsgJF8gJjwHICcIBmAsBugtBCAMQBRgEIAcoATAFQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgm6Awl2aWJydXphYmHQCxLSDAIQAdoMJQoKEMCn9NvMqdHmQBICAQMaDRj8zPaUVSDR7-6UqQVAAUoCEB-aDQESqg0CUEvIDQHSDeoDaHR0cHM6Ly9jbGlja3VwLmNvbS9scC9mZWF0dXJlcy9jaGF0P3V0bV9zb3VyY2U9eW91dHViZSZ1dG1fbWVkaXVtPWNwbSZ1dG1fY2FtcGFpZ249eXRfY3BtX2FwYWNfbm5jX3Byb19mdW5uZWxfYWxsLWRldmljZXNfdHJvYXNfbHBfeF9hbGwtZGVwYXJ0bWVudHNfeF9mdW5uZWxzJnV0bV9jb250ZW50PWFwYWNfb3B0aW1pemUtbGlzdF9ydmFfYWxsLWluZHVzdHJpZXNfY2hhdF9hbGwtdXNlLWNhc2VzX2Z1bm5lbC1vbmJvYXJkaW5nLWZlYXR1cmVzLWNoYXR1c2UmdXRtX3Rlcm09YWYtdmlkZW9fcy1pbnRlcm5hbHZpZGVvX2xlbi02MHNlY19hci0xNng5X2N0YS1jcmVhdGV3b3Jrc3BhY2VfaWNwLWFsbF9wLWNoYXRfbHAtY2hhdC1wYWlkX3R2LXhfYXMtcHJvZHVjdGRlbW9fc3QteF9oLXRoaXNpc250anVzdGFueWNoYXRfaS14X0FELVgtQ2hhdC1NYWdpY19hdi14X2N2LXYxLWNoYXRfZC14JmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMjg2MDg5OTk2NLgT____________AYgUArAUA8AVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXmJOvJO1fgq66FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMItt2rt57CkgMV7YfOBh0fTCpXEAEYASAAEgKu9_D_BwE&num=1&cid=CAASqgHkaDactsdRaLj3FAbmegRZetAGMxDgApRKlI-DDi8GO8nF-esrKyx2NdE3DWKsPiIE5DZUpKbYK2ArpM-2F_lA1597MWw2gJM-jXeNAn1JP6oMMFIcBJ-6d57Z6oZT0D8fBey9XLs_EZD8Ze5uk-iCN1s9qMEzaLBHZjhnDQ4QVs1gWblkr4qQDbpKorWoNUj6KcY_vNJYd7MdNpUhnyhb21fBMXllbtZaHg&ad_cpn=%5BCPN%5D&sig=AOD64_2es69a6JHo5nY1joyF0vKIV1kFrg&ctype=110&video_id=eRDA2Oj2sCw&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                    - generic [ref=e220]:
+                      - button "ClickUp" [ref=e224]
+                      - generic [ref=e228]:
+                        - generic [ref=e229]: Sponsored
+                        - text: ·
+                      - generic [ref=e231]: ClickUp
+                  - button "My Ad Center" [ref=e234]:
+                    - generic [ref=e238]:
+                      - img
+                - generic [ref=e244]:
+                  - link "Watch" [ref=e247]:
+                    - /url: /watch?v=eRDA2Oj2sCw
+                    - generic [ref=e248]: Watch
+                  - link "Visit site" [ref=e254]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CB4ufsX2EafbAE-2PuuYPn5ipuQXx-LiUhQGzksGv0xSwkB8QASAAYMvctAWCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABgvnmowKoAwTIAwqqBLYCT9At-QcK7FXCLAbSjEuBcjNrGzFBcPHBdk-ABLLTc01Xv2AJo_VSgsI7dCIbBl_0irFp8mgWQhJG0b8guJFnLvP8O2sBvIqK3aBxdtIQId9lmYFpoEPO8tO8VljvEJtw2BIEqoa7KxNTdoEoR_aM11amHw9PS55maTLmPaxAL6ZsIIvRRNWaLx5lHI0BWXbKpI3sKkDIO8PQUO9esc8shCF1-qH4qLXyC9_KvkecjpTZqoE7k94XDsrVuNo8ve8qnSxRUrslysOFM2oVFZBPwPv-vFAIrsVIv1wWSXtlViYwk9UQh9dFd-bcepMMZ_i27WZ30-t0VxWmNOevhLQO4_KOR60pnVxuMO3rDaNRq4VMAWoDNkgAVraQh63zWlGHVsNsRJDGU1k5TUWOvh-UktPzigHtb4gF_Mz2lFWSBQgIE3ips6b6AaAGoQGAB_uYvtkBkAcEqAfywLECqAfytLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAfKurECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAtlUkRBMk9qMnNDd6gIAdIIKQiAQRABGF4yAoICOgyAQoDAgICAgICAAipI2aDSNVAUWKDBq7eewpIDmgkkaHR0cHM6Ly9jbGlja3VwLmNvbS9scC9mZWF0dXJlcy9jaGF0sQkPj0wlqSj-CsgJF8gJjwHICcIBmAsBugtBCAMQBRgEIAcoATAFQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgm6Awl2aWJydXphYmHQCxLSDAIQAdoMJQoKEMCn9NvMqdHmQBICAQMaDRj8zPaUVSDR7-6UqQVAAUoCEB-aDQESqg0CUEvIDQHSDeoDaHR0cHM6Ly9jbGlja3VwLmNvbS9scC9mZWF0dXJlcy9jaGF0P3V0bV9zb3VyY2U9eW91dHViZSZ1dG1fbWVkaXVtPWNwbSZ1dG1fY2FtcGFpZ249eXRfY3BtX2FwYWNfbm5jX3Byb19mdW5uZWxfYWxsLWRldmljZXNfdHJvYXNfbHBfeF9hbGwtZGVwYXJ0bWVudHNfeF9mdW5uZWxzJnV0bV9jb250ZW50PWFwYWNfb3B0aW1pemUtbGlzdF9ydmFfYWxsLWluZHVzdHJpZXNfY2hhdF9hbGwtdXNlLWNhc2VzX2Z1bm5lbC1vbmJvYXJkaW5nLWZlYXR1cmVzLWNoYXR1c2UmdXRtX3Rlcm09YWYtdmlkZW9fcy1pbnRlcm5hbHZpZGVvX2xlbi02MHNlY19hci0xNng5X2N0YS1jcmVhdGV3b3Jrc3BhY2VfaWNwLWFsbF9wLWNoYXRfbHAtY2hhdC1wYWlkX3R2LXhfYXMtcHJvZHVjdGRlbW9fc3QteF9oLXRoaXNpc250anVzdGFueWNoYXRfaS14X0FELVgtQ2hhdC1NYWdpY19hdi14X2N2LXYxLWNoYXRfZC14JmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMjg2MDg5OTk2NLgT____________AYgUArAUA8AVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXmJOvJO1fgq66FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMItt2rt57CkgMV7YfOBh0fTCpXEAEYASAAEgKu9_D_BwE&num=1&cid=CAASqgHkaDactsdRaLj3FAbmegRZetAGMxDgApRKlI-DDi8GO8nF-esrKyx2NdE3DWKsPiIE5DZUpKbYK2ArpM-2F_lA1597MWw2gJM-jXeNAn1JP6oMMFIcBJ-6d57Z6oZT0D8fBey9XLs_EZD8Ze5uk-iCN1s9qMEzaLBHZjhnDQ4QVs1gWblkr4qQDbpKorWoNUj6KcY_vNJYd7MdNpUhnyhb21fBMXllbtZaHg&ad_cpn=%5BCPN%5D&sig=AOD64_2es69a6JHo5nY1joyF0vKIV1kFrg&ctype=110&video_id=eRDA2Oj2sCw&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=8&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                    - generic [ref=e255]: Visit site
+            - generic [ref=e260] [cursor=pointer]:
+              - link [ref=e261]:
+                - /url: /watch?v=7xPcalwU76c&list=PLUeDIlio4THGmh41cgOGHMPxAJyK44WrA
+                - generic [ref=e271]:
+                  - generic [ref=e274]:
+                    - img
+                  - generic [ref=e275]: 9 videos
+              - generic [ref=e278]:
+                - heading "Specflow Selenium C# by Testers Talk" [level=3] [ref=e279]:
+                  - link "Specflow Selenium C# by Testers Talk" [ref=e280]:
+                    - /url: /watch?v=7xPcalwU76c&list=PLUeDIlio4THGmh41cgOGHMPxAJyK44WrA
+                - generic [ref=e282]:
+                  - generic [ref=e283]:
+                    - link "Testers Talk" [ref=e286]:
+                      - /url: /@testerstalk
+                    - generic [ref=e287]: •
+                    - link "Playlist" [ref=e290]:
+                      - /url: /@testerstalk
+                  - link "SpecFlow Selenium C# Tutorial Full Course | SpecFlow C# Tutorial | Selenium Automation Testing · 2:59:25" [ref=e294]:
+                    - /url: /watch?v=7xPcalwU76c&list=PLUeDIlio4THGmh41cgOGHMPxAJyK44WrA
+                  - link "SpecFlow Selenium C# Tutorials-01 End to End in 20 Minutes |Install, Project Creation & First Script · 33:44" [ref=e297]:
+                    - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THGmh41cgOGHMPxAJyK44WrA&pp=0gcJCRgBOCosWNin
+                  - link "View full playlist" [ref=e302]:
+                    - /url: /playlist?list=PLUeDIlio4THGmh41cgOGHMPxAJyK44WrA
+            - generic [ref=e304] [cursor=pointer]:
+              - link [ref=e305]:
+                - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THFK0pzBSrGnU0Jvhit_0Xq3
+                - generic [ref=e315]:
+                  - generic [ref=e318]:
+                    - img
+                  - generic [ref=e319]: 9 videos
+              - generic [ref=e322]:
+                - heading "Specflow Selenium C#" [level=3] [ref=e323]:
+                  - link "Specflow Selenium C#" [ref=e324]:
+                    - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THFK0pzBSrGnU0Jvhit_0Xq3
+                - generic [ref=e326]:
+                  - generic [ref=e327]:
+                    - link "Testers Talk" [ref=e330]:
+                      - /url: /@testerstalk
+                    - generic [ref=e331]: •
+                    - link "Playlist" [ref=e334]:
+                      - /url: /@testerstalk
+                  - link "SpecFlow Selenium C# Tutorials-01 End to End in 20 Minutes |Install, Project Creation & First Script · 33:44" [ref=e338]:
+                    - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THFK0pzBSrGnU0Jvhit_0Xq3
+                  - link "SpecFlow Selenium C# Tutorials-02 | Hooks Implementation · 20:19" [ref=e341]:
+                    - /url: /watch?v=mGWIzf82zyo&list=PLUeDIlio4THFK0pzBSrGnU0Jvhit_0Xq3
+                  - link "View full playlist" [ref=e346]:
+                    - /url: /playlist?list=PLUeDIlio4THFK0pzBSrGnU0Jvhit_0Xq3
+            - generic [ref=e348] [cursor=pointer]:
+              - link [ref=e349]:
+                - /url: /watch?v=7xPcalwU76c&list=PLUeDIlio4THEvoy4oRApx9zaQnXGp3aQl
+                - generic [ref=e359]:
+                  - generic [ref=e362]:
+                    - img
+                  - generic [ref=e363]: 9 videos
+              - generic [ref=e366]:
+                - heading "Specflow Tutorial - Selenium WebDriver with C#" [level=3] [ref=e367]:
+                  - link "Specflow Tutorial - Selenium WebDriver with C#" [ref=e368]:
+                    - /url: /watch?v=7xPcalwU76c&list=PLUeDIlio4THEvoy4oRApx9zaQnXGp3aQl
+                - generic [ref=e370]:
+                  - generic [ref=e371]:
+                    - link "Testers Talk" [ref=e374]:
+                      - /url: /@testerstalk
+                    - generic [ref=e375]: •
+                    - link "Playlist" [ref=e378]:
+                      - /url: /@testerstalk
+                  - link "SpecFlow Selenium C# Tutorial Full Course | SpecFlow C# Tutorial | Selenium Automation Testing · 2:59:25" [ref=e382]:
+                    - /url: /watch?v=7xPcalwU76c&list=PLUeDIlio4THEvoy4oRApx9zaQnXGp3aQl
+                  - link "SpecFlow Selenium C# Tutorials-01 End to End in 20 Minutes |Install, Project Creation & First Script · 33:44" [ref=e385]:
+                    - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THEvoy4oRApx9zaQnXGp3aQl
+                  - link "View full playlist" [ref=e390]:
+                    - /url: /playlist?list=PLUeDIlio4THEvoy4oRApx9zaQnXGp3aQl
+            - generic [ref=e392] [cursor=pointer]:
+              - link [ref=e393]:
+                - /url: /watch?v=7xPcalwU76c&list=PLUeDIlio4THFQ5v4MppsLdt4Cbeb6zD8G
+                - generic [ref=e403]:
+                  - generic [ref=e406]:
+                    - img
+                  - generic [ref=e407]: 9 videos
+              - generic [ref=e410]:
+                - heading "SpecFlow by Testers Talk☑️" [level=3] [ref=e411]:
+                  - link "SpecFlow by Testers Talk☑️" [ref=e412]:
+                    - /url: /watch?v=7xPcalwU76c&list=PLUeDIlio4THFQ5v4MppsLdt4Cbeb6zD8G
+                - generic [ref=e414]:
+                  - generic [ref=e415]:
+                    - link "Testers Talk" [ref=e418]:
+                      - /url: /@testerstalk
+                    - generic [ref=e419]: •
+                    - link "Playlist" [ref=e422]:
+                      - /url: /@testerstalk
+                  - link "SpecFlow Selenium C# Tutorial Full Course | SpecFlow C# Tutorial | Selenium Automation Testing · 2:59:25" [ref=e426]:
+                    - /url: /watch?v=7xPcalwU76c&list=PLUeDIlio4THFQ5v4MppsLdt4Cbeb6zD8G
+                  - link "SpecFlow Selenium C# Tutorials-01 End to End in 20 Minutes |Install, Project Creation & First Script · 33:44" [ref=e429]:
+                    - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THFQ5v4MppsLdt4Cbeb6zD8G
+                  - link "View full playlist" [ref=e434]:
+                    - /url: /playlist?list=PLUeDIlio4THFQ5v4MppsLdt4Cbeb6zD8G
+            - generic [ref=e436] [cursor=pointer]:
+              - link [ref=e437]:
+                - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THElUjJezQ68ugqrHar55DDS
+                - generic [ref=e447]:
+                  - generic [ref=e450]:
+                    - img
+                  - generic [ref=e451]: 9 videos
+              - generic [ref=e454]:
+                - heading "Specflow Tutorial | Specflow C# Tutorial | Specflow Selenium C# Tutorial for Beginners" [level=3] [ref=e455]:
+                  - link "Specflow Tutorial | Specflow C# Tutorial | Specflow Selenium C# Tutorial for Beginners" [ref=e456]:
+                    - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THElUjJezQ68ugqrHar55DDS
+                - generic [ref=e458]:
+                  - generic [ref=e459]:
+                    - link "Testers Talk" [ref=e462]:
+                      - /url: /@testerstalk
+                    - generic [ref=e463]: •
+                    - link "Playlist" [ref=e466]:
+                      - /url: /@testerstalk
+                  - link "SpecFlow Selenium C# Tutorials-01 End to End in 20 Minutes |Install, Project Creation & First Script · 33:44" [ref=e470]:
+                    - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THElUjJezQ68ugqrHar55DDS&pp=0gcJCRgBOCosWNin
+                  - link "SpecFlow Selenium C# Tutorials-02 | Hooks Implementation · 20:19" [ref=e473]:
+                    - /url: /watch?v=mGWIzf82zyo&list=PLUeDIlio4THElUjJezQ68ugqrHar55DDS
+                  - link "View full playlist" [ref=e478]:
+                    - /url: /playlist?list=PLUeDIlio4THElUjJezQ68ugqrHar55DDS
+            - generic [ref=e480] [cursor=pointer]:
+              - link [ref=e481]:
+                - /url: /watch?v=7xPcalwU76c&list=PLUeDIlio4THG4oqgPkxkJWeoPWUPxGuB4
+                - generic [ref=e491]:
+                  - generic [ref=e494]:
+                    - img
+                  - generic [ref=e495]: 9 videos
+              - generic [ref=e498]:
+                - heading "Specflow Tutorial 2023" [level=3] [ref=e499]:
+                  - link "Specflow Tutorial 2023" [ref=e500]:
+                    - /url: /watch?v=7xPcalwU76c&list=PLUeDIlio4THG4oqgPkxkJWeoPWUPxGuB4
+                - generic [ref=e502]:
+                  - generic [ref=e503]:
+                    - link "Testers Talk" [ref=e506]:
+                      - /url: /@testerstalk
+                    - generic [ref=e507]: •
+                    - link "Playlist" [ref=e510]:
+                      - /url: /@testerstalk
+                  - link "SpecFlow Selenium C# Tutorial Full Course | SpecFlow C# Tutorial | Selenium Automation Testing · 2:59:25" [ref=e514]:
+                    - /url: /watch?v=7xPcalwU76c&list=PLUeDIlio4THG4oqgPkxkJWeoPWUPxGuB4
+                  - link "SpecFlow Selenium C# Tutorials-01 End to End in 20 Minutes |Install, Project Creation & First Script · 33:44" [ref=e517]:
+                    - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THG4oqgPkxkJWeoPWUPxGuB4&pp=0gcJCRgBOCosWNin
+                  - link "View full playlist" [ref=e522]:
+                    - /url: /playlist?list=PLUeDIlio4THG4oqgPkxkJWeoPWUPxGuB4
+            - generic [ref=e524] [cursor=pointer]:
+              - link [ref=e525]:
+                - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THFrQdPgsjt_eqbukT1sMIPY
+                - generic [ref=e535]:
+                  - generic [ref=e538]:
+                    - img
+                  - generic [ref=e539]: 9 videos
+              - generic [ref=e542]:
+                - heading "Specflow C#" [level=3] [ref=e543]:
+                  - link "Specflow C#" [ref=e544]:
+                    - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THFrQdPgsjt_eqbukT1sMIPY
+                - generic [ref=e546]:
+                  - generic [ref=e547]:
+                    - link "Testers Talk" [ref=e550]:
+                      - /url: /@testerstalk
+                    - generic [ref=e551]: •
+                    - link "Playlist" [ref=e554]:
+                      - /url: /@testerstalk
+                  - link "SpecFlow Selenium C# Tutorials-01 End to End in 20 Minutes |Install, Project Creation & First Script · 33:44" [ref=e558]:
+                    - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THFrQdPgsjt_eqbukT1sMIPY
+                  - link "SpecFlow Selenium C# Tutorials-02 | Hooks Implementation · 20:19" [ref=e561]:
+                    - /url: /watch?v=mGWIzf82zyo&list=PLUeDIlio4THFrQdPgsjt_eqbukT1sMIPY
+                  - link "View full playlist" [ref=e566]:
+                    - /url: /playlist?list=PLUeDIlio4THFrQdPgsjt_eqbukT1sMIPY
+            - generic [ref=e568] [cursor=pointer]:
+              - link [ref=e569]:
+                - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THH3fJibjSkqGLjQl2dtW-2u
+                - generic [ref=e579]:
+                  - generic [ref=e582]:
+                    - img
+                  - generic [ref=e583]: 9 videos
+              - generic [ref=e586]:
+                - heading "Specflow Framework C#" [level=3] [ref=e587]:
+                  - link "Specflow Framework C#" [ref=e588]:
+                    - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THH3fJibjSkqGLjQl2dtW-2u
+                - generic [ref=e590]:
+                  - generic [ref=e591]:
+                    - link "Testers Talk" [ref=e594]:
+                      - /url: /@testerstalk
+                    - generic [ref=e595]: •
+                    - link "Playlist" [ref=e598]:
+                      - /url: /@testerstalk
+                  - link "SpecFlow Selenium C# Tutorials-01 End to End in 20 Minutes |Install, Project Creation & First Script · 33:44" [ref=e602]:
+                    - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THH3fJibjSkqGLjQl2dtW-2u
+                  - link "SpecFlow Selenium C# Tutorials-02 | Hooks Implementation · 20:19" [ref=e605]:
+                    - /url: /watch?v=mGWIzf82zyo&list=PLUeDIlio4THH3fJibjSkqGLjQl2dtW-2u
+                  - link "View full playlist" [ref=e610]:
+                    - /url: /playlist?list=PLUeDIlio4THH3fJibjSkqGLjQl2dtW-2u
+            - generic [ref=e612] [cursor=pointer]:
+              - link [ref=e613]:
+                - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THFDzSCZJhxAL5Id2yoINjuT
+                - generic [ref=e623]:
+                  - generic [ref=e626]:
+                    - img
+                  - generic [ref=e627]: 9 videos
+              - generic [ref=e630]:
+                - heading "Specflow C# Tutorials" [level=3] [ref=e631]:
+                  - link "Specflow C# Tutorials" [ref=e632]:
+                    - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THFDzSCZJhxAL5Id2yoINjuT
+                - generic [ref=e634]:
+                  - generic [ref=e635]:
+                    - link "Testers Talk" [ref=e638]:
+                      - /url: /@testerstalk
+                    - generic [ref=e639]: •
+                    - link "Playlist" [ref=e642]:
+                      - /url: /@testerstalk
+                  - link "SpecFlow Selenium C# Tutorials-01 End to End in 20 Minutes |Install, Project Creation & First Script · 33:44" [ref=e646]:
+                    - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THFDzSCZJhxAL5Id2yoINjuT
+                  - link "SpecFlow Selenium C# Tutorials-02 | Hooks Implementation · 20:19" [ref=e649]:
+                    - /url: /watch?v=mGWIzf82zyo&list=PLUeDIlio4THFDzSCZJhxAL5Id2yoINjuT
+                  - link "View full playlist" [ref=e654]:
+                    - /url: /playlist?list=PLUeDIlio4THFDzSCZJhxAL5Id2yoINjuT
+            - generic [ref=e656]:
+              - heading "People also watched" [level=2] [ref=e659]:
+                - generic [ref=e661]: People also watched
+              - generic [ref=e663]:
+                - generic [ref=e664]:
+                  - generic [ref=e666]:
+                    - link [ref=e668] [cursor=pointer]:
+                      - /url: /watch?v=WkN1SG7H35k&pp=ygUkU3BlY2Zsb3cgU2VsZW5pdW0gQyMgYnkgVGVzdGVycyBUYWxr0gcJCZEKAYcqIYzv
+                    - generic [ref=e670] [cursor=pointer]:
+                      - generic [ref=e671]:
+                        - generic [ref=e672]:
+                          - heading "SpecFlow Tutorial-BDD-Selenium WebDriver with C#-Setup Selenium with Visual Studio & NUnit-Session 2 27 minutes" [level=3] [ref=e673]:
+                            - link "SpecFlow Tutorial-BDD-Selenium WebDriver with C#-Setup Selenium with Visual Studio & NUnit-Session 2 27 minutes" [ref=e674]:
+                              - /url: /watch?v=WkN1SG7H35k&pp=ygUkU3BlY2Zsb3cgU2VsZW5pdW0gQyMgYnkgVGVzdGVycyBUYWxr0gcJCZEKAYcqIYzv
+                              - text: SpecFlow Tutorial-BDD-Selenium WebDriver with C#-Setup Selenium with Visual Studio & NUnit-Session 2
+                          - button "Action menu" [ref=e678]:
+                            - generic [ref=e681]:
+                              - img
+                        - generic [ref=e684]:
+                          - generic [ref=e685]: 4.5K views
+                          - generic [ref=e686]: •3 years ago
+                      - generic [ref=e687]:
+                        - link "Go to channel Haradhan Automation Library" [ref=e688]:
+                          - /url: /@HaradhanAutomationLibrary
+                        - link "Haradhan Automation Library" [ref=e693]:
+                          - /url: /@HaradhanAutomationLibrary
+                      - generic [ref=e694]:
+                        - generic [ref=e695]: Set Up Selenium WebDriver with Visual Studio in C# Complete Set up for launching Chrome Browser Add Selenium with C# code ...
+                        - tooltip "tooltip"
+                      - generic [ref=e698]:
+                        - generic [ref=e699]:
+                          - generic [ref=e703]: 9 chapters
+                          - button "Intro | Spec Flow Overview | Step Definition Class | Step Example | Validate Title | Test | Run again | Test assertion failure | Demo" [ref=e704]
+                        - button "More" [ref=e709]:
+                          - generic [ref=e713]:
+                            - img
+                  - generic [ref=e718]:
+                    - link [ref=e720] [cursor=pointer]:
+                      - /url: /watch?v=809kANmxAVQ&pp=ygUkU3BlY2Zsb3cgU2VsZW5pdW0gQyMgYnkgVGVzdGVycyBUYWxr
+                    - generic [ref=e722] [cursor=pointer]:
+                      - generic [ref=e723]:
+                        - generic [ref=e724]:
+                          - heading "Automation Testing Interview Experience | Real-Time QA & SDET Interview Preparation 2026 30 minutes" [level=3] [ref=e725]:
+                            - link "Automation Testing Interview Experience | Real-Time QA & SDET Interview Preparation 2026 30 minutes" [ref=e726]:
+                              - /url: /watch?v=809kANmxAVQ&pp=ygUkU3BlY2Zsb3cgU2VsZW5pdW0gQyMgYnkgVGVzdGVycyBUYWxr
+                              - text: Automation Testing Interview Experience | Real-Time QA & SDET Interview Preparation 2026
+                          - button "Action menu" [ref=e730]:
+                            - generic [ref=e733]:
+                              - img
+                        - generic [ref=e736]:
+                          - generic [ref=e737]: 1.1K views
+                          - generic [ref=e738]: •1 day ago
+                      - generic [ref=e739]:
+                        - link "Go to channel RD Automation Learning" [ref=e740]:
+                          - /url: /@rdautomationlearning609
+                        - link "RD Automation Learning" [ref=e745]:
+                          - /url: /@rdautomationlearning609
+                      - generic [ref=e746]:
+                        - generic [ref=e747]: TCS Automation Testing Interview Experience | Real Time Interview Questions and Answers TCS Automation Testing Interview ...
+                        - tooltip "tooltip"
+                      - img "New" [ref=e750]:
+                        - generic [ref=e751]: New
+                      - generic [ref=e754]:
+                        - generic [ref=e755]:
+                          - generic [ref=e756]:
+                            - generic [ref=e759]:
+                              - img
+                            - generic [ref=e760]: Summary
+                          - button "RD Automation Learning shares a realistic QA and SDET interview. The candidate's experience covers API and UI automation, including framework design and BDD. The video also explores Java coding challenges and requirement traceability." [ref=e761]
+                          - text: ·
+                        - button "More" [ref=e766]:
+                          - generic [ref=e770]:
+                            - img
+                  - generic [ref=e775]:
+                    - link [ref=e777] [cursor=pointer]:
+                      - /url: /watch?v=lx9NE0II1K4&pp=ygUkU3BlY2Zsb3cgU2VsZW5pdW0gQyMgYnkgVGVzdGVycyBUYWxr
+                    - generic [ref=e779] [cursor=pointer]:
+                      - generic [ref=e780]:
+                        - generic [ref=e781]:
+                          - heading "The Shocking Truth About Selenium in 2026 7 minutes, 36 seconds" [level=3] [ref=e782]:
+                            - link "The Shocking Truth About Selenium in 2026 7 minutes, 36 seconds" [ref=e783]:
+                              - /url: /watch?v=lx9NE0II1K4&pp=ygUkU3BlY2Zsb3cgU2VsZW5pdW0gQyMgYnkgVGVzdGVycyBUYWxr
+                              - text: The Shocking Truth About Selenium in 2026
+                          - button "Action menu" [ref=e787]:
+                            - generic [ref=e790]:
+                              - img
+                        - generic [ref=e793]:
+                          - generic [ref=e794]: 39K views
+                          - generic [ref=e795]: •2 months ago
+                      - generic [ref=e796]:
+                        - link "Go to channel The Testing Academy" [ref=e797]:
+                          - /url: /@TheTestingAcademy
+                        - generic [ref=e798]:
+                          - link "The Testing Academy" [ref=e802]:
+                            - /url: /@TheTestingAcademy
+                          - img "Verified" [ref=e805]:
+                            - generic [ref=e808]:
+                              - img
+                      - generic [ref=e809]:
+                        - generic [ref=e810]: New Batch for Automation Testing - https://sdet.live/become 10% OFF - Coupon Code - PROMODE Roadmap To Become an ...
+                        - tooltip "tooltip"
+                  - generic [ref=e812]:
+                    - link [ref=e814] [cursor=pointer]:
+                      - /url: /watch?v=27iyndvYfQA&pp=ygUkU3BlY2Zsb3cgU2VsZW5pdW0gQyMgYnkgVGVzdGVycyBUYWxr
+                    - generic [ref=e816] [cursor=pointer]:
+                      - generic [ref=e817]:
+                        - generic [ref=e818]:
+                          - heading "SpecFlow Selenium C# Tutorials-08 | Page Object Model from Scratch | End to End Automation Framework 41 minutes" [level=3] [ref=e819]:
+                            - link "SpecFlow Selenium C# Tutorials-08 | Page Object Model from Scratch | End to End Automation Framework 41 minutes" [ref=e820]:
+                              - /url: /watch?v=27iyndvYfQA&pp=ygUkU3BlY2Zsb3cgU2VsZW5pdW0gQyMgYnkgVGVzdGVycyBUYWxr
+                              - text: SpecFlow Selenium C# Tutorials-08 | Page Object Model from Scratch | End to End Automation Framework
+                          - button "Action menu" [ref=e824]:
+                            - generic [ref=e827]:
+                              - img
+                        - generic [ref=e830]:
+                          - generic [ref=e831]: 8.8K views
+                          - generic [ref=e832]: •2 years ago
+                      - generic [ref=e833]:
+                        - link "Go to channel Testers Talk" [ref=e834]:
+                          - /url: /@testerstalk
+                        - link "Testers Talk" [ref=e839]:
+                          - /url: /@testerstalk
+                      - generic [ref=e840]:
+                        - generic [ref=e841]: SpecFlow Selenium C# Tutorials-08 | Page Object Model From Scratch | End to End with Automation Framework | BDD ...
+                        - tooltip "tooltip"
+                      - generic [ref=e844]:
+                        - generic [ref=e845]:
+                          - generic [ref=e849]: 14 chapters
+                          - button "Page Object Model Design Pattern in Specflow Selenium C | why page object model? | What is page object model | Example of POM page object model | Advantages & Disadvantages of Page Object model POM | Specflow selenium c# framework github repository | Page Object Model Implementation | create feature file | create step definition file | Create POM pages | Assertions validating webpage title | Run feature file | open extent html report | add screenshot into extent report" [ref=e850]
+                        - button "More" [ref=e855]:
+                          - generic [ref=e859]:
+                            - img
+                - generic "+6 more" [ref=e864] [cursor=pointer]
+            - generic [ref=e866] [cursor=pointer]:
+              - link [ref=e867]:
+                - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THHcYKlAROqnq539Ls4eR07J
+                - generic [ref=e877]:
+                  - generic [ref=e880]:
+                    - img
+                  - generic [ref=e881]: 9 videos
+              - generic [ref=e884]:
+                - heading "Specflow BDD Framework" [level=3] [ref=e885]:
+                  - link "Specflow BDD Framework" [ref=e886]:
+                    - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THHcYKlAROqnq539Ls4eR07J
+                - generic [ref=e888]:
+                  - generic [ref=e889]:
+                    - link "Testers Talk" [ref=e892]:
+                      - /url: /@testerstalk
+                    - generic [ref=e893]: •
+                    - link "Playlist" [ref=e896]:
+                      - /url: /@testerstalk
+                  - link "SpecFlow Selenium C# Tutorials-01 End to End in 20 Minutes |Install, Project Creation & First Script · 33:44" [ref=e900]:
+                    - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THHcYKlAROqnq539Ls4eR07J
+                  - link "SpecFlow Selenium C# Tutorials-02 | Hooks Implementation · 20:19" [ref=e903]:
+                    - /url: /watch?v=mGWIzf82zyo&list=PLUeDIlio4THHcYKlAROqnq539Ls4eR07J
+                  - link "View full playlist" [ref=e908]:
+                    - /url: /playlist?list=PLUeDIlio4THHcYKlAROqnq539Ls4eR07J
+            - generic [ref=e910] [cursor=pointer]:
+              - link [ref=e911]:
+                - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THHIvstHIM1SgbB2Ld-psM1F
+                - generic [ref=e921]:
+                  - generic [ref=e924]:
+                    - img
+                  - generic [ref=e925]: 9 videos
+              - generic [ref=e928]:
+                - heading "Specflow Tutorials" [level=3] [ref=e929]:
+                  - link "Specflow Tutorials" [ref=e930]:
+                    - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THHIvstHIM1SgbB2Ld-psM1F
+                - generic [ref=e932]:
+                  - generic [ref=e933]:
+                    - link "Testers Talk" [ref=e936]:
+                      - /url: /@testerstalk
+                    - generic [ref=e937]: •
+                    - link "Playlist" [ref=e940]:
+                      - /url: /@testerstalk
+                  - link "SpecFlow Selenium C# Tutorials-01 End to End in 20 Minutes |Install, Project Creation & First Script · 33:44" [ref=e944]:
+                    - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THHIvstHIM1SgbB2Ld-psM1F
+                  - link "SpecFlow Selenium C# Tutorials-02 | Hooks Implementation · 20:19" [ref=e947]:
+                    - /url: /watch?v=mGWIzf82zyo&list=PLUeDIlio4THHIvstHIM1SgbB2Ld-psM1F
+                  - link "View full playlist" [ref=e952]:
+                    - /url: /playlist?list=PLUeDIlio4THHIvstHIM1SgbB2Ld-psM1F
+            - generic [ref=e954] [cursor=pointer]:
+              - link [ref=e955]:
+                - /url: /watch?v=7xPcalwU76c&list=PLUeDIlio4THGhh6An_cUgOxZg2LVmmRjg
+                - generic [ref=e965]:
+                  - generic [ref=e968]:
+                    - img
+                  - generic [ref=e969]: 9 videos
+              - generic [ref=e972]:
+                - heading "Specflow by Testers" [level=3] [ref=e973]:
+                  - link "Specflow by Testers" [ref=e974]:
+                    - /url: /watch?v=7xPcalwU76c&list=PLUeDIlio4THGhh6An_cUgOxZg2LVmmRjg
+                - generic [ref=e976]:
+                  - generic [ref=e977]:
+                    - link "Testers Talk" [ref=e980]:
+                      - /url: /@testerstalk
+                    - generic [ref=e981]: •
+                    - link "Playlist" [ref=e984]:
+                      - /url: /@testerstalk
+                  - link "SpecFlow Selenium C# Tutorial Full Course | SpecFlow C# Tutorial | Selenium Automation Testing · 2:59:25" [ref=e988]:
+                    - /url: /watch?v=7xPcalwU76c&list=PLUeDIlio4THGhh6An_cUgOxZg2LVmmRjg
+                  - link "SpecFlow Selenium C# Tutorials-01 End to End in 20 Minutes |Install, Project Creation & First Script · 33:44" [ref=e991]:
+                    - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THGhh6An_cUgOxZg2LVmmRjg
+                  - link "View full playlist" [ref=e996]:
+                    - /url: /playlist?list=PLUeDIlio4THGhh6An_cUgOxZg2LVmmRjg
+            - generic [ref=e998] [cursor=pointer]:
+              - link [ref=e999]:
+                - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THF_ZQa1yqY1BkGKGmI4eK2n
+                - generic [ref=e1009]:
+                  - generic [ref=e1012]:
+                    - img
+                  - generic [ref=e1013]: 9 videos
+              - generic [ref=e1016]:
+                - heading "Specflow" [level=3] [ref=e1017]:
+                  - link "Specflow" [ref=e1018]:
+                    - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THF_ZQa1yqY1BkGKGmI4eK2n
+                - generic [ref=e1020]:
+                  - generic [ref=e1021]:
+                    - link "Testers Talk" [ref=e1024]:
+                      - /url: /@testerstalk
+                    - generic [ref=e1025]: •
+                    - link "Playlist" [ref=e1028]:
+                      - /url: /@testerstalk
+                  - link "SpecFlow Selenium C# Tutorials-01 End to End in 20 Minutes |Install, Project Creation & First Script · 33:44" [ref=e1032]:
+                    - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THF_ZQa1yqY1BkGKGmI4eK2n
+                  - link "SpecFlow Selenium C# Tutorials-02 | Hooks Implementation · 20:19" [ref=e1035]:
+                    - /url: /watch?v=mGWIzf82zyo&list=PLUeDIlio4THF_ZQa1yqY1BkGKGmI4eK2n
+                  - link "View full playlist" [ref=e1040]:
+                    - /url: /playlist?list=PLUeDIlio4THF_ZQa1yqY1BkGKGmI4eK2n
+            - generic [ref=e1042]:
+              - link [ref=e1044] [cursor=pointer]:
+                - /url: /watch?v=7xPcalwU76c&pp=ygUkU3BlY2Zsb3cgU2VsZW5pdW0gQyMgYnkgVGVzdGVycyBUYWxr
+              - generic [ref=e1046] [cursor=pointer]:
+                - generic [ref=e1047]:
+                  - generic [ref=e1048]:
+                    - heading "SpecFlow Selenium C# Tutorial Full Course | SpecFlow C# Tutorial | Selenium Automation Testing 2 hours, 59 minutes" [level=3] [ref=e1049]:
+                      - link "SpecFlow Selenium C# Tutorial Full Course | SpecFlow C# Tutorial | Selenium Automation Testing 2 hours, 59 minutes" [ref=e1050]:
+                        - /url: /watch?v=7xPcalwU76c&pp=ygUkU3BlY2Zsb3cgU2VsZW5pdW0gQyMgYnkgVGVzdGVycyBUYWxr
+                        - text: SpecFlow Selenium C# Tutorial Full Course | SpecFlow C# Tutorial | Selenium Automation Testing
+                    - button "Action menu" [ref=e1054]:
+                      - generic [ref=e1057]:
+                        - img
+                  - generic [ref=e1060]:
+                    - generic [ref=e1061]: 83K views
+                    - generic [ref=e1062]: •3 years ago
+                - generic [ref=e1063]:
+                  - link "Go to channel Testers Talk" [ref=e1064]:
+                    - /url: /@testerstalk
+                  - link "Testers Talk" [ref=e1069]:
+                    - /url: /@testerstalk
+                - generic [ref=e1070]:
+                  - generic [ref=e1071]: SpecFlow Selenium C# Tutorial Full Course | Spec Flow C# Tutorial | Specflow tutorial for beginner | BDD Framework from ...
+                  - tooltip "tooltip"
+                - generic [ref=e1074]:
+                  - generic [ref=e1075]:
+                    - generic [ref=e1079]: 61 chapters
+                    - button [ref=e1080]
+                  - button "More" [ref=e1085]:
+                    - generic [ref=e1089]:
+                      - img
+            - generic [ref=e1094] [cursor=pointer]:
+              - link [ref=e1095]:
+                - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THGiltuDNcVJ83M47X1g5Dmf
+                - generic [ref=e1105]:
+                  - generic [ref=e1108]:
+                    - img
+                  - generic [ref=e1109]: 9 videos
+              - generic [ref=e1112]:
+                - heading "BDD and Specflow" [level=3] [ref=e1113]:
+                  - link "BDD and Specflow" [ref=e1114]:
+                    - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THGiltuDNcVJ83M47X1g5Dmf
+                - generic [ref=e1116]:
+                  - generic [ref=e1117]:
+                    - link "Testers Talk" [ref=e1120]:
+                      - /url: /@testerstalk
+                    - generic [ref=e1121]: •
+                    - link "Playlist" [ref=e1124]:
+                      - /url: /@testerstalk
+                  - link "SpecFlow Selenium C# Tutorials-01 End to End in 20 Minutes |Install, Project Creation & First Script · 33:44" [ref=e1128]:
+                    - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THGiltuDNcVJ83M47X1g5Dmf&pp=0gcJCRgBOCosWNin
+                  - link "SpecFlow Selenium C# Tutorials-02 | Hooks Implementation · 20:19" [ref=e1131]:
+                    - /url: /watch?v=mGWIzf82zyo&list=PLUeDIlio4THGiltuDNcVJ83M47X1g5Dmf
+                  - link "View full playlist" [ref=e1136]:
+                    - /url: /playlist?list=PLUeDIlio4THGiltuDNcVJ83M47X1g5Dmf
+            - generic [ref=e1138] [cursor=pointer]:
+              - link [ref=e1139]:
+                - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THGrFSyl0jDcyvCbiMWOrAE2
+                - generic [ref=e1149]:
+                  - generic [ref=e1152]:
+                    - img
+                  - generic [ref=e1153]: 9 videos
+              - generic [ref=e1156]:
+                - heading "BDD with Selenium and Specflow" [level=3] [ref=e1157]:
+                  - link "BDD with Selenium and Specflow" [ref=e1158]:
+                    - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THGrFSyl0jDcyvCbiMWOrAE2
+                - generic [ref=e1160]:
+                  - generic [ref=e1161]:
+                    - link "Testers Talk" [ref=e1164]:
+                      - /url: /@testerstalk
+                    - generic [ref=e1165]: •
+                    - link "Playlist" [ref=e1168]:
+                      - /url: /@testerstalk
+                  - link "SpecFlow Selenium C# Tutorials-01 End to End in 20 Minutes |Install, Project Creation & First Script · 33:44" [ref=e1172]:
+                    - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THGrFSyl0jDcyvCbiMWOrAE2
+                  - link "SpecFlow Selenium C# Tutorials-02 | Hooks Implementation · 20:19" [ref=e1175]:
+                    - /url: /watch?v=mGWIzf82zyo&list=PLUeDIlio4THGrFSyl0jDcyvCbiMWOrAE2
+                  - link "View full playlist" [ref=e1180]:
+                    - /url: /playlist?list=PLUeDIlio4THGrFSyl0jDcyvCbiMWOrAE2
+            - generic [ref=e1182] [cursor=pointer]:
+              - link [ref=e1183]:
+                - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THGBxNKhkmzfi7wF7BAVnuQv
+                - generic [ref=e1193]:
+                  - generic [ref=e1196]:
+                    - img
+                  - generic [ref=e1197]: 9 videos
+              - generic [ref=e1200]:
+                - heading "Specflow BDD" [level=3] [ref=e1201]:
+                  - link "Specflow BDD" [ref=e1202]:
+                    - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THGBxNKhkmzfi7wF7BAVnuQv
+                - generic [ref=e1204]:
+                  - generic [ref=e1205]:
+                    - link "Testers Talk" [ref=e1208]:
+                      - /url: /@testerstalk
+                    - generic [ref=e1209]: •
+                    - link "Playlist" [ref=e1212]:
+                      - /url: /@testerstalk
+                  - link "SpecFlow Selenium C# Tutorials-01 End to End in 20 Minutes |Install, Project Creation & First Script · 33:44" [ref=e1216]:
+                    - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THGBxNKhkmzfi7wF7BAVnuQv
+                  - link "SpecFlow Selenium C# Tutorials-02 | Hooks Implementation · 20:19" [ref=e1219]:
+                    - /url: /watch?v=mGWIzf82zyo&list=PLUeDIlio4THGBxNKhkmzfi7wF7BAVnuQv
+                  - link "View full playlist" [ref=e1224]:
+                    - /url: /playlist?list=PLUeDIlio4THGBxNKhkmzfi7wF7BAVnuQv
+            - generic [ref=e1226] [cursor=pointer]:
+              - link [ref=e1227]:
+                - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THEWzdmKx8JrxPUhs53bJBRl
+                - generic [ref=e1237]:
+                  - generic [ref=e1240]:
+                    - img
+                  - generic [ref=e1241]: 9 videos
+              - generic [ref=e1244]:
+                - heading "Specflow by Bakkappa N" [level=3] [ref=e1245]:
+                  - link "Specflow by Bakkappa N" [ref=e1246]:
+                    - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THEWzdmKx8JrxPUhs53bJBRl
+                - generic [ref=e1248]:
+                  - generic [ref=e1249]:
+                    - link "Testers Talk" [ref=e1252]:
+                      - /url: /@testerstalk
+                    - generic [ref=e1253]: •
+                    - link "Playlist" [ref=e1256]:
+                      - /url: /@testerstalk
+                  - link "SpecFlow Selenium C# Tutorials-01 End to End in 20 Minutes |Install, Project Creation & First Script · 33:44" [ref=e1260]:
+                    - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THEWzdmKx8JrxPUhs53bJBRl&pp=0gcJCRgBOCosWNin
+                  - link "SpecFlow Selenium C# Tutorials-02 | Hooks Implementation · 20:19" [ref=e1263]:
+                    - /url: /watch?v=mGWIzf82zyo&list=PLUeDIlio4THEWzdmKx8JrxPUhs53bJBRl
+                  - link "View full playlist" [ref=e1268]:
+                    - /url: /playlist?list=PLUeDIlio4THEWzdmKx8JrxPUhs53bJBRl
+            - generic [ref=e1270] [cursor=pointer]:
+              - link [ref=e1271]:
+                - /url: /watch?v=oJV5whmzfZI&list=PLUeDIlio4THEiZk6G2_zAMjU9mfyvTksi
+                - generic [ref=e1281]:
+                  - generic [ref=e1284]:
+                    - img
+                  - generic [ref=e1285]: 17 videos
+              - generic [ref=e1288]:
+                - heading "Full Courses by Testers Talk" [level=3] [ref=e1289]:
+                  - link "Full Courses by Testers Talk" [ref=e1290]:
+                    - /url: /watch?v=oJV5whmzfZI&list=PLUeDIlio4THEiZk6G2_zAMjU9mfyvTksi
+                - generic [ref=e1292]:
+                  - generic [ref=e1293]:
+                    - link "Testers Talk" [ref=e1296]:
+                      - /url: /@testerstalk
+                    - generic [ref=e1297]: •
+                    - link "Playlist" [ref=e1300]:
+                      - /url: /@testerstalk
+                  - link "Cypress Tutorial Full Course | Cypress Automation | Learn Cypress in 5 Hrs · 5:04:18" [ref=e1304]:
+                    - /url: /watch?v=oJV5whmzfZI&list=PLUeDIlio4THEiZk6G2_zAMjU9mfyvTksi
+                  - link "JavaScript Tutorial Full Course | JavaScript Tutorial For Beginners · 4:30:59" [ref=e1307]:
+                    - /url: /watch?v=ACUMZ3OkExQ&list=PLUeDIlio4THEiZk6G2_zAMjU9mfyvTksi
+                  - link "View full playlist" [ref=e1312]:
+                    - /url: /playlist?list=PLUeDIlio4THEiZk6G2_zAMjU9mfyvTksi
+            - generic [ref=e1313]:
+              - generic [ref=e1316]:
+                - img [ref=e1318]:
+                  - generic [ref=e1320]:
+                    - img
+                - heading "Shorts" [level=2] [ref=e1323]
+              - generic [ref=e1325]:
+                - generic [ref=e1328]:
+                  - link [ref=e1329] [cursor=pointer]:
+                    - /url: /shorts/S7aJtLnk0lg
+                  - generic [ref=e1333] [cursor=pointer]:
+                    - 'link "How to create a SpecFlow sample scenario | SpecFlow Scenario Explained | TestMu AI #shorts" [ref=e1334]':
+                      - /url: /shorts/S7aJtLnk0lg
+                    - generic [ref=e1335]: 6.4K views
+                  - button "More actions" [ref=e1337] [cursor=pointer]:
+                    - generic [ref=e1341]:
+                      - img
+                - generic [ref=e1347]:
+                  - link [ref=e1348] [cursor=pointer]:
+                    - /url: /shorts/s-5A2fNi9BA
+                  - generic [ref=e1352] [cursor=pointer]:
+                    - 'link "#11 Async & Await in Playwright #playwright #automation #testing #testerstalk" [ref=e1353]':
+                      - /url: /shorts/s-5A2fNi9BA
+                    - generic [ref=e1354]: 1.6K views
+                  - button "More actions" [ref=e1356] [cursor=pointer]:
+                    - generic [ref=e1360]:
+                      - img
+                - generic [ref=e1366]:
+                  - link [ref=e1367] [cursor=pointer]:
+                    - /url: /shorts/DuStNdvnIRk
+                  - generic [ref=e1371] [cursor=pointer]:
+                    - link "SpecFlow Selenium C#-Specflow-Selenium Specflow-BDD with Selenium and Specflow-Spec Flow Selenium" [ref=e1372]:
+                      - /url: /shorts/DuStNdvnIRk
+                    - generic [ref=e1373]: 393 views
+                  - button "More actions" [ref=e1375] [cursor=pointer]:
+                    - generic [ref=e1379]:
+                      - img
+                - generic [ref=e1385]:
+                  - link [ref=e1386] [cursor=pointer]:
+                    - /url: /shorts/zrTlPo9XLtU
+                  - generic [ref=e1390] [cursor=pointer]:
+                    - link "How to Explain Test Automation framework in Interview?" [ref=e1391]:
+                      - /url: /shorts/zrTlPo9XLtU
+                    - generic [ref=e1392]: 6K views
+                  - button "More actions" [ref=e1394] [cursor=pointer]:
+                    - generic [ref=e1398]:
+                      - img
+                - generic [ref=e1404]:
+                  - link [ref=e1405] [cursor=pointer]:
+                    - /url: /shorts/PWTwAV6w39U
+                  - generic [ref=e1409] [cursor=pointer]:
+                    - 'link "SELENIUM WITH C#.NET - 01|Basic Interview Question & Answers |Tutorial & Practical Example | #Shorts" [ref=e1410]':
+                      - /url: /shorts/PWTwAV6w39U
+                    - generic [ref=e1411]: 818 views
+                  - button "More actions" [ref=e1413] [cursor=pointer]:
+                    - generic [ref=e1417]:
+                      - img
+              - button "Show more" [ref=e1424] [cursor=pointer]:
+                - generic [ref=e1425]: Show more
+                - generic [ref=e1429]:
+                  - img
+            - generic [ref=e1434] [cursor=pointer]:
+              - link [ref=e1435]:
+                - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THEJblL_T8qc8GaFYooYzDPi
+                - generic [ref=e1445]:
+                  - generic [ref=e1448]:
+                    - img
+                  - generic [ref=e1449]: 9 videos
+              - generic [ref=e1452]:
+                - heading "Specflow Automation Framework C#" [level=3] [ref=e1453]:
+                  - link "Specflow Automation Framework C#" [ref=e1454]:
+                    - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THEJblL_T8qc8GaFYooYzDPi
+                - generic [ref=e1456]:
+                  - generic [ref=e1457]:
+                    - link "Testers Talk" [ref=e1460]:
+                      - /url: /@testerstalk
+                    - generic [ref=e1461]: •
+                    - link "Playlist" [ref=e1464]:
+                      - /url: /@testerstalk
+                  - link "SpecFlow Selenium C# Tutorials-01 End to End in 20 Minutes |Install, Project Creation & First Script · 33:44" [ref=e1468]:
+                    - /url: /watch?v=tpANSHdrwp8&list=PLUeDIlio4THEJblL_T8qc8GaFYooYzDPi
+                  - link "SpecFlow Selenium C# Tutorials-02 | Hooks Implementation · 20:19" [ref=e1471]:
+                    - /url: /watch?v=mGWIzf82zyo&list=PLUeDIlio4THEJblL_T8qc8GaFYooYzDPi
+                  - link "View full playlist" [ref=e1476]:
+                    - /url: /playlist?list=PLUeDIlio4THEJblL_T8qc8GaFYooYzDPi
+            - generic [ref=e1477]:
+              - generic [ref=e1480]:
+                - img [ref=e1482]:
+                  - generic [ref=e1484]:
+                    - img
+                - heading "Shorts" [level=2] [ref=e1487]
+              - generic [ref=e1489]:
+                - generic [ref=e1492]:
+                  - link [ref=e1493] [cursor=pointer]:
+                    - /url: /shorts/738qJvCwH6I
+                  - generic [ref=e1497] [cursor=pointer]:
+                    - 'link "Testers Talk #like #share #subscribe" [ref=e1498]':
+                      - /url: /shorts/738qJvCwH6I
+                    - generic [ref=e1499]: 342 views
+                  - button "More actions" [ref=e1501] [cursor=pointer]:
+                    - generic [ref=e1505]:
+                      - img
+                - generic [ref=e1511]:
+                  - link [ref=e1512] [cursor=pointer]:
+                    - /url: /shorts/Lr57_1v8mi4
+                    - img [ref=e1517]:
+                      - generic [ref=e1518]: New
+                  - generic [ref=e1519] [cursor=pointer]:
+                    - link "Top 3 Selenium Interview Questions You MUST KNOW" [ref=e1520]:
+                      - /url: /shorts/Lr57_1v8mi4
+                    - generic [ref=e1521]: 6.1K views
+                  - button "More actions" [ref=e1523] [cursor=pointer]:
+                    - generic [ref=e1527]:
+                      - img
+                - generic [ref=e1533]:
+                  - link [ref=e1534] [cursor=pointer]:
+                    - /url: /shorts/c_owj9yCnuY
+                  - generic [ref=e1538] [cursor=pointer]:
+                    - 'link "How to explain the Selenium Framework in Interview? #automation #sdet #selenium #job" [ref=e1539]':
+                      - /url: /shorts/c_owj9yCnuY
+                    - generic [ref=e1540]: 7.2K views
+                  - button "More actions" [ref=e1542] [cursor=pointer]:
+                    - generic [ref=e1546]:
+                      - img
+                - generic [ref=e1552]:
+                  - link [ref=e1553] [cursor=pointer]:
+                    - /url: /shorts/M1wDp4pzE8w
+                  - generic [ref=e1557] [cursor=pointer]:
+                    - link "Multiple Browser Selenium C#" [ref=e1558]:
+                      - /url: /shorts/M1wDp4pzE8w
+                    - generic [ref=e1559]: 457 views
+                  - button "More actions" [ref=e1561] [cursor=pointer]:
+                    - generic [ref=e1565]:
+                      - img
+                - generic [ref=e1571]:
+                  - link [ref=e1572] [cursor=pointer]:
+                    - /url: /shorts/_NGgaTWAzwM
+                  - generic [ref=e1576] [cursor=pointer]:
+                    - 'link "What is SpecFlow🤷‍♀️ | Advantages of SpecFlow | TestMu AI #shorts" [ref=e1577]':
+                      - /url: /shorts/_NGgaTWAzwM
+                    - generic [ref=e1578]: 1.8K views
+                  - button "More actions" [ref=e1580] [cursor=pointer]:
+                    - generic [ref=e1584]:
+                      - img
+              - button "Show more" [ref=e1591] [cursor=pointer]:
+                - generic [ref=e1592]: Show more
+                - generic [ref=e1596]:
+                  - img
+  - generic [ref=e1625]:
+    - link "YouTube Video Player":
+      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CB4ufsX2EafbAE-2PuuYPn5ipuQXx-LiUhQGzksGv0xSwkB8QASAAYMvctAWCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABgvnmowKoAwTIAwqqBLYCT9At-QcK7FXCLAbSjEuBcjNrGzFBcPHBdk-ABLLTc01Xv2AJo_VSgsI7dCIbBl_0irFp8mgWQhJG0b8guJFnLvP8O2sBvIqK3aBxdtIQId9lmYFpoEPO8tO8VljvEJtw2BIEqoa7KxNTdoEoR_aM11amHw9PS55maTLmPaxAL6ZsIIvRRNWaLx5lHI0BWXbKpI3sKkDIO8PQUO9esc8shCF1-qH4qLXyC9_KvkecjpTZqoE7k94XDsrVuNo8ve8qnSxRUrslysOFM2oVFZBPwPv-vFAIrsVIv1wWSXtlViYwk9UQh9dFd-bcepMMZ_i27WZ30-t0VxWmNOevhLQO4_KOR60pnVxuMO3rDaNRq4VMAWoDNkgAVraQh63zWlGHVsNsRJDGU1k5TUWOvh-UktPzigHtb4gF_Mz2lFWSBQgIE3ips6b6AaAGoQGAB_uYvtkBkAcEqAfywLECqAfytLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAfKurECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAtlUkRBMk9qMnNDd6gIAdIIKQiAQRABGF4yAoICOgyAQoDAgICAgICAAipI2aDSNVAUWKDBq7eewpIDmgkkaHR0cHM6Ly9jbGlja3VwLmNvbS9scC9mZWF0dXJlcy9jaGF0sQkPj0wlqSj-CsgJF8gJjwHICcIBmAsBugtBCAMQBRgEIAcoATAFQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgm6Awl2aWJydXphYmHQCxLSDAIQAdoMJQoKEMCn9NvMqdHmQBICAQMaDRj8zPaUVSDR7-6UqQVAAUoCEB-aDQESqg0CUEvIDQHSDeoDaHR0cHM6Ly9jbGlja3VwLmNvbS9scC9mZWF0dXJlcy9jaGF0P3V0bV9zb3VyY2U9eW91dHViZSZ1dG1fbWVkaXVtPWNwbSZ1dG1fY2FtcGFpZ249eXRfY3BtX2FwYWNfbm5jX3Byb19mdW5uZWxfYWxsLWRldmljZXNfdHJvYXNfbHBfeF9hbGwtZGVwYXJ0bWVudHNfeF9mdW5uZWxzJnV0bV9jb250ZW50PWFwYWNfb3B0aW1pemUtbGlzdF9ydmFfYWxsLWluZHVzdHJpZXNfY2hhdF9hbGwtdXNlLWNhc2VzX2Z1bm5lbC1vbmJvYXJkaW5nLWZlYXR1cmVzLWNoYXR1c2UmdXRtX3Rlcm09YWYtdmlkZW9fcy1pbnRlcm5hbHZpZGVvX2xlbi02MHNlY19hci0xNng5X2N0YS1jcmVhdGV3b3Jrc3BhY2VfaWNwLWFsbF9wLWNoYXRfbHAtY2hhdC1wYWlkX3R2LXhfYXMtcHJvZHVjdGRlbW9fc3QteF9oLXRoaXNpc250anVzdGFueWNoYXRfaS14X0FELVgtQ2hhdC1NYWdpY19hdi14X2N2LXYxLWNoYXRfZC14JmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMjg2MDg5OTk2NLgT____________AYgUArAUA8AVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXmJOvJO1fgq66FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMItt2rt57CkgMV7YfOBh0fTCpXEAEYASAAEgKu9_D_BwE&num=1&cid=CAASqgHkaDactsdRaLj3FAbmegRZetAGMxDgApRKlI-DDi8GO8nF-esrKyx2NdE3DWKsPiIE5DZUpKbYK2ArpM-2F_lA1597MWw2gJM-jXeNAn1JP6oMMFIcBJ-6d57Z6oZT0D8fBey9XLs_EZD8Ze5uk-iCN1s9qMEzaLBHZjhnDQ4QVs1gWblkr4qQDbpKorWoNUj6KcY_vNJYd7MdNpUhnyhb21fBMXllbtZaHg&ad_cpn=%5BCPN%5D&sig=AOD64_2es69a6JHo5nY1joyF0vKIV1kFrg&ctype=110&video_id=eRDA2Oj2sCw&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=21&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+      - generic [ref=e1626] [cursor=pointer]:
+        - generic:
+          - generic:
+            - generic:
+              - img
+      - generic "YouTube Video Player" [ref=e1631]
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic "Time elapsed 0:28":
+              - generic:
+                - generic: 0:33
+```

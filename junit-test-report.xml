@@ -1,11 +1,2 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="11.113577999999746">
-<testsuite name="Chapter04\07_Checkbox_RadioButton_Test.spec.ts" timestamp="2026-02-05T05:32:19.797Z" hostname="chromium" tests="1" failures="0" skipped="0" time="7.415" errors="0">
-<testcase name="Working on checkbox and radio button" classname="Chapter04\07_Checkbox_RadioButton_Test.spec.ts" time="7.415">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|test-results\Chapter04-07_Checkbox_Radi-8df2b-n-checkbox-and-radio-button-chromium\test-finished-1.png]]
-]]>
-</system-out>
-</testcase>
-</testsuite>
+<testsuites id="" name="" tests="0" failures="0" skipped="0" errors="0" time="1.125457999996841">
 </testsuites>

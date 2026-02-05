@@ -1,0 +1,624 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Guide" [active] [ref=e9] [cursor=pointer]:
+          - generic [ref=e12]:
+            - img
+        - generic [ref=e13]:
+          - link "YouTube Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e19]:
+              - img
+          - generic [ref=e20]: PK
+        - button "Skip navigation" [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]: Skip navigation
+      - generic [ref=e29]:
+        - search [ref=e30]:
+          - generic [ref=e31]:
+            - generic [ref=e32]:
+              - combobox "Search" [expanded] [ref=e34]: skill.Skill1
+              - button "Clear search query" [ref=e36] [cursor=pointer]:
+                - generic [ref=e39]:
+                  - img
+            - button "Search" [ref=e43] [cursor=pointer]:
+              - generic [ref=e46]:
+                - img
+        - generic [ref=e48]:
+          - button "Search with your voice" [ref=e50] [cursor=pointer]:
+            - generic [ref=e54]:
+              - img
+          - tooltip "tooltip"
+      - generic [ref=e59]:
+        - button "Settings" [ref=e64] [cursor=pointer]:
+          - generic [ref=e67]:
+            - img
+        - link "Sign in" [ref=e70] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253Dskill.Skill1&hl=en&ec=65620
+          - generic [ref=e74]:
+            - img
+          - generic [ref=e75]: Sign in
+  - navigation [ref=e79]:
+    - generic [ref=e80]:
+      - link "Home" [ref=e82] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e85]:
+          - img
+        - generic [ref=e86]: Home
+      - link "Shorts" [ref=e88] [cursor=pointer]:
+        - /url: /shorts/
+        - generic [ref=e91]:
+          - img
+        - generic [ref=e92]: Shorts
+      - link "Subscriptions" [ref=e94] [cursor=pointer]:
+        - /url: /feed/subscriptions
+        - generic [ref=e97]:
+          - img
+        - generic [ref=e98]: Subscriptions
+      - link "You" [ref=e100] [cursor=pointer]:
+        - /url: /feed/you
+        - generic [ref=e103]:
+          - img
+        - generic [ref=e104]: You
+  - generic [ref=e105]:
+    - text: •
+    - main [ref=e106]:
+      - generic [ref=e107]:
+        - generic [ref=e111]:
+          - button "Search filters" [ref=e113] [cursor=pointer]:
+            - generic [ref=e114]: Filters
+            - generic [ref=e118]:
+              - img
+          - tooltip "tooltip"
+        - generic [ref=e127]:
+          - generic [ref=e129]:
+            - text: "Did you mean:"
+            - link "skill.Skill 1" [ref=e130] [cursor=pointer]:
+              - /url: /results?search_query=skill.Skill+1
+              - generic [ref=e131]: skill.Skill 1
+          - generic [ref=e133]:
+            - link [ref=e135] [cursor=pointer]:
+              - /url: /watch?v=WfoQd2IsfXs&pp=ygUMc2tpbGwuU2tpbGwx
+              - img [ref=e137]
+              - img [ref=e140]:
+                - generic [ref=e141]: 1:28
+              - generic:
+                - generic: Now playing
+                - generic:
+                  - img
+            - generic [ref=e142] [cursor=pointer]:
+              - generic [ref=e143]:
+                - generic [ref=e144]:
+                  - 'heading "LACC - CNA Skill #1 - Hand Hygiene (Hand Washing) 1 minute, 28 seconds" [level=3] [ref=e145]':
+                    - 'link "LACC - CNA Skill #1 - Hand Hygiene (Hand Washing) 1 minute, 28 seconds" [ref=e146]':
+                      - /url: /watch?v=WfoQd2IsfXs&pp=ygUMc2tpbGwuU2tpbGwx
+                      - text: "LACC - CNA Skill #1 - Hand Hygiene (Hand Washing)"
+                  - button "Action menu" [ref=e150]:
+                    - generic [ref=e153]:
+                      - img
+                - generic [ref=e156]:
+                  - generic [ref=e157]: 107K views
+                  - generic [ref=e158]: •5 years ago
+              - generic [ref=e159]:
+                - link "Go to channel Los Angeles Career College" [ref=e160]:
+                  - /url: /@LACareerCollege
+                - link "Los Angeles Career College" [ref=e166]:
+                  - /url: /@LACareerCollege
+              - generic [ref=e167]:
+                - text: This video demonstrates Hand Hygiene using Pearson Vue Guideline for CNA State Exam. Los Angeles Career College (LACC) ...
+                - tooltip "tooltip"
+          - generic [ref=e169]:
+            - link [ref=e171] [cursor=pointer]:
+              - /url: /watch?v=SBcdcx8YxYE&pp=ygUMc2tpbGwuU2tpbGwx
+              - img [ref=e173]
+              - img [ref=e176]:
+                - generic [ref=e177]: 2:40
+              - generic:
+                - generic: Now playing
+                - generic:
+                  - img
+            - generic [ref=e178] [cursor=pointer]:
+              - generic [ref=e179]:
+                - generic [ref=e180]:
+                  - 'heading "Credentia CNA Skill 1: Hand Hygiene (Hand Washing) updated 2 minutes, 40 seconds" [level=3] [ref=e181]':
+                    - 'link "Credentia CNA Skill 1: Hand Hygiene (Hand Washing) updated 2 minutes, 40 seconds" [ref=e182]':
+                      - /url: /watch?v=SBcdcx8YxYE&pp=ygUMc2tpbGwuU2tpbGwx
+                      - text: "Credentia CNA Skill 1: Hand Hygiene (Hand Washing) updated"
+                  - button "Action menu" [ref=e186]:
+                    - generic [ref=e189]:
+                      - img
+                - generic [ref=e192]:
+                  - generic [ref=e193]: 91K views
+                  - generic [ref=e194]: •1 year ago
+              - generic [ref=e195]:
+                - link "Go to channel XY Nursing Skills" [ref=e196]:
+                  - /url: /@XYNursingSkills
+                - link "XY Nursing Skills" [ref=e202]:
+                  - /url: /@XYNursingSkills
+              - generic [ref=e203]:
+                - text: 1. Soap 2. Paper towels Critical Element Steps 1. Lathers all surfaces of wrists, hands and fingers producing friction, for at least 20 ...
+                - tooltip "tooltip"
+              - img "4K" [ref=e206]:
+                - generic [ref=e207]: 4K
+          - generic [ref=e209] [cursor=pointer]:
+            - link [ref=e210]:
+              - /url: /watch?v=C2s6BO0-rMM&list=PLYfIoSvHAJJNc85cJ_HdSh2Naqkd_r7Pt
+              - generic [ref=e220]:
+                - generic [ref=e223]:
+                  - img
+                - generic [ref=e224]: 14 videos
+            - generic [ref=e227]:
+              - heading "Communicative English Skill 1" [level=3] [ref=e228]:
+                - link "Communicative English Skill 1" [ref=e229]:
+                  - /url: /watch?v=C2s6BO0-rMM&list=PLYfIoSvHAJJNc85cJ_HdSh2Naqkd_r7Pt
+              - generic [ref=e231]:
+                - generic [ref=e232]:
+                  - link "H2M Academy" [ref=e235]:
+                    - /url: /@H2MAcademy
+                  - generic [ref=e236]: •
+                  - link "Playlist" [ref=e239]:
+                    - /url: /@H2MAcademy
+                  - generic [ref=e240]: •
+                  - generic [ref=e241]: Updated 6 days ago
+                - link "Communicative English Skill 1 Final Exam(Haramaya)🇪🇹 Freshman Course Tutorial H2M Academy |ፍሬሽማን ኮርስ · 46:32" [ref=e245]:
+                  - /url: /watch?v=C2s6BO0-rMM&list=PLYfIoSvHAJJNc85cJ_HdSh2Naqkd_r7Pt
+                - link "Communicative English Skill 1 Final Exam(Addis Ababa) (🇪🇹 Freshman Course) H2M Academy | ፍሬሽማን ኮርስ · 16:38" [ref=e248]:
+                  - /url: /watch?v=9H51EHzlLOs&list=PLYfIoSvHAJJNc85cJ_HdSh2Naqkd_r7Pt&pp=0gcJCRgBOCosWNin
+                - link "View full playlist" [ref=e253]:
+                  - /url: /playlist?list=PLYfIoSvHAJJNc85cJ_HdSh2Naqkd_r7Pt
+          - generic [ref=e255]:
+            - link [ref=e257] [cursor=pointer]:
+              - /url: /watch?v=YjoV7UH_0ZM&pp=ygUMc2tpbGwuU2tpbGwx
+            - generic [ref=e259] [cursor=pointer]:
+              - generic [ref=e260]:
+                - generic [ref=e261]:
+                  - heading "EVERY 1v1 SKILL MOVE From Beginner to Advanced 24 minutes" [level=3] [ref=e262]:
+                    - link "EVERY 1v1 SKILL MOVE From Beginner to Advanced 24 minutes" [ref=e263]:
+                      - /url: /watch?v=YjoV7UH_0ZM&pp=ygUMc2tpbGwuU2tpbGwx
+                      - text: EVERY 1v1 SKILL MOVE From Beginner to Advanced
+                  - button "Action menu" [ref=e267]:
+                    - generic [ref=e270]:
+                      - img
+                - generic [ref=e273]:
+                  - generic [ref=e274]: 1.5M views
+                  - generic [ref=e275]: •5 months ago
+              - generic [ref=e276]:
+                - link "Go to channel AllAttack" [ref=e277]:
+                  - /url: /@AllAttack
+                - generic [ref=e278]:
+                  - link "AllAttack" [ref=e282]:
+                    - /url: /@AllAttack
+                  - img "Verified" [ref=e285]:
+                    - generic [ref=e288]:
+                      - img
+              - generic [ref=e289]:
+                - text: "SUBSCRIBE: http://www.youtube.com/channel/UC0Ik25PHaiHCbfGrzu-lBFQ?sub_confirmation=1 Follow us on Facebook!"
+                - tooltip "tooltip"
+              - img "4K" [ref=e292]:
+                - generic [ref=e293]: 4K
+              - generic [ref=e296]:
+                - generic [ref=e297]:
+                  - generic [ref=e301]: 41 chapters
+                  - button "Intro | 1) Change of Speed | 2) Cuts | 3) Shoulder Drop | 4) Cruyff | 5) Fake Kick | 6) Stop & Go Underside | 7) Stop & Go Inside | 8) Inside Out | 9) La Croqueta | 10) Roll Croqueta | 11) Push and Go | 12) Step Over | 13) Ronaldo Chop | 14) Fake Cut Back | 15) Fake and La Croqueta | 16) L Cut | 17) Fake Kick Chop | 18) Drag and Step Over | 19) 1.5 Step Overs | 20) The Lift | 21) Double Cut | 22) Scoop Turn | 23) Inside Outside Step Over | 24) Shaky Dance | 25) Roll Cut Back | 26) Fake Rabona | 27) Roll Elastico | 28) Drag and Meg | 29) Roll Croqueta Meg | 30) Roll Flick Up | 31) Elastico | 32) Tempt and Meg | 33) Scoop Meg | 34) Outside Elastico | 35) Elastico Meg | 36) Forward Elastico | 37) Double Elastico | 38) Rainbow | 39) Ronaldo Fenomeno | 40) Hocus Pocus" [ref=e302]
+                - button "More" [ref=e307]:
+                  - generic [ref=e311]:
+                    - img
+          - generic [ref=e316]:
+            - link [ref=e318] [cursor=pointer]:
+              - /url: /watch?v=q5SE_RnmaHM&pp=ygUMc2tpbGwuU2tpbGwx
+            - generic [ref=e320] [cursor=pointer]:
+              - generic [ref=e321]:
+                - generic [ref=e322]:
+                  - heading "Credentia Skill 1 Handwashing Skill 11 minutes, 22 seconds" [level=3] [ref=e323]:
+                    - link "Credentia Skill 1 Handwashing Skill 11 minutes, 22 seconds" [ref=e324]:
+                      - /url: /watch?v=q5SE_RnmaHM&pp=ygUMc2tpbGwuU2tpbGwx
+                      - text: Credentia Skill 1 Handwashing Skill
+                  - button "Action menu" [ref=e328]:
+                    - generic [ref=e331]:
+                      - img
+                - generic [ref=e334]:
+                  - generic [ref=e335]: 40K views
+                  - generic [ref=e336]: •3 years ago
+              - generic [ref=e337]:
+                - link "Go to channel Credentia CNA Skills" [ref=e338]:
+                  - /url: /@credentiacnaskills3577
+                - link "Credentia CNA Skills" [ref=e343]:
+                  - /url: /@credentiacnaskills3577
+              - generic [ref=e344]:
+                - generic [ref=e345]: "This video is a step-by-step instruction for the Credentia/Pearson Vue skill #1 Handwashing. Please leave a comment below if you ..."
+                - tooltip "tooltip"
+              - img "4K" [ref=e348]:
+                - generic [ref=e349]: 4K
+              - generic [ref=e352]:
+                - generic [ref=e353]:
+                  - generic [ref=e357]: 3 chapters
+                  - button "Introduction | Handwashing | Critical Points" [ref=e358]
+                - button "More" [ref=e363]:
+                  - generic [ref=e367]:
+                    - img
+          - generic [ref=e372]:
+            - link [ref=e374] [cursor=pointer]:
+              - /url: /watch?v=OmOO0KqXV6s&pp=ygUMc2tpbGwuU2tpbGwx
+            - generic [ref=e376] [cursor=pointer]:
+              - generic [ref=e377]:
+                - generic [ref=e378]:
+                  - 'heading "CNA Skill 1: Hand Hygiene (Handwashing) 4 minutes, 41 seconds" [level=3] [ref=e379]':
+                    - 'link "CNA Skill 1: Hand Hygiene (Handwashing) 4 minutes, 41 seconds" [ref=e380]':
+                      - /url: /watch?v=OmOO0KqXV6s&pp=ygUMc2tpbGwuU2tpbGwx
+                      - text: "CNA Skill 1: Hand Hygiene (Handwashing)"
+                  - button "Action menu" [ref=e384]:
+                    - generic [ref=e387]:
+                      - img
+                - generic [ref=e390]:
+                  - generic [ref=e391]: 255K views
+                  - generic [ref=e392]: •3 years ago
+              - generic [ref=e393]:
+                - link "Go to channel XY Nursing Skills" [ref=e394]:
+                  - /url: /@XYNursingSkills
+                - link "XY Nursing Skills" [ref=e399]:
+                  - /url: /@XYNursingSkills
+              - generic [ref=e400]:
+                - generic [ref=e401]: "Updated Skill Video: https://youtu.be/SBcdcx8YxYE 1. Soap 2. Paper towels Nursing Supplies https://linktr.ee/xynursingskills No ..."
+                - tooltip "tooltip"
+              - img "4K" [ref=e404]:
+                - generic [ref=e405]: 4K
+              - generic [ref=e408]:
+                - generic [ref=e409]:
+                  - generic [ref=e413]: 3 chapters
+                  - button "Introduction | Hand Hygiene | Things to Avoid" [ref=e414]
+                - button "More" [ref=e419]:
+                  - generic [ref=e423]:
+                    - img
+          - generic [ref=e428]:
+            - link [ref=e430] [cursor=pointer]:
+              - /url: /watch?v=9glZpitk_Qk&pp=ygUMc2tpbGwuU2tpbGwx0gcJCZEKAYcqIYzv
+            - generic [ref=e432] [cursor=pointer]:
+              - generic [ref=e433]:
+                - generic [ref=e434]:
+                  - heading "Communicative English skill 1 Chaprer 3 Part 1 | in Amharic 46 minutes" [level=3] [ref=e435]:
+                    - link "Communicative English skill 1 Chaprer 3 Part 1 | in Amharic 46 minutes" [ref=e436]:
+                      - /url: /watch?v=9glZpitk_Qk&pp=ygUMc2tpbGwuU2tpbGwx0gcJCZEKAYcqIYzv
+                      - text: Communicative English skill 1 Chaprer 3 Part 1 | in Amharic
+                  - button "Action menu" [ref=e440]:
+                    - generic [ref=e443]:
+                      - img
+                - generic [ref=e446]:
+                  - generic [ref=e447]: 3.5K views
+                  - generic [ref=e448]: •1 month ago
+              - generic [ref=e449]:
+                - link "Go to channel Freshman classroom" [ref=e450]:
+                  - /url: /@Freshmanclassroom
+                - link "Freshman classroom" [ref=e455]:
+                  - /url: /@Freshmanclassroom
+          - generic [ref=e457]:
+            - link [ref=e459] [cursor=pointer]:
+              - /url: /watch?v=uv1kDLcWRgk&pp=ygUMc2tpbGwuU2tpbGwx
+            - generic [ref=e461] [cursor=pointer]:
+              - generic [ref=e462]:
+                - generic [ref=e463]:
+                  - heading "Skills Level 1 to Level 100 7 minutes, 50 seconds" [level=3] [ref=e464]:
+                    - link "Skills Level 1 to Level 100 7 minutes, 50 seconds" [ref=e465]:
+                      - /url: /watch?v=uv1kDLcWRgk&pp=ygUMc2tpbGwuU2tpbGwx
+                      - text: Skills Level 1 to Level 100
+                  - button "Action menu" [ref=e469]:
+                    - generic [ref=e472]:
+                      - img
+                - generic [ref=e475]:
+                  - generic [ref=e476]: 16M views
+                  - generic [ref=e477]: •2 years ago
+              - generic [ref=e478]:
+                - link "Go to channel Teo CRi" [ref=e479]:
+                  - /url: /@TeoCRi
+                - generic [ref=e480]:
+                  - link "Teo CRi" [ref=e484]:
+                    - /url: /@TeoCRi
+                  - img "Verified" [ref=e487]:
+                    - generic [ref=e490]:
+                      - img
+              - generic [ref=e491]:
+                - text: TURN NOTIFICATIONS ON https://www.instagram.com/player.3r.
+                - tooltip "tooltip"
+              - generic [ref=e494]:
+                - generic [ref=e495]:
+                  - generic [ref=e496]:
+                    - generic [ref=e499]:
+                      - img
+                    - generic [ref=e500]: Summary
+                  - button "This video showcases 100 incredible football skills, ranked from 1 to 100. Enjoy a compilation of impressive turns, dribbles, and finishes from various players. Witness a range of masterful maneuvers on the pitch." [ref=e501]
+                  - text: ·
+                - button "More" [ref=e506]:
+                  - generic [ref=e510]:
+                    - img
+          - generic [ref=e515]:
+            - link [ref=e517] [cursor=pointer]:
+              - /url: /shorts/QfMx6knke4U
+            - generic [ref=e519] [cursor=pointer]:
+              - generic [ref=e520]:
+                - generic [ref=e521]:
+                  - 'heading "3 BEST SIMPLE 1v1 SKILLS on THE SIDE🔥#shorts #football #soccer #footballskills #soccerskills by Takuya | Football Skills Coach 5,367,871 views 1 year ago 10 seconds - play Short" [level=3] [ref=e522]':
+                    - 'link "3 BEST SIMPLE 1v1 SKILLS on THE SIDE🔥#shorts #football #soccer #footballskills #soccerskills by Takuya | Football Skills Coach 5,367,871 views 1 year ago 10 seconds - play Short" [ref=e523]':
+                      - /url: /shorts/QfMx6knke4U
+                      - text: "3 BEST SIMPLE 1v1 SKILLS on THE SIDE🔥#shorts #football #soccer #footballskills #soccerskills"
+                  - button "Action menu" [ref=e527]:
+                    - generic [ref=e530]:
+                      - img
+                - generic [ref=e533]:
+                  - generic [ref=e534]: 5.3M views
+                  - generic [ref=e535]: •1 year ago
+              - generic [ref=e536]:
+                - link "Go to channel Takuya | Football Skills Coach" [ref=e537]:
+                  - /url: /@Takuya_Football_Skills_Coach
+                - generic [ref=e538]:
+                  - link "Takuya | Football Skills Coach" [ref=e542]:
+                    - /url: /@Takuya_Football_Skills_Coach
+                  - img "Verified" [ref=e545]:
+                    - generic [ref=e548]:
+                      - img
+          - generic [ref=e550]:
+            - link [ref=e552] [cursor=pointer]:
+              - /url: /watch?v=U8WCRz0Yh4Q&pp=ygUMc2tpbGwuU2tpbGwx
+            - generic [ref=e554] [cursor=pointer]:
+              - generic [ref=e555]:
+                - generic [ref=e556]:
+                  - heading "The 10 Best 1v1 Skills in Football / Soccer 7 minutes, 4 seconds" [level=3] [ref=e557]:
+                    - link "The 10 Best 1v1 Skills in Football / Soccer 7 minutes, 4 seconds" [ref=e558]:
+                      - /url: /watch?v=U8WCRz0Yh4Q&pp=ygUMc2tpbGwuU2tpbGwx
+                      - text: The 10 Best 1v1 Skills in Football / Soccer
+                  - button "Action menu" [ref=e562]:
+                    - generic [ref=e565]:
+                      - img
+                - generic [ref=e568]:
+                  - generic [ref=e569]: 5.2M views
+                  - generic [ref=e570]: •1 year ago
+              - generic [ref=e571]:
+                - link "Go to channel AllAttack" [ref=e572]:
+                  - /url: /@AllAttack
+                - generic [ref=e573]:
+                  - link "AllAttack" [ref=e577]:
+                    - /url: /@AllAttack
+                  - img "Verified" [ref=e580]:
+                    - generic [ref=e583]:
+                      - img
+              - generic [ref=e584]:
+                - text: "SUBSCRIBE: http://www.youtube.com/channel/UC0Ik25PHaiHCbfGrzu-lBFQ?sub_confirmation=1 Follow us on Facebook!"
+                - tooltip "tooltip"
+              - generic [ref=e587]:
+                - generic [ref=e588]:
+                  - generic [ref=e589]:
+                    - generic [ref=e592]:
+                      - img
+                    - generic [ref=e593]: Summary
+                  - button "Level up your 1v1 game with AllAttack's top 10 football skills. This tutorial demonstrates each move with clear, practical examples. Learn techniques like the drag back and scoop turn, all shown with helpful on-field demonstrations." [ref=e594]
+                  - text: ·
+                - button "More" [ref=e599]:
+                  - generic [ref=e603]:
+                    - img
+          - generic [ref=e608]:
+            - link [ref=e610] [cursor=pointer]:
+              - /url: /watch?v=QNOIVaq6Tk4&pp=ygUMc2tpbGwuU2tpbGwx
+            - generic [ref=e612] [cursor=pointer]:
+              - generic [ref=e613]:
+                - generic [ref=e614]:
+                  - 'heading "Prove yourself in a special test of skill #1 - easier way 19 seconds" [level=3] [ref=e615]':
+                    - 'link "Prove yourself in a special test of skill #1 - easier way 19 seconds" [ref=e616]':
+                      - /url: /watch?v=QNOIVaq6Tk4&pp=ygUMc2tpbGwuU2tpbGwx
+                      - text: "Prove yourself in a special test of skill #1 - easier way"
+                  - button "Action menu" [ref=e620]:
+                    - generic [ref=e623]:
+                      - img
+                - generic [ref=e626]:
+                  - generic [ref=e627]: 1.8K views
+                  - generic [ref=e628]: •7 months ago
+              - generic [ref=e629]:
+                - link "Go to channel Great Uncle Gamer" [ref=e630]:
+                  - /url: /@greatunclegamer9235
+                - link "Great Uncle Gamer" [ref=e635]:
+                  - /url: /@greatunclegamer9235
+              - generic [ref=e636]:
+                - text: This is easier (I think), but it's not fast. To get the triple mushroom and feather powerups, you'll have to drive down the road to the ...
+                - tooltip "tooltip"
+          - generic [ref=e638]:
+            - link [ref=e640] [cursor=pointer]:
+              - /url: /shorts/KLcSxPZPFFc
+            - generic [ref=e642] [cursor=pointer]:
+              - generic [ref=e643]:
+                - generic [ref=e644]:
+                  - 'heading "Skills For Nutmegs #Skill1 by MS Football - Skills and Tricks 42 views 3 years ago 15 seconds - play Short" [level=3] [ref=e645]':
+                    - 'link "Skills For Nutmegs #Skill1 by MS Football - Skills and Tricks 42 views 3 years ago 15 seconds - play Short" [ref=e646]':
+                      - /url: /shorts/KLcSxPZPFFc
+                      - text: "Skills For Nutmegs #Skill1"
+                  - button "Action menu" [ref=e650]:
+                    - generic [ref=e653]:
+                      - img
+                - generic [ref=e656]:
+                  - generic [ref=e657]: 42 views
+                  - generic [ref=e658]: •3 years ago
+              - generic [ref=e659]:
+                - link "Go to channel MS Football - Skills and Tricks" [ref=e660]:
+                  - /url: /@msfootball-skillsandtricks659
+                - link "MS Football - Skills and Tricks" [ref=e665]:
+                  - /url: /@msfootball-skillsandtricks659
+          - generic [ref=e667]:
+            - link [ref=e669] [cursor=pointer]:
+              - /url: /watch?v=EZRPI3GChng&pp=ygUMc2tpbGwuU2tpbGwx
+            - generic [ref=e671] [cursor=pointer]:
+              - generic [ref=e672]:
+                - generic [ref=e673]:
+                  - 'heading "Freshman English skill 1 Unit 1 modal auxiliary #fresmancourse 16 minutes" [level=3] [ref=e674]':
+                    - 'link "Freshman English skill 1 Unit 1 modal auxiliary #fresmancourse 16 minutes" [ref=e675]':
+                      - /url: /watch?v=EZRPI3GChng&pp=ygUMc2tpbGwuU2tpbGwx
+                      - text: "Freshman English skill 1 Unit 1 modal auxiliary #fresmancourse"
+                  - button "Action menu" [ref=e679]:
+                    - generic [ref=e682]:
+                      - img
+                - generic [ref=e685]:
+                  - generic [ref=e686]: 34K views
+                  - generic [ref=e687]: •3 months ago
+              - generic [ref=e688]:
+                - link "Go to channel Freshman Tricks" [ref=e689]:
+                  - /url: /@FRESHMAN_TRICKS
+                - link "Freshman Tricks" [ref=e694]:
+                  - /url: /@FRESHMAN_TRICKS
+          - generic [ref=e696]:
+            - link [ref=e698] [cursor=pointer]:
+              - /url: /shorts/af7SQVUwDW4
+            - generic [ref=e700] [cursor=pointer]:
+              - generic [ref=e701]:
+                - generic [ref=e702]:
+                  - 'heading "✅ Lancelot Skill 1 Perfect Timing Trick Using His Passive #MLBBCreator #MLBBALLSTAR by Deso 1,177,155 views 6 months ago 20 seconds - play Short" [level=3] [ref=e703]':
+                    - 'link "✅ Lancelot Skill 1 Perfect Timing Trick Using His Passive #MLBBCreator #MLBBALLSTAR by Deso 1,177,155 views 6 months ago 20 seconds - play Short" [ref=e704]':
+                      - /url: /shorts/af7SQVUwDW4
+                      - text: "✅ Lancelot Skill 1 Perfect Timing Trick Using His Passive #MLBBCreator #MLBBALLSTAR"
+                  - button "Action menu" [ref=e708]:
+                    - generic [ref=e711]:
+                      - img
+                - generic [ref=e714]:
+                  - generic [ref=e715]: 1.1M views
+                  - generic [ref=e716]: •6 months ago
+              - generic [ref=e717]:
+                - link "Go to channel Deso" [ref=e718]:
+                  - /url: /@DesolatorOfficial
+                - link "Deso" [ref=e723]:
+                  - /url: /@DesolatorOfficial
+              - generic [ref=e724]:
+                - generic [ref=e725]: A lot of players miss Lancelot's Skill 1 reset because the dash mark gets blocked by creeps or not visible due to effects. By using ...
+                - tooltip "tooltip"
+          - generic [ref=e727]:
+            - link [ref=e729] [cursor=pointer]:
+              - /url: /shorts/Qzmmu8VJbac
+            - generic [ref=e731] [cursor=pointer]:
+              - generic [ref=e732]:
+                - generic [ref=e733]:
+                  - 'heading "football skill tutorial⭐️ #football #soccer #skills #footballskills by TAMAKOU / football creator⚽️ 3,337,514 views 5 months ago 10 seconds - play Short" [level=3] [ref=e734]':
+                    - 'link "football skill tutorial⭐️ #football #soccer #skills #footballskills by TAMAKOU / football creator⚽️ 3,337,514 views 5 months ago 10 seconds - play Short" [ref=e735]':
+                      - /url: /shorts/Qzmmu8VJbac
+                      - text: "football skill tutorial⭐️ #football #soccer #skills #footballskills"
+                  - button "Action menu" [ref=e739]:
+                    - generic [ref=e742]:
+                      - img
+                - generic [ref=e745]:
+                  - generic [ref=e746]: 3.3M views
+                  - generic [ref=e747]: •5 months ago
+              - generic [ref=e748]:
+                - link "Go to channel TAMAKOU / football creator⚽️" [ref=e749]:
+                  - /url: /@tamakou88
+                - link "TAMAKOU / football creator⚽️" [ref=e754]:
+                  - /url: /@tamakou88
+          - generic [ref=e756]:
+            - link [ref=e758] [cursor=pointer]:
+              - /url: /watch?v=VsM06LbotQQ&pp=ygUMc2tpbGwuU2tpbGwx
+            - generic [ref=e760] [cursor=pointer]:
+              - generic [ref=e761]:
+                - generic [ref=e762]:
+                  - heading "Freshman English skill 1 unit 3 Questions with answers 17 minutes" [level=3] [ref=e763]:
+                    - link "Freshman English skill 1 unit 3 Questions with answers 17 minutes" [ref=e764]:
+                      - /url: /watch?v=VsM06LbotQQ&pp=ygUMc2tpbGwuU2tpbGwx
+                      - text: Freshman English skill 1 unit 3 Questions with answers
+                  - button "Action menu" [ref=e768]:
+                    - generic [ref=e771]:
+                      - img
+                - generic [ref=e774]:
+                  - generic [ref=e775]: 3.7K views
+                  - generic [ref=e776]: •1 month ago
+              - generic [ref=e777]:
+                - link "Go to channel Freshman Tricks" [ref=e778]:
+                  - /url: /@FRESHMAN_TRICKS
+                - link "Freshman Tricks" [ref=e783]:
+                  - /url: /@FRESHMAN_TRICKS
+          - generic [ref=e785]:
+            - link [ref=e787] [cursor=pointer]:
+              - /url: /shorts/kWYTCEnl53E
+            - generic [ref=e789] [cursor=pointer]:
+              - generic [ref=e790]:
+                - generic [ref=e791]:
+                  - 'heading "Best skill 1 vs 1 skill #soccerskills Neymar skill by CKY FOOTBALL FC 3,141 views 1 year ago 10 seconds - play Short" [level=3] [ref=e792]':
+                    - 'link "Best skill 1 vs 1 skill #soccerskills Neymar skill by CKY FOOTBALL FC 3,141 views 1 year ago 10 seconds - play Short" [ref=e793]':
+                      - /url: /shorts/kWYTCEnl53E
+                      - text: "Best skill 1 vs 1 skill #soccerskills Neymar skill"
+                  - button "Action menu" [ref=e797]:
+                    - generic [ref=e800]:
+                      - img
+                - generic [ref=e803]:
+                  - generic [ref=e804]: 3.1K views
+                  - generic [ref=e805]: •1 year ago
+              - generic [ref=e806]:
+                - link "Go to channel CKY FOOTBALL FC" [ref=e807]:
+                  - /url: /@CKYFOOTBALFC
+                - link "CKY FOOTBALL FC" [ref=e812]:
+                  - /url: /@CKYFOOTBALFC
+              - generic [ref=e813]:
+                - generic [ref=e814]: "Best skill 1 vs 1 skill #soccerskills Neymar #skillskills #soccer skills #football skills #learn football skills #1v1 skills #skill mov #skill ..."
+                - tooltip "tooltip"
+          - generic [ref=e816]:
+            - link [ref=e818] [cursor=pointer]:
+              - /url: /watch?v=uWr7Jtd7AEY&pp=ygUMc2tpbGwuU2tpbGwx0gcJCZEKAYcqIYzv
+            - generic [ref=e820] [cursor=pointer]:
+              - generic [ref=e821]:
+                - generic [ref=e822]:
+                  - heading "English skill 1 grammar Focus | chapter 1 and 2 27 minutes" [level=3] [ref=e823]:
+                    - link "English skill 1 grammar Focus | chapter 1 and 2 27 minutes" [ref=e824]:
+                      - /url: /watch?v=uWr7Jtd7AEY&pp=ygUMc2tpbGwuU2tpbGwx0gcJCZEKAYcqIYzv
+                      - text: English skill 1 grammar Focus | chapter 1 and 2
+                  - button "Action menu" [ref=e828]:
+                    - generic [ref=e831]:
+                      - img
+                - generic [ref=e834]:
+                  - generic [ref=e835]: 5.5K views
+                  - generic [ref=e836]: •1 month ago
+              - generic [ref=e837]:
+                - link "Go to channel BUNA ACADEMY ☕️" [ref=e838]:
+                  - /url: /@bunacademy
+                - link "BUNA ACADEMY ☕️" [ref=e843]:
+                  - /url: /@bunacademy
+              - generic [ref=e844]:
+                - generic [ref=e845]: This video gives a quick and easy explanation of Chapter 1 and Chapter 2 Grammar Focus from the English Skill 1 module.
+                - tooltip "tooltip"
+          - generic [ref=e847]:
+            - link [ref=e849] [cursor=pointer]:
+              - /url: /shorts/i9cv3-AznW8
+            - generic [ref=e851] [cursor=pointer]:
+              - generic [ref=e852]:
+                - generic [ref=e853]:
+                  - heading "1v1 Skills For Wingers 🔥 by Natural Footballers Shorts 625,642 views 11 months ago 5 seconds - play Short" [level=3] [ref=e854]:
+                    - link "1v1 Skills For Wingers 🔥 by Natural Footballers Shorts 625,642 views 11 months ago 5 seconds - play Short" [ref=e855]:
+                      - /url: /shorts/i9cv3-AznW8
+                      - text: 1v1 Skills For Wingers 🔥
+                  - button "Action menu" [ref=e859]:
+                    - generic [ref=e862]:
+                      - img
+                - generic [ref=e865]:
+                  - generic [ref=e866]: 625K views
+                  - generic [ref=e867]: •11 months ago
+              - generic [ref=e868]:
+                - link "Go to channel Natural Footballers Shorts" [ref=e869]:
+                  - /url: /@NaturalFootballersShorts
+                - link "Natural Footballers Shorts" [ref=e874]:
+                  - /url: /@NaturalFootballersShorts
+          - generic [ref=e876]:
+            - link [ref=e878] [cursor=pointer]:
+              - /url: /watch?v=cvfAeJX2-kg&pp=ygUMc2tpbGwuU2tpbGwx
+            - generic [ref=e880] [cursor=pointer]:
+              - generic [ref=e881]:
+                - generic [ref=e882]:
+                  - heading "Freshman Communicative English Skill 1- Active & Passive Voice| ፍሬሽማን ኮርስ በአማርኛ 14 minutes, 55 seconds" [level=3] [ref=e883]:
+                    - link "Freshman Communicative English Skill 1- Active & Passive Voice| ፍሬሽማን ኮርስ በአማርኛ 14 minutes, 55 seconds" [ref=e884]:
+                      - /url: /watch?v=cvfAeJX2-kg&pp=ygUMc2tpbGwuU2tpbGwx
+                      - text: Freshman Communicative English Skill 1- Active & Passive Voice| ፍሬሽማን ኮርስ በአማርኛ
+                  - button "Action menu" [ref=e888]:
+                    - generic [ref=e891]:
+                      - img
+                - generic [ref=e894]:
+                  - generic [ref=e895]: 2.4K views
+                  - generic [ref=e896]: •8 days ago
+              - generic [ref=e897]:
+                - link "Go to channel L spark" [ref=e898]:
+                  - /url: /@Lspark22
+                - link "L spark" [ref=e903]:
+                  - /url: /@Lspark22
+              - generic [ref=e904]:
+                - text: Hey everyone! Welcome to another English lesson. In this video, we'll dive into one of the most important grammar topics — Active ...
+                - tooltip "tooltip"
+```
