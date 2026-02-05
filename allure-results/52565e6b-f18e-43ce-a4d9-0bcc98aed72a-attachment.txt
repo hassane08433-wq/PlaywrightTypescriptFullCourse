@@ -1,0 +1,7 @@
+===========================================================
+Repository link text using 2nd for loop is: PlaywrightTutorialFullCourse
+Repository link text using 2nd for loop is: PostmanCollectionsByTestersTalk
+Repository link text using 2nd for loop is: PlaywrightAPITestingTutorial
+Repository link text using 2nd for loop is: RestAssuredAPITestingFramework
+Repository link text using 2nd for loop is: PlaywrightTypeScriptTutorialFullCourse
+Repository link text using 2nd for loop is: CypressTutorialFullCourse

@@ -1,0 +1,9 @@
+
+          Testers Talk
+        
+string
+name is: 
+          Testers Talk
+        
+final name is:Testers Talk
+Attribute value is:repositories /BakkappaN?tab=repositories

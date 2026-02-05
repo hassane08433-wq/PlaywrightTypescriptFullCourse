@@ -1,8 +1,4 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="5.237205000000075">
-<testsuite name="Chapter04\06_Iterating_Elements_Test.spec.ts" timestamp="2026-02-05T05:05:36.861Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.44" errors="0">
-<testcase name="Get text and get attribute value in Playwright" classname="Chapter04\06_Iterating_Elements_Test.spec.ts" time="2.44">
-<system-out>
-<![CDATA[Repository link text 1st loop is: PlaywrightTutorialFullCourse
+Repository link text 1st loop is: PlaywrightTutorialFullCourse
 Repository link text 1st loop is: PostmanCollectionsByTestersTalk
 Repository link text 1st loop is: PlaywrightAPITestingTutorial
 Repository link text 1st loop is: RestAssuredAPITestingFramework
@@ -15,10 +11,3 @@ Repository link text using 2nd for loop is: PlaywrightAPITestingTutorial
 Repository link text using 2nd for loop is: RestAssuredAPITestingFramework
 Repository link text using 2nd for loop is: PlaywrightTypeScriptTutorialFullCourse
 Repository link text using 2nd for loop is: CypressTutorialFullCourse
-
-[[ATTACHMENT|test-results\Chapter04-06_Iterating_Ele-ec24e-tribute-value-in-Playwright-chromium\test-finished-1.png]]
-]]>
-</system-out>
-</testcase>
-</testsuite>
-</testsuites>

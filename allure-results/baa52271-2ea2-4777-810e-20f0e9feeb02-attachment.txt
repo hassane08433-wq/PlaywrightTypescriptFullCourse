@@ -1,0 +1,7 @@
+Repository link text 1st loop is: PlaywrightTutorialFullCourse
+Repository link text 1st loop is: PostmanCollectionsByTestersTalk
+Repository link text 1st loop is: PlaywrightAPITestingTutorial
+Repository link text 1st loop is: RestAssuredAPITestingFramework
+Repository link text 1st loop is: PlaywrightTypeScriptTutorialFullCourse
+Repository link text 1st loop is: CypressTutorialFullCourse
+===========================================================

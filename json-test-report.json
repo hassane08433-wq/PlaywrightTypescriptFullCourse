@@ -11,16 +11,16 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 4
+      "actualWorkers": 1
     },
     "preserveOutput": "always",
     "projects": [
       {
         "outputDir": "C:/Users/rehma/PlaywrightTypescriptFullCourse/test-results",
         "repeatEach": 1,
-        "retries": 1,
+        "retries": 0,
         "metadata": {
-          "actualWorkers": 4
+          "actualWorkers": 1
         },
         "id": "chromium",
         "name": "chromium",
@@ -66,260 +66,107 @@
     "runAgents": "none",
     "shard": null,
     "tags": [],
-    "updateSnapshots": "missing",
-    "updateSourceMethod": "patch",
+    "updateSnapshots": "all",
+    "updateSourceMethod": "3way",
     "version": "1.58.1",
-    "workers": 4,
+    "workers": 1,
     "webServer": null
   },
   "suites": [
     {
-      "title": "Chapter04\\04_TestReports_Test.spec.ts",
-      "file": "Chapter04/04_TestReports_Test.spec.ts",
+      "title": "Chapter04\\06_Iterating_Elements_Test.spec.ts",
+      "file": "Chapter04/06_Iterating_Elements_Test.spec.ts",
       "column": 0,
       "line": 0,
-      "specs": [],
-      "suites": [
+      "specs": [
         {
-          "title": "regression testing",
-          "file": "Chapter04/04_TestReports_Test.spec.ts",
-          "line": 4,
-          "column": 6,
-          "specs": [
+          "title": "Get text and get attribute value in Playwright",
+          "ok": true,
+          "tags": [],
+          "tests": [
             {
-              "title": "Test1",
-              "ok": true,
-              "tags": [],
-              "tests": [
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
                 {
-                  "timeout": 120000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
+                  "workerIndex": 27,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2440,
+                  "errors": [],
+                  "stdout": [
                     {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 15420,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "Test Execution Started..\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-02-04T17:10:05.974Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\test-results\\Chapter04-04_TestReports_Test-regression-testing-Test1-chromium\\test-finished-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\test-results\\Chapter04-04_TestReports_Test-regression-testing-Test1-chromium\\video.webm"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\test-results\\Chapter04-04_TestReports_Test-regression-testing-Test1-chromium\\trace.zip"
-                        }
-                      ]
+                      "text": "Repository link text 1st loop is: PlaywrightTutorialFullCourse\n"
+                    },
+                    {
+                      "text": "Repository link text 1st loop is: PostmanCollectionsByTestersTalk\n"
+                    },
+                    {
+                      "text": "Repository link text 1st loop is: PlaywrightAPITestingTutorial\n"
+                    },
+                    {
+                      "text": "Repository link text 1st loop is: RestAssuredAPITestingFramework\n"
+                    },
+                    {
+                      "text": "Repository link text 1st loop is: PlaywrightTypeScriptTutorialFullCourse\n"
+                    },
+                    {
+                      "text": "Repository link text 1st loop is: CypressTutorialFullCourse\n"
+                    },
+                    {
+                      "text": "===========================================================\n"
+                    },
+                    {
+                      "text": "Repository link text using 2nd for loop is: PlaywrightTutorialFullCourse\n"
+                    },
+                    {
+                      "text": "Repository link text using 2nd for loop is: PostmanCollectionsByTestersTalk\n"
+                    },
+                    {
+                      "text": "Repository link text using 2nd for loop is: PlaywrightAPITestingTutorial\n"
+                    },
+                    {
+                      "text": "Repository link text using 2nd for loop is: RestAssuredAPITestingFramework\n"
+                    },
+                    {
+                      "text": "Repository link text using 2nd for loop is: PlaywrightTypeScriptTutorialFullCourse\n"
+                    },
+                    {
+                      "text": "Repository link text using 2nd for loop is: CypressTutorialFullCourse\n"
                     }
                   ],
-                  "status": "expected"
-                }
-              ],
-              "id": "a3ef250e4b5e3cca63a4-93b9786ed31a407b2d88",
-              "file": "Chapter04/04_TestReports_Test.spec.ts",
-              "line": 6,
-              "column": 9
-            },
-            {
-              "title": "Test2",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 120000,
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-02-05T05:05:38.116Z",
                   "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
+                  "attachments": [
                     {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
-                      "status": "passed",
-                      "duration": 12800,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "Test Execution Started..\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-02-04T17:10:06.030Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\test-results\\Chapter04-04_TestReports_Test-regression-testing-Test2-chromium\\test-finished-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\test-results\\Chapter04-04_TestReports_Test-regression-testing-Test2-chromium\\video.webm"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\test-results\\Chapter04-04_TestReports_Test-regression-testing-Test2-chromium\\trace.zip"
-                        }
-                      ]
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\test-results\\Chapter04-06_Iterating_Ele-ec24e-tribute-value-in-Playwright-chromium\\test-finished-1.png"
                     }
-                  ],
-                  "status": "expected"
+                  ]
                 }
               ],
-              "id": "a3ef250e4b5e3cca63a4-31452d678f62facbc492",
-              "file": "Chapter04/04_TestReports_Test.spec.ts",
-              "line": 26,
-              "column": 9
+              "status": "expected"
             }
-          ]
-        },
-        {
-          "title": "smoke testing",
-          "file": "Chapter04/04_TestReports_Test.spec.ts",
-          "line": 48,
-          "column": 6,
-          "specs": [
-            {
-              "title": "Test3",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 120000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
-                      "status": "passed",
-                      "duration": 12558,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "Test Execution Started..\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-02-04T17:10:05.999Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\test-results\\Chapter04-04_TestReports_Test-smoke-testing-Test3-chromium\\test-finished-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\test-results\\Chapter04-04_TestReports_Test-smoke-testing-Test3-chromium\\video.webm"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\test-results\\Chapter04-04_TestReports_Test-smoke-testing-Test3-chromium\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "a3ef250e4b5e3cca63a4-74c05bc8a1c4392059dc",
-              "file": "Chapter04/04_TestReports_Test.spec.ts",
-              "line": 49,
-              "column": 9
-            },
-            {
-              "title": "Test2",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 120000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
-                      "status": "passed",
-                      "duration": 12912,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "Test Execution Started..\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-02-04T17:10:05.975Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\test-results\\Chapter04-04_TestReports_Test-smoke-testing-Test2-chromium\\test-finished-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\test-results\\Chapter04-04_TestReports_Test-smoke-testing-Test2-chromium\\video.webm"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\test-results\\Chapter04-04_TestReports_Test-smoke-testing-Test2-chromium\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "a3ef250e4b5e3cca63a4-b3971c215ed2f931d6a4",
-              "file": "Chapter04/04_TestReports_Test.spec.ts",
-              "line": 69,
-              "column": 9
-            }
-          ]
+          ],
+          "id": "674eac0131b0f53aa593-75b2f47ced395bd2b879",
+          "file": "Chapter04/06_Iterating_Elements_Test.spec.ts",
+          "line": 3,
+          "column": 5
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-02-04T17:10:04.492Z",
-    "duration": 18364.06,
-    "expected": 4,
+    "startTime": "2026-02-05T05:05:35.430Z",
+    "duration": 5237.2050000000745,
+    "expected": 1,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

@@ -1,0 +1,6 @@
+
+          Testers Talk
+        
+string
+name is: ${name}
+final name is: ${finalname}

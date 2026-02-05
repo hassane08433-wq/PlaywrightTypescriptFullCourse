@@ -1,0 +1,8 @@
+
+          Testers Talk
+        
+string
+name is: 
+          Testers Talk
+        
+final name is: ${finalname}
