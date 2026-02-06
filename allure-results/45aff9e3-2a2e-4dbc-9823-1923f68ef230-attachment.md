@@ -1,0 +1,54 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Guide" [ref=e9] [cursor=pointer]
+        - generic [ref=e13]:
+          - link "YouTube Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e20]: PK
+        - button "Skip navigation" [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]: Skip navigation
+      - generic [ref=e29]:
+        - search [ref=e30]:
+          - generic [ref=e31]:
+            - combobox "Search" [expanded] [active] [ref=e38]
+            - button "Search" [ref=e39] [cursor=pointer]
+        - generic [ref=e44]:
+          - button "Search with your voice" [ref=e46] [cursor=pointer]
+          - tooltip "tooltip"
+      - generic [ref=e55]:
+        - button "Settings" [ref=e60] [cursor=pointer]
+        - link "Sign in" [ref=e66] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=en&ec=65620
+          - generic [ref=e71]: Sign in
+  - navigation [ref=e75]:
+    - generic [ref=e76]:
+      - link "Home" [ref=e78] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e81]:
+          - img
+        - generic [ref=e82]: Home
+      - link "Shorts" [ref=e84] [cursor=pointer]:
+        - /url: /shorts/
+        - generic [ref=e87]:
+          - img
+        - generic [ref=e88]: Shorts
+      - link "Subscriptions" [ref=e90] [cursor=pointer]:
+        - /url: /feed/subscriptions
+        - generic [ref=e93]:
+          - img
+        - generic [ref=e94]: Subscriptions
+      - link "You" [ref=e96] [cursor=pointer]:
+        - /url: /feed/you
+        - generic [ref=e100]: You
+  - generic [ref=e101]:
+    - main [ref=e102]:
+      - generic [ref=e112]:
+        - generic [ref=e113]: Try searching to get started
+        - generic [ref=e114]: Start watching videos to help us build a feed of videos you'll love.
+    - text: •
+```

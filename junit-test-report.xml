@@ -1,2 +1,11 @@
-<testsuites id="" name="" tests="0" failures="0" skipped="0" errors="0" time="1.125457999996841">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="7.660304999999934">
+<testsuite name="Chapter05\03_DataDrivenTestingUsingCSV.spec.ts" timestamp="2026-02-06T13:53:19.150Z" hostname="chromium" tests="1" failures="0" skipped="0" time="5.185" errors="0">
+<testcase name="Data Driven Testing Using JSON File in playwright : API Testing by Testers Talk" classname="Chapter05\03_DataDrivenTestingUsingCSV.spec.ts" time="5.185">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Chapter05-03_DataDrivenTes-2d910-API-Testing-by-Testers-Talk-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
 </testsuites>

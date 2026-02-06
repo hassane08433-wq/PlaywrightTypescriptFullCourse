@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 0
+      "actualWorkers": 1
     },
     "preserveOutput": "always",
     "projects": [
@@ -20,7 +20,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 0
+          "actualWorkers": 1
         },
         "id": "chromium",
         "name": "chromium",
@@ -72,23 +72,61 @@
     "workers": 1,
     "webServer": null
   },
-  "suites": [],
-  "errors": [
+  "suites": [
     {
-      "message": "SyntaxError: C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\tests\\Chapter05\\03_DataDrivenTestingUsingCSV.spec.ts: Unexpected token (42:4)\n\n\u001b[0m \u001b[90m 40 |\u001b[39m     \u001b[90m// }\u001b[39m\n \u001b[90m 41 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 42 |\u001b[39m     )\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 43 |\u001b[39m\n \u001b[90m 44 |\u001b[39m\n \u001b[90m 45 |\u001b[39m }\u001b[0m",
-      "stack": "SyntaxError: C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\tests\\Chapter05\\03_DataDrivenTestingUsingCSV.spec.ts: Unexpected token (42:4)\n\n\u001b[0m \u001b[90m 40 |\u001b[39m     \u001b[90m// }\u001b[39m\n \u001b[90m 41 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 42 |\u001b[39m     )\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 43 |\u001b[39m\n \u001b[90m 44 |\u001b[39m\n \u001b[90m 45 |\u001b[39m }\u001b[0m",
-      "location": {
-        "file": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\tests\\Chapter05\\03_DataDrivenTestingUsingCSV.spec.ts",
-        "line": 42,
-        "column": 4
-      },
-      "snippet": "\u001b[90m   at \u001b[39mChapter05\\03_DataDrivenTestingUsingCSV.spec.ts:42\n\n\u001b[0m \u001b[90m 40 |\u001b[39m     \u001b[90m// }\u001b[39m\n \u001b[90m 41 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 42 |\u001b[39m     )\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 43 |\u001b[39m\n \u001b[90m 44 |\u001b[39m\n \u001b[90m 45 |\u001b[39m }\u001b[0m"
+      "title": "Chapter05\\03_DataDrivenTestingUsingCSV.spec.ts",
+      "file": "Chapter05/03_DataDrivenTestingUsingCSV.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Data Driven Testing Using JSON File in playwright : API Testing by Testers Talk",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 34,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5185,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-02-06T13:53:20.262Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\test-results\\Chapter05-03_DataDrivenTes-2d910-API-Testing-by-Testers-Talk-chromium\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2dd45ad574da4b631f12-4ab49d1a042771d93f96",
+          "file": "Chapter05/03_DataDrivenTestingUsingCSV.spec.ts",
+          "line": 20,
+          "column": 9
+        }
+      ]
     }
   ],
+  "errors": [],
   "stats": {
-    "startTime": "2026-02-05T14:18:26.619Z",
-    "duration": 1125.457999996841,
-    "expected": 0,
+    "startTime": "2026-02-06T13:53:17.891Z",
+    "duration": 7660.304999999935,
+    "expected": 1,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
