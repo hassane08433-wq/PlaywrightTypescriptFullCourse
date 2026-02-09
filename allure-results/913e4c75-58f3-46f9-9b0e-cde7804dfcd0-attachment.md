@@ -1,0 +1,713 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Guide" [ref=e9] [cursor=pointer]:
+          - generic [ref=e12]:
+            - img
+        - generic [ref=e13]:
+          - link "YouTube Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e19]:
+              - img
+          - generic [ref=e20]: PK
+        - button "Skip navigation" [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]: Skip navigation
+      - generic [ref=e29]:
+        - search [ref=e30]:
+          - generic [ref=e31]:
+            - generic [ref=e32]:
+              - combobox "Search" [expanded] [ref=e34]: "#1 Playwright Tutorial Full Course 2025 | Playwright Testing Tutorial"
+              - button "Clear search query" [ref=e36] [cursor=pointer]:
+                - generic [ref=e39]:
+                  - img
+            - button "Search" [ref=e43] [cursor=pointer]:
+              - generic [ref=e46]:
+                - img
+        - generic [ref=e48]:
+          - button "Search with your voice" [ref=e50] [cursor=pointer]:
+            - generic [ref=e54]:
+              - img
+          - tooltip "tooltip"
+      - generic [ref=e59]:
+        - button "Settings" [ref=e64] [cursor=pointer]:
+          - generic [ref=e67]:
+            - img
+        - link "Sign in" [ref=e70] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fwatch%253Fv%253D2poXBtifpzA%2526pp%253DygVFIzEgUGxheXdyaWdodCBUdXRvcmlhbCBGdWxsIENvdXJzZSAyMDI1IHwgUGxheXdyaWdodCBUZXN0aW5nIFR1dG9yaWFs&hl=en&ec=65620
+          - generic [ref=e74]:
+            - img
+          - generic [ref=e75]: Sign in
+  - generic [ref=e79]:
+    - main [ref=e80]:
+      - generic [ref=e81]:
+        - generic [ref=e83]:
+          - complementary [ref=e90]:
+            - generic "YouTube Video Player" [ref=e93]:
+              - button "Channel watermark" [ref=e97] [cursor=pointer]:
+                - img "Channel watermark" [ref=e98]
+              - generic [ref=e101]:
+                - generic [ref=e102] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                  - slider "Seek slider" [ref=e103]
+                - generic [ref=e323]:
+                  - generic [ref=e324]:
+                    - button "Play (k)" [ref=e325] [cursor=pointer]:
+                      - img
+                    - generic [ref=e326]:
+                      - button "Mute (m)" [ref=e328] [cursor=pointer]:
+                        - img
+                      - slider "Volume"
+                    - button "0 Minutes 2 Seconds of 6 Hours 55 Minutes 7 Seconds" [ref=e332] [cursor=pointer]: 0:02 / 6:55:07
+                    - button "Playwright Tutorial Full Course" [ref=e334] [cursor=pointer]:
+                      - generic "Playwright Tutorial Full Course" [ref=e335]
+                      - generic [ref=e336]:
+                        - img
+                  - generic [ref=e337]:
+                    - generic [ref=e338]:
+                      - button "Autoplay is on" [ref=e339] [cursor=pointer]
+                      - button "Subtitles/closed captions unavailable" [ref=e342] [cursor=pointer]:
+                        - generic [ref=e343]:
+                          - img
+                      - button "Settings" [ref=e344] [cursor=pointer]:
+                        - img
+                    - generic [ref=e345]:
+                      - button "Theater mode (t)" [ref=e346] [cursor=pointer]:
+                        - img
+                      - button "Full screen (f)" [ref=e347] [cursor=pointer]:
+                        - img
+          - generic [ref=e348]:
+            - generic [ref=e350]:
+              - heading "#1 Playwright Tutorial Full Course 2025 | Playwright Testing Tutorial" [level=1] [ref=e352]
+              - generic [ref=e353]:
+                - generic [ref=e354]:
+                  - generic [ref=e355]:
+                    - link [ref=e356] [cursor=pointer]:
+                      - /url: /@testerstalk
+                    - generic [ref=e358]:
+                      - generic "Testers Talk" [ref=e362]:
+                        - link "Testers Talk" [ref=e363] [cursor=pointer]:
+                          - /url: /@testerstalk
+                      - generic "28.2 thousand subscribers" [ref=e364]: 28.2K subscribers
+                  - generic [ref=e368]:
+                    - button "Subscribe to Testers Talk." [ref=e370] [cursor=pointer]:
+                      - generic [ref=e371]: Subscribe
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                      - generic:
+                        - img
+                - generic [ref=e378]:
+                  - generic [ref=e379]:
+                    - generic [ref=e383]:
+                      - button "like this video along with 1,160 other people" [ref=e387] [cursor=pointer]:
+                        - generic [ref=e391]:
+                          - img
+                        - generic [ref=e392]: 1.1K
+                      - button "Dislike this video" [ref=e399] [cursor=pointer]:
+                        - generic [ref=e403]:
+                          - img
+                    - button "Share" [ref=e409] [cursor=pointer]:
+                      - generic [ref=e413]:
+                        - img
+                      - generic [ref=e414]: Share
+                  - generic [ref=e418]:
+                    - button "Save to playlist" [ref=e421] [cursor=pointer]:
+                      - generic [ref=e425]:
+                        - img
+                      - generic [ref=e426]: Save
+                    - generic [ref=e431]:
+                      - button "Download" [ref=e433] [cursor=pointer]:
+                        - generic [ref=e437]:
+                          - img
+                        - generic [ref=e438]: Download
+                      - tooltip "tooltip"
+                  - button "More actions" [ref=e443] [cursor=pointer]:
+                    - generic [ref=e447]:
+                      - img
+              - generic [ref=e451]:
+                - generic [ref=e453] [cursor=pointer]:
+                  - generic [ref=e454]:
+                    - generic [ref=e456]:
+                      - text: 132K views 2 years ago
+                      - link "#playwright" [ref=e457]:
+                        - /url: /hashtag/playwright
+                      - link "#PlaywrightTutorial" [ref=e458]:
+                        - /url: /hashtag/playwrighttutorial
+                      - link "#PlaywrightAutomation" [ref=e459]:
+                        - /url: /hashtag/playwrightautomation
+                    - tooltip "tooltip"
+                  - generic [ref=e460]:
+                    - generic [ref=e461]:
+                      - generic [ref=e464]: Playwright enables reliable end-to-end testing for modern web apps. Playwright is an open-source automation l
+                      - generic: …
+                    - button "...more" [ref=e465]
+                - generic [ref=e467] [cursor=pointer]:
+                  - heading "Live chat replay" [level=2] [ref=e471]
+                  - generic "Live chat replay" [ref=e474]:
+                    - generic [ref=e475]:
+                      - generic [ref=e478]:
+                        - img
+                      - generic [ref=e479]: See what others said about this video while it was live.
+                      - button "Open panel" [ref=e481]:
+                        - generic [ref=e482]: Open panel
+            - text: •
+        - generic [ref=e560]:
+          - generic [ref=e569]:
+            - generic "Sponsored - Experience ClickUp 4.0 Now clickup.com" [ref=e571]:
+              - img "ClickUp" [ref=e578]
+              - generic [ref=e579]:
+                - generic [ref=e580]: Experience ClickUp 4.0 Now
+                - generic [ref=e581]:
+                  - generic [ref=e583]:
+                    - generic [ref=e584]: Sponsored
+                    - text: ·
+                  - generic [ref=e586]: clickup.com
+            - link "Sign up" [ref=e588] [cursor=pointer]:
+              - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C1aPkvXKJaZiBNfOOuuYP49KOQLfl25mFAYLEx5axFbCQHxABIABgy9y0BYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGC-eajAqgDBMgDCqoEhQNP0DceFR2xPImaQ4G5u4MzonEiHZQtptCpvJfzKJUTEyRLnZNsrtG-_ErWmWPB-uuFuOPJa7iRIZ_xFBOAqGBch05VUE5ciwgob9Beq6oa0v5iDEcI2RZoUMt3Dgt-vErLC4wC2eMpDMaXk8s5OdHBR2Mg9mDpmP7Kl2Z0nd-4EmbRo0N0-nhMpYh8MXi5p1vFrXMki0K9_pDzH1XiQ2CtHC9j9XNnI8FkAxJJ6TFCxd-9OtN9otx-3iBaUmXbLMHmyAh1jkXQB4dAvFMn5TjT5gFzNBwfF-m7_qOYscFKXSdXctWe4HPkbUDXsNaFPk5SbvntdvI3CWy3ppywPPwXMZfpPqaeDM7XhGR2ck1aHbbfrM5r2D3_QoXSXDicCdMAxmfjHjetEIRZsTiWzDIBhZE7QEXpEzoCmsQViuR2Se_XebzXPP7MsQoR-ED20r9ffV5lwUbT1pqcbwYm6F81rzPm1nQ0kh4Ymq_JL8J4jgqbNd648fIbLfWk5gnWew_Lk1rMgYgFl7ysmVWgBqEBgAf7mL7ZAZAHBKgH8sCxAqgH8rSxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7CbsQKoB66xsQKoB-a8sQKoB8q6sQKoB_2ysQKoB_e4sQKoB_i4sQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAtMNkJ5R0JDRGZIOKgIAdIIKQiAQRABGF4yAoICOgyAQoDAgICAgICAAipI2aDSNVAUWJDAxtjYy5ID8ggfY2EteXQtaG9zdC1wdWItOTYwOTU5Mzg3MTUwMzAyNZoJE2h0dHBzOi8vY2xpY2t1cC5jb22xCZyLAETKN4mPyAkDyAkYyAmPAcgJwgGYCwGhC2BUYZAVgpZJugtJCAEQARgEIAEoATAQQAFIAWAAaABwAogBAJgBAaIBEgoAGAAgAFgBYABwAagCAdgCAqgBAdgBAYACAYgCCboDCXZpYnJ1emFiYdALEqIMCCoGCgTowrEC0gwCEAHaDCYKCxCg8pGSyKTgi7MBEgIBAxoNGJe8rJlVIPKizLWvBUABSgIQH5oNARKqDQJQS8gNAdIN-wNodHRwczovL2NsaWNrdXAuY29tP3V0bV9zb3VyY2U9eW91dHViZSZ1dG1fbWVkaXVtPWNwbSZ1dG1fY2FtcGFpZ249eXRfY3BtX2FwYWNfbm5jX3Byb190cmlhbF9hbGwtZGV2aWNlc190cm9hc19scF94X2FsbC1kZXBhcnRtZW50c194X2FsbC1jdXN0b20tY29tYmluYXRpb25zJnV0bV9jb250ZW50PWFwYWNfYWZmaW5pdHlfcnZhX2FsbC1pbmR1c3RyaWVzX2FsbC1mZWF0dXJlc19hbGwtdXNlLWNhc2VzX2RlcGFydG1lbnQtaGVhbHRoY2FyZSZ1dG1fdGVybT1hZi12aWRlb19zLWludGVybmFsdmlkZW9fbGVuLTEyMHNlY19hci0xNng5X2N0YS1nZXRzdGFydGVkYXRDVV9pY3AtYWxsX3AtZXZlcnl0aGluZ2FwcF9scC1ocC1wYWlkX3R2LXhfYXMtQWR2ZXJ0b3JpYWxfc3QtaHVtYW5faC13b3JrdG9kYXlpc2Jyb2tlbl9pLXhfQUQtWC00LjBaZWIxMjBfYXYtQ1U0LjBjb21wYW5pb25fY3YtdjEtNC4wX2QtMjAyNS0xMi0xMCZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjI4NzAxNzExNTm4E____________wGIFAGwFAHAFcmAgEDQFQHYFQGQFgGYFgHiFgIIAYAXAYoXFggDGAEgASgBMAE4AUABSAFQAVgBYAKgFwGpF5iTryTtX4KuuhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=EAIaIQobChMI2NPG2NjLkgMVc4fOBh1jqQMIEAEYASAAEgIInvD_BwE&num=1&cid=CAASqwHkaJotESu1Kh6gDJIg5AzkcV9ixCjWWkIXGuSfd5ElAX9jKXVGzUFZQb94tWDxlbh383rKf4XaVNALNgB3TQGChcoA5PjKqNVeMIbsScD73PWRsmhEwhzSq5ERrsdQa6RJlCX3oq1x1wGqmFjwTNCgDOF_ZpuusLTdR89pRKYjVclfWDn3N8tD2CA1aK_8iEucd47wwbVxCq8yxov8AgOgbWKT7Ru3OC0iCCE&ad_cpn=%5BAD_CPN%5D&sig=AOD64_3l-gRykLSl3uelIcv2T5Z57H9p6g&label=video_click_to_advertiser_site&ctype=110&ms=%5BCLICK_MS%5D&adclksrc=%5BCLICK_SOURCE%5D
+              - generic [ref=e589]: Sign up
+            - button [pressed] [ref=e596] [cursor=pointer]:
+              - img [ref=e598]:
+                - generic [ref=e600]:
+                  - img
+          - generic [ref=e605]:
+            - iframe
+            - button "Show chat replay" [ref=e609] [cursor=pointer]:
+              - generic [ref=e610]: Show chat replay
+          - generic [ref=e616]:
+            - generic [ref=e618] [cursor=pointer]:
+              - link [ref=e619]:
+                - /url: /watch?v=lM-lqPun9P8
+                - generic [ref=e625]: 1:59:55
+              - generic [ref=e627]:
+                - generic [ref=e628]:
+                  - heading "#2 Playwright API Testing Tutorial Crash Course 2024 1 hour, 59 minutes" [level=3] [ref=e629]:
+                    - link "#2 Playwright API Testing Tutorial Crash Course 2024 1 hour, 59 minutes" [ref=e630]:
+                      - /url: /watch?v=lM-lqPun9P8
+                      - text: "#2 Playwright API Testing Tutorial Crash Course 2024"
+                  - generic [ref=e632]:
+                    - generic [ref=e634]: Testers Talk
+                    - generic [ref=e635]:
+                      - generic [ref=e636]: 42K views
+                      - generic [ref=e637]: •
+                      - generic [ref=e638]: 2 years ago
+                - button "More actions" [ref=e641]:
+                  - generic [ref=e645]:
+                    - img
+            - generic [ref=e650] [cursor=pointer]:
+              - link [ref=e651]:
+                - /url: /watch?v=pq20Gd4LXeI
+                - generic [ref=e657]: 8:17:31
+              - generic [ref=e659]:
+                - generic [ref=e660]:
+                  - heading "Playwright Automation Tutorial for Beginners from Scratch 8 hours, 17 minutes" [level=3] [ref=e661]:
+                    - link "Playwright Automation Tutorial for Beginners from Scratch 8 hours, 17 minutes" [ref=e662]:
+                      - /url: /watch?v=pq20Gd4LXeI
+                      - text: Playwright Automation Tutorial for Beginners from Scratch
+                  - generic [ref=e664]:
+                    - generic [ref=e666]:
+                      - text: Mukesh otwani
+                      - img [ref=e669]:
+                        - generic [ref=e671]:
+                          - img
+                    - generic [ref=e672]:
+                      - generic [ref=e673]: 187K views
+                      - generic [ref=e674]: •
+                      - generic [ref=e675]: 1 year ago
+                - button "More actions" [ref=e678]:
+                  - generic [ref=e682]:
+                    - img
+            - generic [ref=e687] [cursor=pointer]:
+              - link [ref=e688]:
+                - /url: /watch?v=kqni98cBWFg
+                - generic [ref=e694]: 6:10
+              - generic [ref=e696]:
+                - generic [ref=e697]:
+                  - 'heading "Playwright Tutorial #12 - Handling auto suggestions 6 minutes, 10 seconds" [level=3] [ref=e698]':
+                    - 'link "Playwright Tutorial #12 - Handling auto suggestions 6 minutes, 10 seconds" [ref=e699]':
+                      - /url: /watch?v=kqni98cBWFg
+                      - text: "Playwright Tutorial #12 - Handling auto suggestions"
+                  - generic [ref=e701]:
+                    - generic [ref=e703]: AutomationTestingOnline
+                    - generic [ref=e704]:
+                      - generic [ref=e705]: 62 views
+                      - generic [ref=e706]: •
+                      - generic [ref=e707]: 2 weeks ago
+                - button "More actions" [ref=e710]:
+                  - generic [ref=e714]:
+                    - img
+            - generic [ref=e719] [cursor=pointer]:
+              - link [ref=e720]:
+                - /url: /watch?v=gLptmcuCx6Q
+                - generic [ref=e726]: 18:58
+              - generic [ref=e728]:
+                - generic [ref=e729]:
+                  - heading "What is CI/CD Pipeline? | Simply Explained by Shradha Ma'am 18 minutes" [level=3] [ref=e730]:
+                    - link "What is CI/CD Pipeline? | Simply Explained by Shradha Ma'am 18 minutes" [ref=e731]:
+                      - /url: /watch?v=gLptmcuCx6Q
+                      - text: What is CI/CD Pipeline? | Simply Explained by Shradha Ma'am
+                  - generic [ref=e733]:
+                    - generic [ref=e735]:
+                      - text: Apna College
+                      - img [ref=e738]:
+                        - generic [ref=e740]:
+                          - img
+                    - generic [ref=e741]:
+                      - generic [ref=e742]: 498K views
+                      - generic [ref=e743]: •
+                      - generic [ref=e744]: 4 months ago
+                - button "More actions" [ref=e747]:
+                  - generic [ref=e751]:
+                    - img
+            - generic [ref=e756] [cursor=pointer]:
+              - link [ref=e757]:
+                - /url: /watch?v=wawbt1cATsk
+                - generic [ref=e763]: 5:41:27
+              - generic [ref=e765]:
+                - generic [ref=e766]:
+                  - 'heading "Playwright with TypeScript : Learn Playwright Automation Tutorial from Scratch [6 Hours] 5 hours, 41 minutes" [level=3] [ref=e767]':
+                    - 'link "Playwright with TypeScript : Learn Playwright Automation Tutorial from Scratch [6 Hours] 5 hours, 41 minutes" [ref=e768]':
+                      - /url: /watch?v=wawbt1cATsk
+                      - text: "Playwright with TypeScript : Learn Playwright Automation Tutorial from Scratch [6 Hours]"
+                  - generic [ref=e770]:
+                    - generic [ref=e772]: TestMu AI
+                    - generic [ref=e773]:
+                      - generic [ref=e774]: 293K views
+                      - generic [ref=e775]: •
+                      - generic [ref=e776]: 3 years ago
+                - button "More actions" [ref=e779]:
+                  - generic [ref=e783]:
+                    - img
+            - generic [ref=e788] [cursor=pointer]:
+              - link [ref=e789]:
+                - /url: /watch?v=QiN-46rERj8&pp=ugUEEgJlbg%3D%3D
+                - generic [ref=e795]: 31:23
+              - generic [ref=e797]:
+                - generic [ref=e798]:
+                  - heading "Playwright Interview Questions | All Levels 31 minutes" [level=3] [ref=e799]:
+                    - link "Playwright Interview Questions | All Levels 31 minutes" [ref=e800]:
+                      - /url: /watch?v=QiN-46rERj8&pp=ugUEEgJlbg%3D%3D
+                      - text: Playwright Interview Questions | All Levels
+                  - generic [ref=e802]:
+                    - generic [ref=e804]: Script and Execute
+                    - generic [ref=e805]:
+                      - generic [ref=e806]: 1.2K views
+                      - generic [ref=e807]: •
+                      - generic [ref=e808]: 1 month ago
+                - button "More actions" [ref=e811]:
+                  - generic [ref=e815]:
+                    - img
+            - generic [ref=e820] [cursor=pointer]:
+              - link [ref=e821]:
+                - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THHmgUrd61MtuvgpKPvoQzXb
+                - generic [ref=e831]:
+                  - generic [ref=e834]:
+                    - img
+                  - generic [ref=e835]: 78 videos
+              - generic [ref=e838]:
+                - heading "Playwright Automation Tutorial☑️" [level=3] [ref=e839]:
+                  - link "Playwright Automation Tutorial☑️" [ref=e840]:
+                    - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THHmgUrd61MtuvgpKPvoQzXb
+                - generic [ref=e842]:
+                  - generic [ref=e843]:
+                    - link "Testers Talk" [ref=e846]:
+                      - /url: /@testerstalk
+                    - generic [ref=e847]: •
+                    - link "Playlist" [ref=e850]:
+                      - /url: /@testerstalk
+                  - link "View full playlist" [ref=e854]:
+                    - /url: /playlist?list=PLUeDIlio4THHmgUrd61MtuvgpKPvoQzXb
+            - generic [ref=e856] [cursor=pointer]:
+              - link [ref=e857]:
+                - /url: /watch?v=788GvvcfwTY
+                - generic [ref=e863]: 8:55:10
+              - generic [ref=e865]:
+                - generic [ref=e866]:
+                  - heading "#1 Playwright Automation Using TypeScript Full Course 2025 | Playwright TypeScript Beginner Tutorial 8 hours, 55 minutes" [level=3] [ref=e867]:
+                    - link "#1 Playwright Automation Using TypeScript Full Course 2025 | Playwright TypeScript Beginner Tutorial 8 hours, 55 minutes" [ref=e868]:
+                      - /url: /watch?v=788GvvcfwTY
+                      - text: "#1 Playwright Automation Using TypeScript Full Course 2025 | Playwright TypeScript Beginner Tutorial"
+                  - generic [ref=e870]:
+                    - generic [ref=e872]: Testers Talk
+                    - generic [ref=e873]:
+                      - generic [ref=e874]: 122K views
+                      - generic [ref=e875]: •
+                      - generic [ref=e876]: 1 year ago
+                - button "More actions" [ref=e879]:
+                  - generic [ref=e883]:
+                    - img
+            - generic [ref=e888] [cursor=pointer]:
+              - link [ref=e889]:
+                - /url: /watch?v=4_m3HsaNwOE&list=PLhW3qG5bs-L9sJKoT1LC5grGT77sfW0Z8
+                - generic [ref=e899]:
+                  - generic [ref=e902]:
+                    - img
+                  - generic [ref=e903]: 15 lessons
+              - generic [ref=e906]:
+                - heading "Playwright Beginner Tutorials" [level=3] [ref=e907]:
+                  - link "Playwright Beginner Tutorials" [ref=e908]:
+                    - /url: /watch?v=4_m3HsaNwOE&list=PLhW3qG5bs-L9sJKoT1LC5grGT77sfW0Z8
+                - generic [ref=e910]:
+                  - generic [ref=e911]:
+                    - link "Automation Step by Step" [ref=e914]:
+                      - /url: /@RaghavPal
+                      - text: Automation Step by Step
+                      - img [ref=e917]:
+                        - generic [ref=e919]:
+                          - img
+                    - generic [ref=e920]: •
+                    - link "Course" [ref=e923]:
+                      - /url: /@RaghavPal
+                  - link "View full course" [ref=e927]:
+                    - /url: /playlist?list=PLhW3qG5bs-L9sJKoT1LC5grGT77sfW0Z8
+            - generic [ref=e929] [cursor=pointer]:
+              - link [ref=e930]:
+                - /url: /watch?v=4_m3HsaNwOE&pp=ugUEEgJlbg%3D%3D
+                - generic [ref=e936]: 13:05
+              - generic [ref=e938]:
+                - generic [ref=e939]:
+                  - heading "Playwright Beginner Tutorial 1 | What is Playwright 13 minutes, 5 seconds" [level=3] [ref=e940]:
+                    - link "Playwright Beginner Tutorial 1 | What is Playwright 13 minutes, 5 seconds" [ref=e941]:
+                      - /url: /watch?v=4_m3HsaNwOE&pp=ugUEEgJlbg%3D%3D
+                      - text: Playwright Beginner Tutorial 1 | What is Playwright
+                  - generic [ref=e943]:
+                    - generic [ref=e945]:
+                      - text: Automation Step by Step
+                      - img [ref=e948]:
+                        - generic [ref=e950]:
+                          - img
+                    - generic [ref=e951]:
+                      - generic [ref=e952]: 596K views
+                      - generic [ref=e953]: •
+                      - generic [ref=e954]: 3 years ago
+                - button "More actions" [ref=e957]:
+                  - generic [ref=e961]:
+                    - img
+            - generic [ref=e966] [cursor=pointer]:
+              - link [ref=e967]:
+                - /url: /watch?v=magNlp8y7eM
+                - generic [ref=e973]: 24:51
+              - generic [ref=e975]:
+                - generic [ref=e976]:
+                  - heading "What Happened in Islamabad? | Syed Muzammil Official 24 minutes" [level=3] [ref=e977]:
+                    - link "What Happened in Islamabad? | Syed Muzammil Official 24 minutes" [ref=e978]:
+                      - /url: /watch?v=magNlp8y7eM
+                      - text: What Happened in Islamabad? | Syed Muzammil Official
+                  - generic [ref=e980]:
+                    - generic [ref=e982]:
+                      - text: Syed Muzammil Official
+                      - img [ref=e985]:
+                        - generic [ref=e987]:
+                          - img
+                    - generic [ref=e988]:
+                      - generic [ref=e989]: 82K views
+                      - generic [ref=e990]: •
+                      - generic [ref=e991]: 13 hours ago
+                    - generic [ref=e996]: New
+                - button "More actions" [ref=e999]:
+                  - generic [ref=e1003]:
+                    - img
+            - generic [ref=e1008] [cursor=pointer]:
+              - link [ref=e1009]:
+                - /url: /watch?v=xV05PkQWIj8
+                - generic [ref=e1015]: 1:00:03
+              - generic [ref=e1017]:
+                - generic [ref=e1018]:
+                  - heading "Interview for playwright Automation Testing 2025 1 hour" [level=3] [ref=e1019]:
+                    - link "Interview for playwright Automation Testing 2025 1 hour" [ref=e1020]:
+                      - /url: /watch?v=xV05PkQWIj8
+                      - text: Interview for playwright Automation Testing 2025
+                  - generic [ref=e1022]:
+                    - generic [ref=e1024]: Akash Mishra
+                    - generic [ref=e1025]:
+                      - generic [ref=e1026]: 11K views
+                      - generic [ref=e1027]: •
+                      - generic [ref=e1028]: 6 months ago
+                - button "More actions" [ref=e1031]:
+                  - generic [ref=e1035]:
+                    - img
+            - generic [ref=e1040] [cursor=pointer]:
+              - link [ref=e1041]:
+                - /url: /watch?v=5EDP-ff708Y
+                - generic [ref=e1047]: 1:03:53
+              - generic [ref=e1049]:
+                - generic [ref=e1050]:
+                  - heading "Playwright Automation with TypeScript | LIVE Demo & Introduction to Playwright & It's Features 1 hour, 3 minutes" [level=3] [ref=e1051]:
+                    - link "Playwright Automation with TypeScript | LIVE Demo & Introduction to Playwright & It's Features 1 hour, 3 minutes" [ref=e1052]:
+                      - /url: /watch?v=5EDP-ff708Y
+                      - text: Playwright Automation with TypeScript | LIVE Demo & Introduction to Playwright & It's Features
+                  - generic [ref=e1054]:
+                    - generic [ref=e1056]:
+                      - text: SDET- QA
+                      - img [ref=e1059]:
+                        - generic [ref=e1061]:
+                          - img
+                    - generic [ref=e1062]:
+                      - generic [ref=e1063]: 38K views
+                      - generic [ref=e1064]: •
+                      - generic [ref=e1065]: 10 months ago
+                - button "More actions" [ref=e1068]:
+                  - generic [ref=e1072]:
+                    - img
+            - generic [ref=e1077] [cursor=pointer]:
+              - link [ref=e1078]:
+                - /url: /watch?v=zF3ftXEj5Aw&list=PL6flErFppaj0iQG2_Dd72Jz0bfrzZwMZH&pp=0gcJCbUEOCosWNin
+                - generic [ref=e1088]:
+                  - generic [ref=e1091]:
+                    - img
+                  - generic [ref=e1092]: 31 videos
+              - generic [ref=e1095]:
+                - heading "Automation Testing - Playwright With JavaScript Tutorials - From Basic To Advanced" [level=3] [ref=e1096]:
+                  - link "Automation Testing - Playwright With JavaScript Tutorials - From Basic To Advanced" [ref=e1097]:
+                    - /url: /watch?v=zF3ftXEj5Aw&list=PL6flErFppaj0iQG2_Dd72Jz0bfrzZwMZH&pp=0gcJCbUEOCosWNin
+                - generic [ref=e1099]:
+                  - generic [ref=e1100]:
+                    - link "Mukesh otwani" [ref=e1103]:
+                      - /url: /@Mukeshotwani
+                      - text: Mukesh otwani
+                      - img [ref=e1106]:
+                        - generic [ref=e1108]:
+                          - img
+                    - generic [ref=e1109]: •
+                    - link "Playlist" [ref=e1112]:
+                      - /url: /@Mukeshotwani
+                  - link "View full playlist" [ref=e1116]:
+                    - /url: /playlist?list=PL6flErFppaj0iQG2_Dd72Jz0bfrzZwMZH
+            - generic [ref=e1118] [cursor=pointer]:
+              - link [ref=e1119]:
+                - /url: /watch?v=ziuIDwX18h4
+                - generic [ref=e1125]: 1:37:40
+              - generic [ref=e1127]:
+                - generic [ref=e1128]:
+                  - heading "Playwright with TypeScript | Setup Environment & Writing Tests ( Session 1) 1 hour, 37 minutes" [level=3] [ref=e1129]:
+                    - link "Playwright with TypeScript | Setup Environment & Writing Tests ( Session 1) 1 hour, 37 minutes" [ref=e1130]:
+                      - /url: /watch?v=ziuIDwX18h4
+                      - text: Playwright with TypeScript | Setup Environment & Writing Tests ( Session 1)
+                  - generic [ref=e1132]:
+                    - generic [ref=e1134]:
+                      - text: SDET- QA
+                      - img [ref=e1137]:
+                        - generic [ref=e1139]:
+                          - img
+                    - generic [ref=e1140]:
+                      - generic [ref=e1141]: 61K views
+                      - generic [ref=e1142]: •
+                      - generic [ref=e1143]: 4 months ago
+                - button "More actions" [ref=e1146]:
+                  - generic [ref=e1150]:
+                    - img
+            - generic [ref=e1155] [cursor=pointer]:
+              - link [ref=e1156]:
+                - /url: /watch?v=5pzY2Wc9Cmo&pp=ugUEEgJlbg%3D%3D
+                - generic [ref=e1162]: 40:55
+              - generic [ref=e1164]:
+                - generic [ref=e1165]:
+                  - heading "Playwright Typescript Interview Questions & Answers - Part 1 | Naveen Automation Labs 40 minutes" [level=3] [ref=e1166]:
+                    - link "Playwright Typescript Interview Questions & Answers - Part 1 | Naveen Automation Labs 40 minutes" [ref=e1167]:
+                      - /url: /watch?v=5pzY2Wc9Cmo&pp=ugUEEgJlbg%3D%3D
+                      - text: Playwright Typescript Interview Questions & Answers - Part 1 | Naveen Automation Labs
+                  - generic [ref=e1169]:
+                    - generic [ref=e1171]:
+                      - text: Naveen AutomationLabs
+                      - img [ref=e1174]:
+                        - generic [ref=e1176]:
+                          - img
+                    - generic [ref=e1177]:
+                      - generic [ref=e1178]: 9.6K views
+                      - generic [ref=e1179]: •
+                      - generic [ref=e1180]: 1 month ago
+                - button "More actions" [ref=e1183]:
+                  - generic [ref=e1187]:
+                    - img
+            - generic [ref=e1192] [cursor=pointer]:
+              - link [ref=e1193]:
+                - /url: /watch?v=lCb9JoZFpHI
+                - generic [ref=e1199]: 1:20:30
+              - generic [ref=e1201]:
+                - generic [ref=e1202]:
+                  - heading "Introduction to Playwright for End-to-End Testing with Debbie O'Brien | JS Drops 1 hour, 20 minutes" [level=3] [ref=e1203]:
+                    - link "Introduction to Playwright for End-to-End Testing with Debbie O'Brien | JS Drops 1 hour, 20 minutes" [ref=e1204]:
+                      - /url: /watch?v=lCb9JoZFpHI
+                      - text: Introduction to Playwright for End-to-End Testing with Debbie O'Brien | JS Drops
+                  - generic [ref=e1206]:
+                    - generic [ref=e1208]: This Dot Media
+                    - generic [ref=e1209]:
+                      - generic [ref=e1210]: 36K views
+                      - generic [ref=e1211]: •
+                      - generic [ref=e1212]: 2 years ago
+                - button "More actions" [ref=e1215]:
+                  - generic [ref=e1219]:
+                    - img
+            - generic [ref=e1224] [cursor=pointer]:
+              - link [ref=e1225]:
+                - /url: /watch?v=D44k45N6S58
+                - generic [ref=e1231]: 1:55:15
+              - generic [ref=e1233]:
+                - generic [ref=e1234]:
+                  - heading "#4 Step-by-Step Guide To Integrate Playwright with CICD Tools(Jenkins,Azure DevOps & GitHub Actions) 1 hour, 55 minutes" [level=3] [ref=e1235]:
+                    - link "#4 Step-by-Step Guide To Integrate Playwright with CICD Tools(Jenkins,Azure DevOps & GitHub Actions) 1 hour, 55 minutes" [ref=e1236]:
+                      - /url: /watch?v=D44k45N6S58
+                      - text: "#4 Step-by-Step Guide To Integrate Playwright with CICD Tools(Jenkins,Azure DevOps & GitHub Actions)"
+                  - generic [ref=e1238]:
+                    - generic [ref=e1240]: Testers Talk
+                    - generic [ref=e1241]:
+                      - generic [ref=e1242]: 8.9K views
+                      - generic [ref=e1243]: •
+                      - generic [ref=e1244]: 11 months ago
+                - button "More actions" [ref=e1247]:
+                  - generic [ref=e1251]:
+                    - img
+            - generic [ref=e1256] [cursor=pointer]:
+              - link [ref=e1257]:
+                - /url: /watch?v=Ov9e_F8I5zc&pp=0gcJCZEKAYcqIYzv
+                - generic [ref=e1263]: 1:04:41
+              - generic [ref=e1265]:
+                - generic [ref=e1266]:
+                  - heading "Playwright Tutorial Crash Course using Typescript | Learn Playwright Testing 1 hour, 4 minutes" [level=3] [ref=e1267]:
+                    - link "Playwright Tutorial Crash Course using Typescript | Learn Playwright Testing 1 hour, 4 minutes" [ref=e1268]:
+                      - /url: /watch?v=Ov9e_F8I5zc&pp=0gcJCZEKAYcqIYzv
+                      - text: Playwright Tutorial Crash Course using Typescript | Learn Playwright Testing
+                  - generic [ref=e1270]:
+                    - generic [ref=e1272]: SDET Unicorns by Dilpreet Johal
+                    - generic [ref=e1273]:
+                      - generic [ref=e1274]: 30K views
+                      - generic [ref=e1275]: •
+                      - generic [ref=e1276]: 3 years ago
+                - button "More actions" [ref=e1279]:
+                  - generic [ref=e1283]:
+                    - img
+            - generic [ref=e1288] [cursor=pointer]:
+              - link [ref=e1289]:
+                - /url: /watch?v=I0RQaztZulA
+                - generic [ref=e1295]: 1:36:22
+              - generic [ref=e1297]:
+                - generic [ref=e1298]:
+                  - heading "Postman API Testing Tutorial 🔥 1 hour, 36 minutes" [level=3] [ref=e1299]:
+                    - link "Postman API Testing Tutorial 🔥 1 hour, 36 minutes" [ref=e1300]:
+                      - /url: /watch?v=I0RQaztZulA
+                      - text: Postman API Testing Tutorial 🔥
+                  - generic [ref=e1302]:
+                    - generic [ref=e1304]: Automate with Rakesh
+                    - generic [ref=e1305]:
+                      - generic [ref=e1306]: 46K views
+                      - generic [ref=e1307]: •
+                      - generic [ref=e1308]: 6 months ago
+                - button "More actions" [ref=e1311]:
+                  - generic [ref=e1315]:
+                    - img
+    - text: • · • • · • • •
+```

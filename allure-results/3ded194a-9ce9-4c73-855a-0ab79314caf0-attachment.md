@@ -1,0 +1,717 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Guide" [ref=e9] [cursor=pointer]:
+          - generic [ref=e12]:
+            - img
+        - generic [ref=e13]:
+          - link "YouTube Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e19]:
+              - img
+          - generic [ref=e20]: PK
+        - button "Skip navigation" [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]: Skip navigation
+      - generic [ref=e29]:
+        - search [ref=e30]:
+          - generic [ref=e31]:
+            - generic [ref=e32]:
+              - combobox "Search" [expanded] [ref=e34]: "#1 Playwright Tutorial Full Course 2025 | Playwright Testing Tutorial"
+              - button "Clear search query" [ref=e36] [cursor=pointer]:
+                - generic [ref=e39]:
+                  - img
+            - button "Search" [ref=e43] [cursor=pointer]:
+              - generic [ref=e46]:
+                - img
+        - generic [ref=e48]:
+          - button "Search with your voice" [ref=e50] [cursor=pointer]:
+            - generic [ref=e54]:
+              - img
+          - tooltip "tooltip"
+      - generic [ref=e59]:
+        - button "Settings" [ref=e64] [cursor=pointer]:
+          - generic [ref=e67]:
+            - img
+        - link "Sign in" [ref=e70] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253D%2525231%252BPlaywright%252BTutorial%252BFull%252BCourse%252B2025%252B%25257C%252BPlaywright%252BTesting%252BTutorial&hl=en&ec=65620
+          - generic [ref=e74]:
+            - img
+          - generic [ref=e75]: Sign in
+  - navigation [ref=e79]:
+    - generic [ref=e80]:
+      - link "Home" [ref=e82] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e85]:
+          - img
+        - generic [ref=e86]: Home
+      - link "Shorts" [ref=e88] [cursor=pointer]:
+        - /url: /shorts/
+        - generic [ref=e91]:
+          - img
+        - generic [ref=e92]: Shorts
+      - link "Subscriptions" [ref=e94] [cursor=pointer]:
+        - /url: /feed/subscriptions
+        - generic [ref=e97]:
+          - img
+        - generic [ref=e98]: Subscriptions
+      - link "You" [ref=e100] [cursor=pointer]:
+        - /url: /feed/you
+        - generic [ref=e103]:
+          - img
+        - generic [ref=e104]: You
+  - generic [ref=e105]:
+    - text: •
+    - main [ref=e106]:
+      - generic [ref=e107]:
+        - generic [ref=e109]:
+          - tablist [ref=e114]:
+            - tab "All" [ref=e118] [cursor=pointer]:
+              - generic [ref=e119]: All
+            - tab "Shorts" [ref=e126] [cursor=pointer]:
+              - generic [ref=e127]: Shorts
+            - tab "Videos" [ref=e134] [cursor=pointer]:
+              - generic [ref=e135]: Videos
+            - tab "Unwatched" [ref=e142] [cursor=pointer]:
+              - generic [ref=e143]: Unwatched
+            - tab "Watched" [ref=e150] [cursor=pointer]:
+              - generic [ref=e151]: Watched
+            - tab "Recently uploaded" [ref=e158] [cursor=pointer]:
+              - generic [ref=e159]: Recently uploaded
+            - tab "Live" [ref=e166] [cursor=pointer]:
+              - generic [ref=e167]: Live
+            - tab "Playlists" [active] [selected] [ref=e174] [cursor=pointer]:
+              - generic [ref=e175]: Playlists
+          - generic [ref=e180]:
+            - button "Search filters" [ref=e182] [cursor=pointer]:
+              - generic [ref=e183]: Filters
+              - generic [ref=e187]:
+                - img
+            - tooltip "tooltip"
+        - generic [ref=e196]:
+          - generic [ref=e198] [cursor=pointer]:
+            - link [ref=e199]:
+              - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THE9S6U7CUHObba0vtKXIwKP&pp=0gcJCbUEOCosWNin
+              - generic [ref=e209]:
+                - generic [ref=e212]:
+                  - img
+                - generic [ref=e213]: 74 videos
+            - generic [ref=e216]:
+              - heading "Playwright with TypeScript Full Course 2025" [level=3] [ref=e217]:
+                - link "Playwright with TypeScript Full Course 2025" [ref=e218]:
+                  - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THE9S6U7CUHObba0vtKXIwKP&pp=0gcJCbUEOCosWNin
+              - generic [ref=e220]:
+                - generic [ref=e221]:
+                  - link "Testers Talk" [ref=e224]:
+                    - /url: /@testerstalk
+                  - generic [ref=e225]: •
+                  - link "Playlist" [ref=e228]:
+                    - /url: /@testerstalk
+                - link "#1 Playwright Automation Using TypeScript Full Course 2025 | Playwright TypeScript Beginner Tutorial · 8:55:10" [ref=e232]:
+                  - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THE9S6U7CUHObba0vtKXIwKP
+                - link "#2 Advanced Playwright TypeScript Tutorial Full Course 2025 | Playwright Automation Tutorial · 2:22:14" [ref=e235]:
+                  - /url: /watch?v=YfRazDhi9Fw&list=PLUeDIlio4THE9S6U7CUHObba0vtKXIwKP
+                - link "View full playlist" [ref=e240]:
+                  - /url: /playlist?list=PLUeDIlio4THE9S6U7CUHObba0vtKXIwKP
+          - generic [ref=e242] [cursor=pointer]:
+            - link [ref=e243]:
+              - /url: /watch?v=vhluxNm4D58&list=PLBw1ubD1J1UgkIbyIpqAFnSp8fVJw5cRH
+              - generic [ref=e253]:
+                - generic [ref=e256]:
+                  - img
+                - generic [ref=e257]: 47 lessons
+            - generic [ref=e260]:
+              - heading "🔥 Playwright with JavaScript Tutorial Series 🚀 - FULL COURSE" [level=3] [ref=e261]:
+                - link "🔥 Playwright with JavaScript Tutorial Series 🚀 - FULL COURSE" [ref=e262]:
+                  - /url: /watch?v=vhluxNm4D58&list=PLBw1ubD1J1UgkIbyIpqAFnSp8fVJw5cRH
+              - generic [ref=e264]:
+                - generic [ref=e265]:
+                  - link "Testing Funda by Zeeshan Asghar" [ref=e268]:
+                    - /url: /@TestingFunda
+                  - generic [ref=e269]: •
+                  - link "Course" [ref=e272]:
+                    - /url: /@TestingFunda
+                - 'link "Playwright with Javascript #1 | Introduction to Playwright · 6:58" [ref=e276]':
+                  - /url: /watch?v=vhluxNm4D58&list=PLBw1ubD1J1UgkIbyIpqAFnSp8fVJw5cRH
+                - 'link "Playwright with Javascript #2 | How to Install Playwright · 8:36" [ref=e279]':
+                  - /url: /watch?v=dSQ6j-V9C0E&list=PLBw1ubD1J1UgkIbyIpqAFnSp8fVJw5cRH
+                - link "View full course" [ref=e284]:
+                  - /url: /playlist?list=PLBw1ubD1J1UgkIbyIpqAFnSp8fVJw5cRH
+          - generic [ref=e286] [cursor=pointer]:
+            - link [ref=e287]:
+              - /url: /watch?v=dZP4znxEtv0&list=PLL34mf651faPMrUKrJP5HFIBeihgmGQTX
+              - generic [ref=e297]:
+                - generic [ref=e300]:
+                  - img
+                - generic [ref=e301]: 36 lessons
+            - generic [ref=e304]:
+              - heading "Playwright Tutorial with JavaScript" [level=3] [ref=e305]:
+                - link "Playwright Tutorial with JavaScript" [ref=e306]:
+                  - /url: /watch?v=dZP4znxEtv0&list=PLL34mf651faPMrUKrJP5HFIBeihgmGQTX
+              - generic [ref=e308]:
+                - generic [ref=e309]:
+                  - link "Software Testing Mentor" [ref=e312]:
+                    - /url: /@softwaretestingmentor
+                    - text: Software Testing Mentor
+                    - img [ref=e315]:
+                      - generic [ref=e317]:
+                        - img
+                  - generic [ref=e318]: •
+                  - link "Course" [ref=e321]:
+                    - /url: /@softwaretestingmentor
+                - 'link "Introduction to Playwright | Cypress vs Playwright | Playwright Tutorial #1 · 10:37" [ref=e325]':
+                  - /url: /watch?v=dZP4znxEtv0&list=PLL34mf651faPMrUKrJP5HFIBeihgmGQTX
+                - 'link "Playwright Tutorial #2 - Playwright Architecture vs Cypress vs Selenium · 9:31" [ref=e328]':
+                  - /url: /watch?v=dRK88n4YAfQ&list=PLL34mf651faPMrUKrJP5HFIBeihgmGQTX
+                - link "View full course" [ref=e333]:
+                  - /url: /playlist?list=PLL34mf651faPMrUKrJP5HFIBeihgmGQTX
+          - generic [ref=e335] [cursor=pointer]:
+            - link [ref=e336]:
+              - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THGAbHThPbRmPXqSQGPL1Gyy
+              - generic [ref=e346]:
+                - generic [ref=e349]:
+                  - img
+                - generic [ref=e350]: 75 videos
+            - generic [ref=e353]:
+              - heading "Learn Playwright with TypeScript✅" [level=3] [ref=e354]:
+                - link "Learn Playwright with TypeScript✅" [ref=e355]:
+                  - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THGAbHThPbRmPXqSQGPL1Gyy
+              - generic [ref=e357]:
+                - generic [ref=e358]:
+                  - link "Testers Talk" [ref=e361]:
+                    - /url: /@testerstalk
+                  - generic [ref=e362]: •
+                  - link "Playlist" [ref=e365]:
+                    - /url: /@testerstalk
+                - link "#1 Playwright Automation Using TypeScript Full Course 2025 | Playwright TypeScript Beginner Tutorial · 8:55:10" [ref=e369]:
+                  - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THGAbHThPbRmPXqSQGPL1Gyy
+                - link "#2 Advanced Playwright TypeScript Tutorial Full Course 2025 | Playwright Automation Tutorial · 2:22:14" [ref=e372]:
+                  - /url: /watch?v=YfRazDhi9Fw&list=PLUeDIlio4THGAbHThPbRmPXqSQGPL1Gyy
+                - link "View full playlist" [ref=e377]:
+                  - /url: /playlist?list=PLUeDIlio4THGAbHThPbRmPXqSQGPL1Gyy
+          - generic [ref=e379] [cursor=pointer]:
+            - link [ref=e380]:
+              - /url: /watch?v=_TAg4hpdlDU&list=PLFGoYjJG_fqrRjl9Mn0asiAIxmKC1X-N-
+              - generic [ref=e390]:
+                - generic [ref=e393]:
+                  - img
+                - generic [ref=e394]: 20 lessons
+            - generic [ref=e397]:
+              - heading "Playwright with TypeScript [Latest 2024] - By Naveen Automation Labs" [level=3] [ref=e398]:
+                - link "Playwright with TypeScript [Latest 2024] - By Naveen Automation Labs" [ref=e399]:
+                  - /url: /watch?v=_TAg4hpdlDU&list=PLFGoYjJG_fqrRjl9Mn0asiAIxmKC1X-N-
+              - generic [ref=e401]:
+                - generic [ref=e402]:
+                  - link "Naveen AutomationLabs" [ref=e405]:
+                    - /url: /@naveenautomationlabs
+                    - text: Naveen AutomationLabs
+                    - img [ref=e408]:
+                      - generic [ref=e410]:
+                        - img
+                  - generic [ref=e411]: •
+                  - link "Course" [ref=e414]:
+                    - /url: /@naveenautomationlabs
+                - link "#1 - Playwright with TypeScript - Setup & Installation | First Script · 26:05" [ref=e418]:
+                  - /url: /watch?v=_TAg4hpdlDU&list=PLFGoYjJG_fqrRjl9Mn0asiAIxmKC1X-N-
+                - link "#2 - Time Travel Debugging - UI Mode Feature In Playwright - Typescript · 12:51" [ref=e421]:
+                  - /url: /watch?v=ZGK6wY1Hv9k&list=PLFGoYjJG_fqrRjl9Mn0asiAIxmKC1X-N-
+                - link "View full course" [ref=e426]:
+                  - /url: /playlist?list=PLFGoYjJG_fqrRjl9Mn0asiAIxmKC1X-N-
+          - generic [ref=e428] [cursor=pointer]:
+            - link [ref=e429]:
+              - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THHmgUrd61MtuvgpKPvoQzXb
+              - generic [ref=e439]:
+                - generic [ref=e442]:
+                  - img
+                - generic [ref=e443]: 78 videos
+            - generic [ref=e446]:
+              - heading "Playwright Automation Tutorial☑️" [level=3] [ref=e447]:
+                - link "Playwright Automation Tutorial☑️" [ref=e448]:
+                  - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THHmgUrd61MtuvgpKPvoQzXb
+              - generic [ref=e450]:
+                - generic [ref=e451]:
+                  - link "Testers Talk" [ref=e454]:
+                    - /url: /@testerstalk
+                  - generic [ref=e455]: •
+                  - link "Playlist" [ref=e458]:
+                    - /url: /@testerstalk
+                - link "#1 Playwright Tutorial Full Course 2025 | Playwright Testing Tutorial · 6:55:08" [ref=e462]:
+                  - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THHmgUrd61MtuvgpKPvoQzXb
+                - link "#2 Playwright API Testing Tutorial Crash Course 2024 · 1:59:55" [ref=e465]:
+                  - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THHmgUrd61MtuvgpKPvoQzXb&pp=0gcJCRgBOCosWNin
+                - link "View full playlist" [ref=e470]:
+                  - /url: /playlist?list=PLUeDIlio4THHmgUrd61MtuvgpKPvoQzXb
+          - generic [ref=e472] [cursor=pointer]:
+            - link [ref=e473]:
+              - /url: /watch?v=N6VdiuF9j1M&list=PLFGoYjJG_fqrjcgRUcc2ubbZGtbRcC6W8
+              - generic [ref=e483]:
+                - generic [ref=e486]:
+                  - img
+                - generic [ref=e487]: 49 videos
+            - generic [ref=e490]:
+              - heading "Playwright with Java latest] - UI + API Automation + End To End Framework" [level=3] [ref=e491]:
+                - link "Playwright with Java latest] - UI + API Automation + End To End Framework" [ref=e492]:
+                  - /url: /watch?v=N6VdiuF9j1M&list=PLFGoYjJG_fqrjcgRUcc2ubbZGtbRcC6W8
+              - generic [ref=e494]:
+                - generic [ref=e495]:
+                  - link "Naveen AutomationLabs" [ref=e498]:
+                    - /url: /@naveenautomationlabs
+                    - text: Naveen AutomationLabs
+                    - img [ref=e501]:
+                      - generic [ref=e503]:
+                        - img
+                  - generic [ref=e504]: •
+                  - link "Playlist" [ref=e507]:
+                    - /url: /@naveenautomationlabs
+                - link "#1 - Playwright - Test Automation Tool | Overview & Introduction · 24:44" [ref=e511]:
+                  - /url: /watch?v=N6VdiuF9j1M&list=PLFGoYjJG_fqrjcgRUcc2ubbZGtbRcC6W8
+                - link "#2 - Cypress vs Playwright · 19:52" [ref=e514]:
+                  - /url: /watch?v=7Fyfc7zD4V4&list=PLFGoYjJG_fqrjcgRUcc2ubbZGtbRcC6W8
+                - link "View full playlist" [ref=e519]:
+                  - /url: /playlist?list=PLFGoYjJG_fqrjcgRUcc2ubbZGtbRcC6W8
+          - generic [ref=e521] [cursor=pointer]:
+            - link [ref=e522]:
+              - /url: /watch?v=yOuElUSfAs8&list=PLUDwpEzHYYLsw33jpra65LIvX1nKWpp7-
+              - generic [ref=e532]:
+                - generic [ref=e535]:
+                  - img
+                - generic [ref=e536]: 39 lessons
+            - generic [ref=e539]:
+              - heading "Playwright with Javascript tutorials" [level=3] [ref=e540]:
+                - link "Playwright with Javascript tutorials" [ref=e541]:
+                  - /url: /watch?v=yOuElUSfAs8&list=PLUDwpEzHYYLsw33jpra65LIvX1nKWpp7-
+              - generic [ref=e543]:
+                - generic [ref=e544]:
+                  - link "SDET- QA" [ref=e547]:
+                    - /url: /@sdetpavan
+                    - text: SDET- QA
+                    - img [ref=e550]:
+                      - generic [ref=e552]:
+                        - img
+                  - generic [ref=e553]: •
+                  - link "Course" [ref=e556]:
+                    - /url: /@sdetpavan
+                - link "Playwright with Javascript | Introduction | Playwright Vs Selenium Vs Cypress | Part 1 · 24:31" [ref=e560]:
+                  - /url: /watch?v=yOuElUSfAs8&list=PLUDwpEzHYYLsw33jpra65LIvX1nKWpp7-
+                - link "Playwright with Javascript | Installation | Part 2 · 28:05" [ref=e563]:
+                  - /url: /watch?v=ldEqdMGyh9Y&list=PLUDwpEzHYYLsw33jpra65LIvX1nKWpp7-
+                - link "View full course" [ref=e568]:
+                  - /url: /playlist?list=PLUDwpEzHYYLsw33jpra65LIvX1nKWpp7-
+          - generic [ref=e570] [cursor=pointer]:
+            - link [ref=e571]:
+              - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz
+              - generic [ref=e581]:
+                - generic [ref=e584]:
+                  - img
+                - generic [ref=e585]: 24 videos
+            - generic [ref=e588]:
+              - heading "Playwright API Testing by Testers Talk☑️" [level=3] [ref=e589]:
+                - link "Playwright API Testing by Testers Talk☑️" [ref=e590]:
+                  - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz
+              - generic [ref=e592]:
+                - generic [ref=e593]:
+                  - link "Testers Talk" [ref=e596]:
+                    - /url: /@testerstalk
+                  - generic [ref=e597]: •
+                  - link "Playlist" [ref=e600]:
+                    - /url: /@testerstalk
+                - link "#2 Playwright API Testing Tutorial Crash Course 2024 · 1:59:55" [ref=e604]:
+                  - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz
+                - link "#1 Playwright Tutorial Full Course 2025 | Playwright Testing Tutorial · 6:55:08" [ref=e607]:
+                  - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz
+                - link "View full playlist" [ref=e612]:
+                  - /url: /playlist?list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz
+          - generic [ref=e614] [cursor=pointer]:
+            - link [ref=e615]:
+              - /url: /watch?v=5i53YLWD_QI&list=PL6tu16kXT9PoUv6HwexX5LPBzzv7QkI9W
+              - generic [ref=e625]:
+                - generic [ref=e628]:
+                  - img
+                - generic [ref=e629]: 42 videos
+            - generic [ref=e632]:
+              - heading "Playwright with C# .NET" [level=3] [ref=e633]:
+                - link "Playwright with C# .NET" [ref=e634]:
+                  - /url: /watch?v=5i53YLWD_QI&list=PL6tu16kXT9PoUv6HwexX5LPBzzv7QkI9W
+              - generic [ref=e636]:
+                - generic [ref=e637]:
+                  - link "Execute Automation" [ref=e640]:
+                    - /url: /@ExecuteAutomation
+                  - generic [ref=e641]: •
+                  - link "Playlist" [ref=e644]:
+                    - /url: /@ExecuteAutomation
+                - link "#1 - Introduction and getting started with Playwright in C# .NET · 14:11" [ref=e648]:
+                  - /url: /watch?v=5i53YLWD_QI&list=PL6tu16kXT9PoUv6HwexX5LPBzzv7QkI9W
+                - link "#2 - Playwright.NUnit for a more streamlined Playwright TestRunner for C# .NET · 11:57" [ref=e651]:
+                  - /url: /watch?v=f6DYnl6EoBo&list=PL6tu16kXT9PoUv6HwexX5LPBzzv7QkI9W
+                - link "View full playlist" [ref=e656]:
+                  - /url: /playlist?list=PL6tu16kXT9PoUv6HwexX5LPBzzv7QkI9W
+          - generic [ref=e658] [cursor=pointer]:
+            - link [ref=e659]:
+              - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THG0MM5BQDpAbcPm5VfT_hph
+              - generic [ref=e669]:
+                - generic [ref=e672]:
+                  - img
+                - generic [ref=e673]: 74 videos
+            - generic [ref=e676]:
+              - heading "Playwright with TypeScript Automation Step by Step" [level=3] [ref=e677]:
+                - link "Playwright with TypeScript Automation Step by Step" [ref=e678]:
+                  - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THG0MM5BQDpAbcPm5VfT_hph
+              - generic [ref=e680]:
+                - generic [ref=e681]:
+                  - link "Testers Talk" [ref=e684]:
+                    - /url: /@testerstalk
+                  - generic [ref=e685]: •
+                  - link "Playlist" [ref=e688]:
+                    - /url: /@testerstalk
+                - link "#1 Playwright Automation Using TypeScript Full Course 2025 | Playwright TypeScript Beginner Tutorial · 8:55:10" [ref=e692]:
+                  - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THG0MM5BQDpAbcPm5VfT_hph
+                - link "#2 Advanced Playwright TypeScript Tutorial Full Course 2025 | Playwright Automation Tutorial · 2:22:14" [ref=e695]:
+                  - /url: /watch?v=YfRazDhi9Fw&list=PLUeDIlio4THG0MM5BQDpAbcPm5VfT_hph
+                - link "View full playlist" [ref=e700]:
+                  - /url: /playlist?list=PLUeDIlio4THG0MM5BQDpAbcPm5VfT_hph
+          - generic [ref=e702] [cursor=pointer]:
+            - link [ref=e703]:
+              - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THEBPYFIyvDv2bysuDu5so9t
+              - generic [ref=e713]:
+                - generic [ref=e716]:
+                  - img
+                - generic [ref=e717]: 74 videos
+            - generic [ref=e720]:
+              - heading "Playwright TypeScript Page Object Model" [level=3] [ref=e721]:
+                - link "Playwright TypeScript Page Object Model" [ref=e722]:
+                  - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THEBPYFIyvDv2bysuDu5so9t
+              - generic [ref=e724]:
+                - generic [ref=e725]:
+                  - link "Testers Talk" [ref=e728]:
+                    - /url: /@testerstalk
+                  - generic [ref=e729]: •
+                  - link "Playlist" [ref=e732]:
+                    - /url: /@testerstalk
+                - link "#1 Playwright Automation Using TypeScript Full Course 2025 | Playwright TypeScript Beginner Tutorial · 8:55:10" [ref=e736]:
+                  - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THEBPYFIyvDv2bysuDu5so9t
+                - link "#2 Advanced Playwright TypeScript Tutorial Full Course 2025 | Playwright Automation Tutorial · 2:22:14" [ref=e739]:
+                  - /url: /watch?v=YfRazDhi9Fw&list=PLUeDIlio4THEBPYFIyvDv2bysuDu5so9t
+                - link "View full playlist" [ref=e744]:
+                  - /url: /playlist?list=PLUeDIlio4THEBPYFIyvDv2bysuDu5so9t
+          - generic [ref=e746] [cursor=pointer]:
+            - link [ref=e747]:
+              - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THH26-8TItkmNzAybQ9kBUZ5
+              - generic [ref=e757]:
+                - generic [ref=e760]:
+                  - img
+                - generic [ref=e761]: 16 videos
+            - generic [ref=e764]:
+              - heading "Playwright API Automation with JavaScript☑️" [level=3] [ref=e765]:
+                - link "Playwright API Automation with JavaScript☑️" [ref=e766]:
+                  - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THH26-8TItkmNzAybQ9kBUZ5
+              - generic [ref=e768]:
+                - generic [ref=e769]:
+                  - link "Testers Talk" [ref=e772]:
+                    - /url: /@testerstalk
+                  - generic [ref=e773]: •
+                  - link "Playlist" [ref=e776]:
+                    - /url: /@testerstalk
+                - link "#2 Playwright API Testing Tutorial Crash Course 2024 · 1:59:55" [ref=e780]:
+                  - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THH26-8TItkmNzAybQ9kBUZ5
+                - link "#1 Playwright Tutorial Full Course 2025 | Playwright Testing Tutorial · 6:55:08" [ref=e783]:
+                  - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THH26-8TItkmNzAybQ9kBUZ5&pp=0gcJCRgBOCosWNin
+                - link "View full playlist" [ref=e788]:
+                  - /url: /playlist?list=PLUeDIlio4THH26-8TItkmNzAybQ9kBUZ5
+          - generic [ref=e790] [cursor=pointer]:
+            - link [ref=e791]:
+              - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THGGXbOOc4Rt04gXWAuovKYZ
+              - generic [ref=e801]:
+                - generic [ref=e804]:
+                  - img
+                - generic [ref=e805]: 8 videos
+            - generic [ref=e808]:
+              - heading "Playwright JS/TS Automation Testing from Scratch" [level=3] [ref=e809]:
+                - link "Playwright JS/TS Automation Testing from Scratch" [ref=e810]:
+                  - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THGGXbOOc4Rt04gXWAuovKYZ
+              - generic [ref=e812]:
+                - generic [ref=e813]:
+                  - link "Testers Talk" [ref=e816]:
+                    - /url: /@testerstalk
+                  - generic [ref=e817]: •
+                  - link "Playlist" [ref=e820]:
+                    - /url: /@testerstalk
+                - link "#1 Playwright Automation Using TypeScript Full Course 2025 | Playwright TypeScript Beginner Tutorial · 8:55:10" [ref=e824]:
+                  - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THGGXbOOc4Rt04gXWAuovKYZ
+                - link "#2 Advanced Playwright TypeScript Tutorial Full Course 2025 | Playwright Automation Tutorial · 2:22:14" [ref=e827]:
+                  - /url: /watch?v=YfRazDhi9Fw&list=PLUeDIlio4THGGXbOOc4Rt04gXWAuovKYZ
+                - link "View full playlist" [ref=e832]:
+                  - /url: /playlist?list=PLUeDIlio4THGGXbOOc4Rt04gXWAuovKYZ
+          - generic [ref=e834] [cursor=pointer]:
+            - link [ref=e835]:
+              - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THEr0uVFPaxVDRZr7ku3PSeI
+              - generic [ref=e845]:
+                - generic [ref=e848]:
+                  - img
+                - generic [ref=e849]: 74 videos
+            - generic [ref=e852]:
+              - heading "Playwright TypeScript Fixtures" [level=3] [ref=e853]:
+                - link "Playwright TypeScript Fixtures" [ref=e854]:
+                  - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THEr0uVFPaxVDRZr7ku3PSeI
+              - generic [ref=e856]:
+                - generic [ref=e857]:
+                  - link "Testers Talk" [ref=e860]:
+                    - /url: /@testerstalk
+                  - generic [ref=e861]: •
+                  - link "Playlist" [ref=e864]:
+                    - /url: /@testerstalk
+                - link "#1 Playwright Automation Using TypeScript Full Course 2025 | Playwright TypeScript Beginner Tutorial · 8:55:10" [ref=e868]:
+                  - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THEr0uVFPaxVDRZr7ku3PSeI
+                - link "#2 Advanced Playwright TypeScript Tutorial Full Course 2025 | Playwright Automation Tutorial · 2:22:14" [ref=e871]:
+                  - /url: /watch?v=YfRazDhi9Fw&list=PLUeDIlio4THEr0uVFPaxVDRZr7ku3PSeI
+                - link "View full playlist" [ref=e876]:
+                  - /url: /playlist?list=PLUeDIlio4THEr0uVFPaxVDRZr7ku3PSeI
+          - generic [ref=e878] [cursor=pointer]:
+            - link [ref=e879]:
+              - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THEc7eZ9twT1_w_jiPMFC-QD&pp=0gcJCbUEOCosWNin
+              - generic [ref=e889]:
+                - generic [ref=e892]:
+                  - img
+                - generic [ref=e893]: 62 videos
+            - generic [ref=e896]:
+              - heading "Playwright with JavaScript Tutorials☑️" [level=3] [ref=e897]:
+                - link "Playwright with JavaScript Tutorials☑️" [ref=e898]:
+                  - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THEc7eZ9twT1_w_jiPMFC-QD&pp=0gcJCbUEOCosWNin
+              - generic [ref=e900]:
+                - generic [ref=e901]:
+                  - link "Testers Talk" [ref=e904]:
+                    - /url: /@testerstalk
+                  - generic [ref=e905]: •
+                  - link "Playlist" [ref=e908]:
+                    - /url: /@testerstalk
+                - link "#1 Playwright Tutorial Full Course 2025 | Playwright Testing Tutorial · 6:55:08" [ref=e912]:
+                  - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THEc7eZ9twT1_w_jiPMFC-QD
+                - link "#2 Playwright API Testing Tutorial Crash Course 2024 · 1:59:55" [ref=e915]:
+                  - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THEc7eZ9twT1_w_jiPMFC-QD
+                - link "View full playlist" [ref=e920]:
+                  - /url: /playlist?list=PLUeDIlio4THEc7eZ9twT1_w_jiPMFC-QD
+          - generic [ref=e922] [cursor=pointer]:
+            - link [ref=e923]:
+              - /url: /watch?v=3F5KVQgEdUg&list=PLBw1ubD1J1UjtoSTM_4o1B9_QAjzXznrL
+              - generic [ref=e933]:
+                - generic [ref=e936]:
+                  - img
+                - generic [ref=e937]: 14 videos
+            - generic [ref=e940]:
+              - heading "Playwright with Python Complete Course | Web Automation Testing 🚀" [level=3] [ref=e941]:
+                - link "Playwright with Python Complete Course | Web Automation Testing 🚀" [ref=e942]:
+                  - /url: /watch?v=3F5KVQgEdUg&list=PLBw1ubD1J1UjtoSTM_4o1B9_QAjzXznrL
+              - generic [ref=e944]:
+                - generic [ref=e945]:
+                  - link "Testing Funda by Zeeshan Asghar" [ref=e948]:
+                    - /url: /@TestingFunda
+                  - generic [ref=e949]: •
+                  - link "Playlist" [ref=e952]:
+                    - /url: /@TestingFunda
+                  - generic [ref=e953]: •
+                  - generic [ref=e954]: Updated 7 days ago
+                - 'link "Playwright with Python #14 | Sync vs Async in Python Playwright · 12:55" [ref=e958]':
+                  - /url: /watch?v=3F5KVQgEdUg&list=PLBw1ubD1J1UjtoSTM_4o1B9_QAjzXznrL
+                - 'link "Playwright with Python #13 | Debug Tests Easily with Trace Viewer in Playwright · 15:37" [ref=e961]':
+                  - /url: /watch?v=HNGPAjk_BCI&list=PLBw1ubD1J1UjtoSTM_4o1B9_QAjzXznrL
+                - link "View full playlist" [ref=e966]:
+                  - /url: /playlist?list=PLBw1ubD1J1UjtoSTM_4o1B9_QAjzXznrL
+          - generic [ref=e968] [cursor=pointer]:
+            - link [ref=e969]:
+              - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THHNBtr_eZXDayy7mbF2avVh
+              - generic [ref=e979]:
+                - generic [ref=e982]:
+                  - img
+                - generic [ref=e983]: 8 videos
+            - generic [ref=e986]:
+              - heading "Playwright Automation Tutorial For Beginners From Scratch" [level=3] [ref=e987]:
+                - link "Playwright Automation Tutorial For Beginners From Scratch" [ref=e988]:
+                  - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THHNBtr_eZXDayy7mbF2avVh
+              - generic [ref=e990]:
+                - generic [ref=e991]:
+                  - link "Testers Talk" [ref=e994]:
+                    - /url: /@testerstalk
+                  - generic [ref=e995]: •
+                  - link "Playlist" [ref=e998]:
+                    - /url: /@testerstalk
+                - link "#1 Playwright Automation Using TypeScript Full Course 2025 | Playwright TypeScript Beginner Tutorial · 8:55:10" [ref=e1002]:
+                  - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THHNBtr_eZXDayy7mbF2avVh
+                - link "#2 Advanced Playwright TypeScript Tutorial Full Course 2025 | Playwright Automation Tutorial · 2:22:14" [ref=e1005]:
+                  - /url: /watch?v=YfRazDhi9Fw&list=PLUeDIlio4THHNBtr_eZXDayy7mbF2avVh
+                - link "View full playlist" [ref=e1010]:
+                  - /url: /playlist?list=PLUeDIlio4THHNBtr_eZXDayy7mbF2avVh
+          - generic [ref=e1012] [cursor=pointer]:
+            - link [ref=e1013]:
+              - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THFfbTNXZSD1i8tb-qgNYADQ&pp=0gcJCbUEOCosWNin
+              - generic [ref=e1023]:
+                - generic [ref=e1026]:
+                  - img
+                - generic [ref=e1027]: 8 videos
+            - generic [ref=e1030]:
+              - 'heading "Playwright: Fast and reliable end-to-end testing for modern Apps" [level=3] [ref=e1031]':
+                - 'link "Playwright: Fast and reliable end-to-end testing for modern Apps" [ref=e1032]':
+                  - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THFfbTNXZSD1i8tb-qgNYADQ&pp=0gcJCbUEOCosWNin
+              - generic [ref=e1034]:
+                - generic [ref=e1035]:
+                  - link "Testers Talk" [ref=e1038]:
+                    - /url: /@testerstalk
+                  - generic [ref=e1039]: •
+                  - link "Playlist" [ref=e1042]:
+                    - /url: /@testerstalk
+                - link "#1 Playwright Automation Using TypeScript Full Course 2025 | Playwright TypeScript Beginner Tutorial · 8:55:10" [ref=e1046]:
+                  - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THFfbTNXZSD1i8tb-qgNYADQ
+                - link "#2 Advanced Playwright TypeScript Tutorial Full Course 2025 | Playwright Automation Tutorial · 2:22:14" [ref=e1049]:
+                  - /url: /watch?v=YfRazDhi9Fw&list=PLUeDIlio4THFfbTNXZSD1i8tb-qgNYADQ
+                - link "View full playlist" [ref=e1054]:
+                  - /url: /playlist?list=PLUeDIlio4THFfbTNXZSD1i8tb-qgNYADQ
+          - generic [ref=e1056] [cursor=pointer]:
+            - link [ref=e1057]:
+              - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THGS-7JbBnnWvs_MLZdBKRgB
+              - generic [ref=e1067]:
+                - generic [ref=e1070]:
+                  - img
+                - generic [ref=e1071]: 62 videos
+            - generic [ref=e1074]:
+              - heading "Playwright with JavaScript☑️" [level=3] [ref=e1075]:
+                - link "Playwright with JavaScript☑️" [ref=e1076]:
+                  - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THGS-7JbBnnWvs_MLZdBKRgB
+              - generic [ref=e1078]:
+                - generic [ref=e1079]:
+                  - link "Testers Talk" [ref=e1082]:
+                    - /url: /@testerstalk
+                  - generic [ref=e1083]: •
+                  - link "Playlist" [ref=e1086]:
+                    - /url: /@testerstalk
+                - link "#1 Playwright Tutorial Full Course 2025 | Playwright Testing Tutorial · 6:55:08" [ref=e1090]:
+                  - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THGS-7JbBnnWvs_MLZdBKRgB
+                - link "#2 Playwright API Testing Tutorial Crash Course 2024 · 1:59:55" [ref=e1093]:
+                  - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THGS-7JbBnnWvs_MLZdBKRgB&pp=0gcJCRgBOCosWNin
+                - link "View full playlist" [ref=e1098]:
+                  - /url: /playlist?list=PLUeDIlio4THGS-7JbBnnWvs_MLZdBKRgB
+          - generic [ref=e1100] [cursor=pointer]:
+            - link [ref=e1101]:
+              - /url: /watch?v=y8zY14HHiPI&list=PLP5_A7hnY1Tggph0F0cRqf5iyyZuIBXYC&pp=0gcJCbUEOCosWNin
+              - generic [ref=e1111]:
+                - generic [ref=e1114]:
+                  - img
+                - generic [ref=e1115]: 109 lessons
+            - generic [ref=e1118]:
+              - heading "[2026]Playwright with Python and Pytest Full Course" [level=3] [ref=e1119]:
+                - link "[2026]Playwright with Python and Pytest Full Course" [ref=e1120]:
+                  - /url: /watch?v=y8zY14HHiPI&list=PLP5_A7hnY1Tggph0F0cRqf5iyyZuIBXYC&pp=0gcJCbUEOCosWNin
+              - generic [ref=e1122]:
+                - generic [ref=e1123]:
+                  - link "AutomationNeemo" [ref=e1126]:
+                    - /url: /@automationneemo
+                  - generic [ref=e1127]: •
+                  - link "Course" [ref=e1130]:
+                    - /url: /@automationneemo
+                - link "#1 Playwright with Python Introduction| Installation| Overview| Playwright codegen| slowmo flag · 30:16" [ref=e1134]:
+                  - /url: /watch?v=y8zY14HHiPI&list=PLP5_A7hnY1Tggph0F0cRqf5iyyZuIBXYC
+                - link "#2 Playwright with Python | Trace Viewer · 9:22" [ref=e1137]:
+                  - /url: /watch?v=CBd_06sKizA&list=PLP5_A7hnY1Tggph0F0cRqf5iyyZuIBXYC
+                - link "View full course" [ref=e1142]:
+                  - /url: /playlist?list=PLP5_A7hnY1Tggph0F0cRqf5iyyZuIBXYC
+          - generic [ref=e1144] [cursor=pointer]:
+            - link [ref=e1145]:
+              - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THHg54NFHhVDcvO7vet8v4JK
+              - generic [ref=e1155]:
+                - generic [ref=e1158]:
+                  - img
+                - generic [ref=e1159]: 74 videos
+            - generic [ref=e1162]:
+              - heading "Playwright Automation using TypeScript" [level=3] [ref=e1163]:
+                - link "Playwright Automation using TypeScript" [ref=e1164]:
+                  - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THHg54NFHhVDcvO7vet8v4JK
+              - generic [ref=e1166]:
+                - generic [ref=e1167]:
+                  - link "Testers Talk" [ref=e1170]:
+                    - /url: /@testerstalk
+                  - generic [ref=e1171]: •
+                  - link "Playlist" [ref=e1174]:
+                    - /url: /@testerstalk
+                - link "#1 Playwright Automation Using TypeScript Full Course 2025 | Playwright TypeScript Beginner Tutorial · 8:55:10" [ref=e1178]:
+                  - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THHg54NFHhVDcvO7vet8v4JK
+                - link "#2 Advanced Playwright TypeScript Tutorial Full Course 2025 | Playwright Automation Tutorial · 2:22:14" [ref=e1181]:
+                  - /url: /watch?v=YfRazDhi9Fw&list=PLUeDIlio4THHg54NFHhVDcvO7vet8v4JK
+                - link "View full playlist" [ref=e1186]:
+                  - /url: /playlist?list=PLUeDIlio4THHg54NFHhVDcvO7vet8v4JK
+          - generic [ref=e1188] [cursor=pointer]:
+            - link [ref=e1189]:
+              - /url: /watch?v=EPhKOPbrBk0&list=PL8p2I9GklV44fWXJGEsBvR_ylJClgdVAN
+              - generic [ref=e1199]:
+                - generic [ref=e1202]:
+                  - img
+                - generic [ref=e1203]: 48 lessons
+            - generic [ref=e1206]:
+              - heading "TypeScript Tutorial in Hindi 2026 | Most Detailed explanations" [level=3] [ref=e1207]:
+                - link "TypeScript Tutorial in Hindi 2026 | Most Detailed explanations" [ref=e1208]:
+                  - /url: /watch?v=EPhKOPbrBk0&list=PL8p2I9GklV44fWXJGEsBvR_ylJClgdVAN
+              - generic [ref=e1210]:
+                - generic [ref=e1211]:
+                  - link "Code Step By Step" [ref=e1214]:
+                    - /url: /@codestepbystep
+                    - text: Code Step By Step
+                    - img [ref=e1217]:
+                      - generic [ref=e1219]:
+                        - img
+                  - generic [ref=e1220]: •
+                  - link "Course" [ref=e1223]:
+                    - /url: /@codestepbystep
+                - 'link "TypeScript Hindi Tutorial #1 Introduction for Complete Beginners · 12:15" [ref=e1227]':
+                  - /url: /watch?v=EPhKOPbrBk0&list=PL8p2I9GklV44fWXJGEsBvR_ylJClgdVAN
+                - link "Pay After Placement Program for Job | Sharpener Tech · 0:36" [ref=e1230]:
+                  - /url: /watch?v=62qemXJfqy0&list=PL8p2I9GklV44fWXJGEsBvR_ylJClgdVAN
+                - link "View full course" [ref=e1235]:
+                  - /url: /playlist?list=PL8p2I9GklV44fWXJGEsBvR_ylJClgdVAN
+          - generic [ref=e1237] [cursor=pointer]:
+            - link [ref=e1238]:
+              - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THHhiw_bRPPfgue7a1lED1IU
+              - generic [ref=e1248]:
+                - generic [ref=e1251]:
+                  - img
+                - generic [ref=e1252]: 8 videos
+            - generic [ref=e1255]:
+              - heading "Playwright Course 2024 - UI + API + CI CD Pipeline + Reports☑️" [level=3] [ref=e1256]:
+                - link "Playwright Course 2024 - UI + API + CI CD Pipeline + Reports☑️" [ref=e1257]:
+                  - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THHhiw_bRPPfgue7a1lED1IU
+              - generic [ref=e1259]:
+                - generic [ref=e1260]:
+                  - link "Testers Talk" [ref=e1263]:
+                    - /url: /@testerstalk
+                  - generic [ref=e1264]: •
+                  - link "Playlist" [ref=e1267]:
+                    - /url: /@testerstalk
+                - link "#1 Playwright Tutorial Full Course 2025 | Playwright Testing Tutorial · 6:55:08" [ref=e1271]:
+                  - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THHhiw_bRPPfgue7a1lED1IU&pp=0gcJCRgBOCosWNin
+                - link "#2 Playwright API Testing Tutorial Crash Course 2024 · 1:59:55" [ref=e1274]:
+                  - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THHhiw_bRPPfgue7a1lED1IU
+                - link "View full playlist" [ref=e1279]:
+                  - /url: /playlist?list=PLUeDIlio4THHhiw_bRPPfgue7a1lED1IU
+          - generic [ref=e1281] [cursor=pointer]:
+            - link [ref=e1282]:
+              - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THEXmQxNvKmdDxAVloGTHXMr
+              - generic [ref=e1292]:
+                - generic [ref=e1295]:
+                  - img
+                - generic [ref=e1296]: 110 videos
+            - generic [ref=e1299]:
+              - heading "Playwright TypeScript by Testers Talk ✅" [level=3] [ref=e1300]:
+                - link "Playwright TypeScript by Testers Talk ✅" [ref=e1301]:
+                  - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THEXmQxNvKmdDxAVloGTHXMr
+              - generic [ref=e1303]:
+                - generic [ref=e1304]:
+                  - link "Testers Talk" [ref=e1307]:
+                    - /url: /@testerstalk
+                  - generic [ref=e1308]: •
+                  - link "Playlist" [ref=e1311]:
+                    - /url: /@testerstalk
+                - link "#1 Playwright Automation Using TypeScript Full Course 2025 | Playwright TypeScript Beginner Tutorial · 8:55:10" [ref=e1315]:
+                  - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THEXmQxNvKmdDxAVloGTHXMr
+                - link "#2 Advanced Playwright TypeScript Tutorial Full Course 2025 | Playwright Automation Tutorial · 2:22:14" [ref=e1318]:
+                  - /url: /watch?v=YfRazDhi9Fw&list=PLUeDIlio4THEXmQxNvKmdDxAVloGTHXMr
+                - link "View full playlist" [ref=e1323]:
+                  - /url: /playlist?list=PLUeDIlio4THEXmQxNvKmdDxAVloGTHXMr
+```
