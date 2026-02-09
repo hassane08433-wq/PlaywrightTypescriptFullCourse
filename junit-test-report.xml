@@ -1,9 +1,10 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="7.660304999999934">
-<testsuite name="Chapter05\03_DataDrivenTestingUsingCSV.spec.ts" timestamp="2026-02-06T13:53:19.150Z" hostname="chromium" tests="1" failures="0" skipped="0" time="5.185" errors="0">
-<testcase name="Data Driven Testing Using JSON File in playwright : API Testing by Testers Talk" classname="Chapter05\03_DataDrivenTestingUsingCSV.spec.ts" time="5.185">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="13.892803">
+<testsuite name="Chapter05\05_PageObjectModelTest.spec.ts" timestamp="2026-02-09T04:34:32.593Z" hostname="chromium" tests="1" failures="0" skipped="0" time="11.31" errors="0">
+<testcase name="Page object Model Test Playwright" classname="Chapter05\05_PageObjectModelTest.spec.ts" time="11.31">
 <system-out>
-<![CDATA[
-[[ATTACHMENT|test-results\Chapter05-03_DataDrivenTes-2d910-API-Testing-by-Testers-Talk-chromium\test-finished-1.png]]
+<![CDATA[Test execution started
+
+[[ATTACHMENT|test-results\Chapter05-05_PageObjectMod-23e52-bject-Model-Test-Playwright-chromium\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>

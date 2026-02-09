@@ -74,13 +74,13 @@
   },
   "suites": [
     {
-      "title": "Chapter05\\03_DataDrivenTestingUsingCSV.spec.ts",
-      "file": "Chapter05/03_DataDrivenTestingUsingCSV.spec.ts",
+      "title": "Chapter05\\05_PageObjectModelTest.spec.ts",
+      "file": "Chapter05/05_PageObjectModelTest.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Data Driven Testing Using JSON File in playwright : API Testing by Testers Talk",
+          "title": "Page object Model Test Playwright",
           "ok": true,
           "tags": [],
           "tests": [
@@ -92,21 +92,25 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 34,
+                  "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 5185,
+                  "duration": 11310,
                   "errors": [],
-                  "stdout": [],
+                  "stdout": [
+                    {
+                      "text": "Test execution started\n"
+                    }
+                  ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-02-06T13:53:20.262Z",
+                  "startTime": "2026-02-09T04:34:33.590Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\test-results\\Chapter05-03_DataDrivenTes-2d910-API-Testing-by-Testers-Talk-chromium\\test-finished-1.png"
+                      "path": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\test-results\\Chapter05-05_PageObjectMod-23e52-bject-Model-Test-Playwright-chromium\\test-finished-1.png"
                     }
                   ]
                 }
@@ -114,18 +118,18 @@
               "status": "expected"
             }
           ],
-          "id": "2dd45ad574da4b631f12-4ab49d1a042771d93f96",
-          "file": "Chapter05/03_DataDrivenTestingUsingCSV.spec.ts",
-          "line": 20,
-          "column": 9
+          "id": "f45b8738e2e7cd282b4b-ad16a468e60246ef0183",
+          "file": "Chapter05/05_PageObjectModelTest.spec.ts",
+          "line": 6,
+          "column": 5
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-02-06T13:53:17.891Z",
-    "duration": 7660.304999999935,
+    "startTime": "2026-02-09T04:34:31.557Z",
+    "duration": 13892.803,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
