@@ -1,9 +1,12 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="15.701455000000074">
-<testsuite name="Chapter01\02_First_Test.spec.ts" timestamp="2026-02-09T05:40:16.275Z" hostname="chromium" tests="1" failures="0" skipped="0" time="13.056" errors="0">
-<testcase name="My First Playwright Test" classname="Chapter01\02_First_Test.spec.ts" time="13.056">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="14.35193600000022">
+<testsuite name="Chapter05\07_Optimized_POM_Test.spec.ts" timestamp="2026-02-10T05:10:54.602Z" hostname="chromium" tests="1" failures="0" skipped="0" time="11.741" errors="0">
+<testcase name="Page object Model Test Playwright" classname="Chapter05\07_Optimized_POM_Test.spec.ts" time="11.741">
 <system-out>
-<![CDATA[
-[[ATTACHMENT|test-results\Chapter01-02_First_Test-My-First-Playwright-Test-chromium\test-finished-1.png]]
+<![CDATA[Global Before is running
+Test execution started
+Global AfterEach is running
+
+[[ATTACHMENT|test-results\Chapter05-07_Optimized_POM-8c4ee-bject-Model-Test-Playwright-chromium\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>

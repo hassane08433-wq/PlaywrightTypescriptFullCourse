@@ -1,0 +1,3 @@
+Global Before is running
+Test execution started
+Global AfterEach is running

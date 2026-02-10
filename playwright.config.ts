@@ -49,13 +49,21 @@ export default defineConfig({
     trace: 'on',
     //action timeout
     actionTimeout: 30 * 1000,
+    // launchOptions: {
+    //   args: ['--start-maximized'],
+    // },
+    //viewport: null,
+    viewport: { width: 1280, height: 720 },
   },
 
   /* Configure projects for major browsers */
   projects: [
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      use: {
+        ...devices['Desktop Chrome'],
+        viewport: { width: 1920, height: 1080 },
+      },
     },
 
     // {
