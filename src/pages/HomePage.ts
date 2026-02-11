@@ -14,15 +14,24 @@ export class HomePage{
 
          this.skip = page.getByRole('button', { name: 'Skip', exact: true });
 
-
          this.nothanks = page.getByRole('button', { name: 'No thanks' });
-
 
     }
 
     async goToURL(){
-        await this.page.goto(`${process.env.YOUTUBE_URL}`);
-    }
+
+if(process.env.TEST_EXECUTION_ENV == 'qa'){
+    await this.page.goto(`${process.env.YOUTUBE_URL}`);
+    console.log(`Running tests in ${process.env.TEST_EXECUTION_ENV} environment`)
+}   else if(process.env.TEST_EXECUTION_ENV == 'dev'){
+    await this.page.goto(`${process.env.YOUTUBE_URL}`);
+    console.log(`Running tests in ${process.env.TEST_EXECUTION_ENV} environment`)
+}
+ }
+
+
+        // await this.page.goto(`${process.env.YOUTUBE_URL}`);
+    
 
 async searchwithkeywords(keyword: string){
    await this.searchTextbox.click();

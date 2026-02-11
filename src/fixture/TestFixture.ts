@@ -3,6 +3,8 @@ import { HomePage } from "../pages/HomePage";
 import { ResultPage } from "../pages/ResultPage";
 import { PlaylistPage } from "../pages/PlaylistPage";
 
+import { loadTestData } from "../utils/JsonHelper";
+import { TestData } from "../interface/Module1TestData.interface";
 
 export const test = base.extend<{
 
@@ -10,6 +12,7 @@ export const test = base.extend<{
     homePage: HomePage;
     resultPage: ResultPage;
     playlistPage: PlaylistPage;
+    testData: TestData;
 }>({
     savelogs: [async ({ }, use) => {
         // before test
@@ -30,6 +33,10 @@ export const test = base.extend<{
     playlistPage: async ({ page }, use) => {
         const playlistPage = new PlaylistPage(page);
         await use(playlistPage);
+    },
+    testData: [async ({ }, use) => {
+        const data = await loadTestData();
+        await use(data);
     },
 
 });

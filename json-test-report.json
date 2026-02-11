@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 1
+      "actualWorkers": 0
     },
     "preserveOutput": "always",
     "projects": [
@@ -20,7 +20,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 1
+          "actualWorkers": 0
         },
         "id": "chromium",
         "name": "chromium",
@@ -72,71 +72,23 @@
     "workers": 1,
     "webServer": null
   },
-  "suites": [
+  "suites": [],
+  "errors": [
     {
-      "title": "Chapter05\\07_Optimized_POM_Test.spec.ts",
-      "file": "Chapter05/07_Optimized_POM_Test.spec.ts",
-      "column": 0,
-      "line": 0,
-      "specs": [
-        {
-          "title": "Page object Model Test Playwright",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 120000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 9,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 11741,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Global Before is running\n"
-                    },
-                    {
-                      "text": "Test execution started\n"
-                    },
-                    {
-                      "text": "Global AfterEach is running\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-02-10T05:10:55.609Z",
-                  "annotations": [],
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\test-results\\Chapter05-07_Optimized_POM-8c4ee-bject-Model-Test-Playwright-chromium\\test-finished-1.png"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "a78458ebd4c88658c0d7-278de3be66196eb648ac",
-          "file": "Chapter05/07_Optimized_POM_Test.spec.ts",
-          "line": 7,
-          "column": 5
-        }
-      ]
+      "message": "SyntaxError: C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\src\\fixture\\TestFixture.ts: Unexpected token (11:18)\n\n\u001b[0m \u001b[90m  9 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m test \u001b[33m=\u001b[39m base\u001b[33m.\u001b[39mextend\u001b[33m<\u001b[39m{\n \u001b[90m 10 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 11 |\u001b[39m     savelogs\u001b[33m:\u001b[39m \u001b[36mvoid\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 12 |\u001b[39m     homePage\u001b[33m:\u001b[39m \u001b[33mHomePage\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 13 |\u001b[39m     resultPage\u001b[33m:\u001b[39m \u001b[33mResultPage\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 14 |\u001b[39m     playlistPage\u001b[33m:\u001b[39m \u001b[33mPlaylistPage\u001b[39m\u001b[33m;\u001b[39m\u001b[0m",
+      "stack": "SyntaxError: C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\src\\fixture\\TestFixture.ts: Unexpected token (11:18)\n\n\u001b[0m \u001b[90m  9 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m test \u001b[33m=\u001b[39m base\u001b[33m.\u001b[39mextend\u001b[33m<\u001b[39m{\n \u001b[90m 10 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 11 |\u001b[39m     savelogs\u001b[33m:\u001b[39m \u001b[36mvoid\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 12 |\u001b[39m     homePage\u001b[33m:\u001b[39m \u001b[33mHomePage\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 13 |\u001b[39m     resultPage\u001b[33m:\u001b[39m \u001b[33mResultPage\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 14 |\u001b[39m     playlistPage\u001b[33m:\u001b[39m \u001b[33mPlaylistPage\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n    at Object.<anonymous> (C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\tests\\Chapter05\\08_RunTestBasedOnEnv.spec.ts:1:1)",
+      "location": {
+        "file": "C:\\Users\\rehma\\PlaywrightTypescriptFullCourse\\tests\\Chapter05\\08_RunTestBasedOnEnv.spec.ts",
+        "line": 11,
+        "column": 18
+      },
+      "snippet": "\u001b[90m   at \u001b[39mChapter05\\08_RunTestBasedOnEnv.spec.ts:11\n\n\u001b[0m \u001b[90m  9 |\u001b[39m\n \u001b[90m 10 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 11 |\u001b[39m\n \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 12 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Test execution started'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 13 |\u001b[39m\n \u001b[90m 14 |\u001b[39m     \u001b[90m// // creat object of HomePage\u001b[39m\u001b[0m"
     }
   ],
-  "errors": [],
   "stats": {
-    "startTime": "2026-02-10T05:10:53.473Z",
-    "duration": 14351.93600000022,
-    "expected": 1,
+    "startTime": "2026-02-11T04:30:43.752Z",
+    "duration": 1104.1889999999548,
+    "expected": 0,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

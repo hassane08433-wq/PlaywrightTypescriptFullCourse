@@ -1,14 +1,2 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="14.35193600000022">
-<testsuite name="Chapter05\07_Optimized_POM_Test.spec.ts" timestamp="2026-02-10T05:10:54.602Z" hostname="chromium" tests="1" failures="0" skipped="0" time="11.741" errors="0">
-<testcase name="Page object Model Test Playwright" classname="Chapter05\07_Optimized_POM_Test.spec.ts" time="11.741">
-<system-out>
-<![CDATA[Global Before is running
-Test execution started
-Global AfterEach is running
-
-[[ATTACHMENT|test-results\Chapter05-07_Optimized_POM-8c4ee-bject-Model-Test-Playwright-chromium\test-finished-1.png]]
-]]>
-</system-out>
-</testcase>
-</testsuite>
+<testsuites id="" name="" tests="0" failures="0" skipped="0" errors="0" time="1.1041889999999548">
 </testsuites>
