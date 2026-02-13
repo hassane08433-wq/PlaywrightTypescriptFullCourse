@@ -12,7 +12,7 @@ export class PlaylistPage{
     }
 // methods
     async validatePageTitle(title:string){
-         await expect(this.page).toHaveTitle(title + " - YouTube");        
+         await expect(this.page).toHaveTitle(title + ' - YouTube');        
      }
      
 

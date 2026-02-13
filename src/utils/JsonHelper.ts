@@ -10,10 +10,10 @@ export async function loadTestData(){
     fs.readdirSync(directoryPath).forEach(file => {
     if (path.extname(file) === '.json') {
         const filePath = path.join(directoryPath, file);
-        const fileContent :TestData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+        const fileContent: TestData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
         Object.assign(jsondata, fileContent);
     }
-    }   );
+    } );
     return jsondata;
 }       
 

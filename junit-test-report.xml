@@ -1,2 +1,18 @@
-<testsuites id="" name="" tests="0" failures="0" skipped="0" errors="0" time="1.1041889999999548">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="14.291678000000015">
+<testsuite name="Chapter05\08_RunTestBasedOnEnv.spec.ts" timestamp="2026-02-13T04:57:10.475Z" hostname="chromium" tests="1" failures="0" skipped="0" time="11.605" errors="0">
+<testcase name="Optimized Page object Model Test in Playwright" classname="Chapter05\08_RunTestBasedOnEnv.spec.ts" time="11.605">
+<system-out>
+<![CDATA[Global Before is running
+Test execution started
+Running tests in qa environment
+Skill: #1 Playwright Tutorial Full Course 2025 | Playwright Testing Tutorial
+Skill: Cypress by Testers Talk
+Skill: Javascript by Testers Talk
+Global AfterEach is running
+
+[[ATTACHMENT|test-results\Chapter05-08_RunTestBasedO-6da47-ct-Model-Test-in-Playwright-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
 </testsuites>

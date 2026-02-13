@@ -1,0 +1,7 @@
+Global Before is running
+Test execution started
+Running tests in qa environment
+Skill: #1 Playwright Tutorial Full Course 2025 | Playwright Testing Tutorial
+Skill: Cypress by Testers Talk
+Skill: Javascript by Testers Talk
+Global AfterEach is running

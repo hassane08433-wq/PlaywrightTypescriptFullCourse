@@ -34,10 +34,10 @@ export const test = base.extend<{
         const playlistPage = new PlaylistPage(page);
         await use(playlistPage);
     },
-    testData: [async ({ }, use) => {
+    testData: async ({ }, use) => {
         const data = await loadTestData();
         await use(data);
-    },
+    }
 
 });
 

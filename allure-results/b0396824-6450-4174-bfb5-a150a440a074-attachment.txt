@@ -1,0 +1,4 @@
+Global Before is running
+Test execution started
+Running tests in qa environment
+Global AfterEach is running
